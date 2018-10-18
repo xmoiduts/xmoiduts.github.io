@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.6 -->
+    <script>
+        window.materialVersion = "1.5.6"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0',
+            '1.5.2',
+            '1.5.5'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+    <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
+
+
+
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            渔场升级的历程 | 
+        
+        阵雨之塘
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content=",更新中,游戏,Minecraft,毛玉线圈物语,守卫者农场,Guardian farm">
+    <meta name="theme-color" content="#0288d1">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?NKhlKQkXw/c66TR5p4wO+w==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #005b9f;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0288d1 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0288d1 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0288d1 !important;
+  }
+
+  .toTop {
+    background: #005b9f !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #005b9f;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #005b9f;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #005b9f;
+  }
+
+  .post-toc a:hover {
+    color: #005b9f;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="阵雨之塘">
+    <meta name="msapplication-starturl" content="https://xmoiduts.github.io/2017/08/17/渔场升级的历程/">
+    <meta name="msapplication-navbutton-color" content="#0288d1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="阵雨之塘">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://xmoiduts.github.io/2017/08/17/渔场升级的历程/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="渔场升级的历程 | 阵雨之塘">
+    <meta property="og:image" content="/img/favicon.png">
+    <meta property="og:description" content="">
+    <meta property="og:article:tag" content="更新中"> <meta property="og:article:tag" content="游戏"> <meta property="og:article:tag" content="Minecraft"> <meta property="og:article:tag" content="毛玉线圈物语"> <meta property="og:article:tag" content="守卫者农场"> <meta property="og:article:tag" content="Guardian farm"> 
+
+    
+        <meta property="article:published_time" content="Thu Aug 17 2017 08:00:00 GMT+0200">
+        <meta property="article:modified_time" content="Tue Jan 02 2018 21:00:00 GMT+0100">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://xmoiduts.github.io/2017/08/17/渔场升级的历程/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://xmoiduts.github.io/2017/08/17/渔场升级的历程/index.html",
+    "headline": "渔场升级的历程",
+    "datePublished": "Thu Aug 17 2017 08:00:00 GMT+0200",
+    "dateModified": "Tue Jan 02 2018 21:00:00 GMT+0100",
+    "author": {
+        "@type": "Person",
+        "name": "xmoiduts",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "溯洄从之，道阻且长"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "阵雨之塘",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",更新中,游戏,Minecraft,毛玉线圈物语,守卫者农场,Guardian farm",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-111947452-1', 'auto');ga('send', 'pageview');
+</script>
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span id="MD-burger-id" class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Introduction"><span class="post-toc-number">1.</span> <span class="post-toc-text">Introduction</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#初代渔场存在的问题"><span class="post-toc-number">2.</span> <span class="post-toc-text">初代渔场存在的问题</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第一次改建"><span class="post-toc-number">3.</span> <span class="post-toc-text">第一次改建</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#一点小小的心愿"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">一点小小的心愿</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#需求接踵而至："><span class="post-toc-number">4.</span> <span class="post-toc-text">需求接踵而至：</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#回顾与思考"><span class="post-toc-number">5.</span> <span class="post-toc-text">回顾与思考</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#低延迟改造（第2-5次）"><span class="post-toc-number">6.</span> <span class="post-toc-text">低延迟改造（第2.5次）</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#糟糕的发现"><span class="post-toc-number">6.1.</span> <span class="post-toc-text">糟糕的发现</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#改造结果，并不理想。"><span class="post-toc-number">6.2.</span> <span class="post-toc-text">改造结果，并不理想。</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#扩建，扩建！"><span class="post-toc-number">7.</span> <span class="post-toc-text">扩建，扩建！</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#步骤"><span class="post-toc-number">7.1.</span> <span class="post-toc-text">步骤</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第三次改建"><span class="post-toc-number">8.</span> <span class="post-toc-text">第三次改建</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#物品收集区"><span class="post-toc-number">8.1.</span> <span class="post-toc-text">物品收集区</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#摔落层及其铁轨"><span class="post-toc-number">8.2.</span> <span class="post-toc-text">摔落层及其铁轨</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#物品分类系统"><span class="post-toc-number">8.3.</span> <span class="post-toc-text">物品分类系统</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#周边配套"><span class="post-toc-number">9.</span> <span class="post-toc-text">周边配套</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#交通"><span class="post-toc-number">9.1.</span> <span class="post-toc-text">交通</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#下界冰道（飞行兼容）"><span class="post-toc-number">9.1.1.</span> <span class="post-toc-text">下界冰道（飞行兼容）</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#飞行塔坐标"><span class="post-toc-number">9.1.2.</span> <span class="post-toc-text">飞行塔坐标</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#配套"><span class="post-toc-number">9.2.</span> <span class="post-toc-text">配套</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#新熔炉阵列（简介）"><span class="post-toc-number">9.3.</span> <span class="post-toc-text">新熔炉阵列（简介）</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#掉落物收集铃声"><span class="post-toc-number">9.4.</span> <span class="post-toc-text">掉落物收集铃声</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#意料之外，渔场（无奈）停工：1-14"><span class="post-toc-number">10.</span> <span class="post-toc-text">意料之外，渔场（无奈）停工：1.14</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#寄语"><span class="post-toc-number">11.</span> <span class="post-toc-text">寄语</span></a></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://i.loli.net/2017/10/13/59e0614d2b796.png)">
+    
+            <p class="article-headline-p">
+                渔场升级的历程
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>xmoiduts</strong>
+        <span>8月 17, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/Guardian-farm/">Guardian farm</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/Minecraft/">Minecraft</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/守卫者农场/">守卫者农场</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/更新中/">更新中</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/毛玉线圈物语/">毛玉线圈物语</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/游戏/">游戏</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=https://xmoiduts.github.io/2017/08/17/渔场升级的历程/index.html&title=渔场升级的历程" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=阵雨之塘&title=渔场升级的历程&summary=&pics=https://xmoiduts.github.io/img/favicon.png&url=https://xmoiduts.github.io/2017/08/17/渔场升级的历程/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://xmoiduts.github.io/2017/08/17/渔场升级的历程/index.html&text=渔场升级的历程" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>讲述笔者在Minecraft中持续建造的一项公共工程，以及在性能、外观和交通方面的所想所为。</p>
+<p>[TOC]</p>
+<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>渔场坐落在<a href="https://www.craft.moe/" target="_blank" rel="noopener">毛线</a>主世界V2的西北方位，是一座四面临海<del>废话</del>的建筑。它的前身是一处<a href="https://minecraft-zh.gamepedia.com/index.php?title=%E6%B5%B7%E5%BA%95%E9%81%97%E8%BF%B9&amp;variant=zh" target="_blank" rel="noopener">海底神殿</a>，在<a href="https://t.co/YFnh9RvaXC" target="_blank" rel="noopener">鬼鬼</a>入服直播期间被大家征服。随后，慕名而来的玩家们就开始了<del>漫长的</del>排水工作。<img src="https://i.loli.net/2017/12/30/5a47a98d90225.jpg" alt="1-排水.jpg"></p>
+<p>建成伊始，以Rem_shoushou为首的建设团队，将刷怪范围覆盖到了整个渔场。并将生成的守卫者汇聚到了渔场中心1/4的摔落区域。这使得渔场开始产出<code>海晶砂粒</code>、<code>生鱼</code>和<code>海晶碎片</code>。</p>
+<p>然而，随着主播的到来，毛线服的玩家数暴增，此时，相当于 <code>每晚7组海晶灯</code> 的产量并不能满足玩家日益高涨的物质生产需要。同时初代渔场也存在着一些不足。</p>
+<h1 id="初代渔场存在的问题"><a href="#初代渔场存在的问题" class="headerlink" title="初代渔场存在的问题"></a>初代渔场存在的问题</h1><ol>
+<li>负载不均衡：渔场的摔落区域为30*30，被分为10条3*30的收集区域。某些区域负载较大而另一些区域恰恰相反。笔者曾被上面的史莱姆击杀，散落的装备无法被收集起来，因而损失了绝版弓等稀有物品。<img src="https://i.loli.net/2018/01/01/5a4a0583e8a01.jpg" alt="2.负载不均衡.jpg"></li>
+<li>漏斗利用率太低：摔落区域的物品会被收集到10*5个漏斗中，矿车每个来回长达25s，却只能运送10-个物品，其他时间使用率严重低下。</li>
+<li>没有物品分类机制：每次挂机完成后都要手动轮询4个箱子，从中选取需要的物品。<img src="https://i.loli.net/2018/01/01/5a4a065490d85.jpg" alt="3.漏斗利用率太低.jpg"></li>
+<li>初期使用木牌进行隔水，而这种方块会严重降低客户端帧率。笔者的GTX850M显卡只能保持在40FPS。更不用说其它配置的设备了。</li>
+</ol>
+<p>考虑到上述不足，笔者<code>xars456</code> 和<code>ReinWD</code> （如果遗漏了你，请联系我修改）等玩家对渔场的多个组成部分进行了第一次修改。</p>
+<h1 id="第一次改建"><a href="#第一次改建" class="headerlink" title="第一次改建"></a>第一次改建</h1><ol>
+<li>将10条矿车轨道首尾相连，连接到统一的发车装置上。装置能够处理矿车数量的波动，也可以控制发车频次。</li>
+<li>发车装置下方放置一辆漏斗矿车，因为漏斗矿车可以以<code>18物品/s的</code>速度从其它容器中吸取物品，所以他可以快速卸掉其它矿车中的物品，使入站车辆迅速恢复可用。</li>
+<li>增设了物品分类装置，好处不用我说了。<img src="https://i.loli.net/2018/01/02/5a4a5d2802272.jpg" alt="4.轨道首尾相连.jpg"></li>
+<li>用栅栏门替换了部分可见位置的木牌，提升了客户端帧率。<img src="https://i.loli.net/2018/01/02/5a4a6088487ba.jpg" alt="5.拆除木牌.jpg"></li>
+</ol>
+<p>经过本次修改后，<del>矿车的队形顺眼多了</del>上述设计暴露出的问题基本得以解决。</p>
+<h2 id="一点小小的心愿"><a href="#一点小小的心愿" class="headerlink" title="一点小小的心愿"></a>一点小小的心愿</h2><p>虽然物品收集的效率提升了，但我们没有那么多物品来收集啊，为了扩大物品产量，笔者清除了渔场中心1/9的区域，依托原有栅栏门平面构建了20*20*14的刷怪水体。<img src="https://i.loli.net/2018/01/02/5a4b6dd368805.jpg" alt="6.九分之一水体.jpg"></p>
+<p>第一次扩容后渔场的刷怪效率得到了大幅度提升，效率最高可达<code>每小时4组海晶灯</code>。</p>
+<h1 id="需求接踵而至："><a href="#需求接踵而至：" class="headerlink" title="需求接踵而至："></a>需求接踵而至：</h1><p>按说首次改建之后，玩家<del>XARS456</del>应该会消停一阵，但是，我偏不！没事给自己找事是笔者一贯的风格。这次又有一些东西看着不顺眼：</p>
+<ol>
+<li>物品收集区的容量太小了，每种物品3个double chest 根本不够。生鱼时常爆仓。</li>
+<li>熔炉要逐个放鱼，懒得手动去点。</li>
+<li>反车。任何一辆矿车的逆行都会反向传导给所有矿车，导致整个装置停摆。<img src="https://i.loli.net/2018/01/02/5a4b6e7743915.jpg" alt="7.矿车卡死.jpg"></li>
+</ol>
+<p>所以，笔者进行了<strong>第二次改建</strong>，这也是历时漫长的一项工程：</p>
+<ol>
+<li>将主要产物的储藏区扩大三倍——海晶石/生鱼容量增加到9 double chests。<img src="https://i.loli.net/2018/01/02/5a4b6fa3a5a85.png" alt="8.第一次升级的储藏区.png"></li>
+<li>建造了一座40倍速的<strong>熔炉阵列</strong>（于2017年12月被拆除，并升级到了80x，后话）。<img src="https://i.loli.net/2018/01/02/5a4b730b34c95.jpg" alt="9.40倍熔炉阵列.jpg"></li>
+<li>把收集区域180°的U-Turn改造为单向铁路。这样，任何地点发生的反车都将被遏制在此后的铁轨上，而不会波及到前面的铁路。<img src="https://i.loli.net/2018/01/02/5a4b73303e9f4.jpg" alt="10.单向铁路.jpg"></li>
+</ol>
+<p>值得一提的是，熔炉阵列的建造得到了&lt;Sxx_&gt;、<eternalsi>的赞助。其效率也足够凶残，能够<del>实时</del>处理两路漏斗链中全速传输的物品。（<del>由于奇怪的BUG/Feature，导致单路漏斗的传输速率大于2.5物品/s，以至于设计值为20熔炉/路，但实际上每路22个熔炉依然跟不上漏斗的速度。</del> 我记错了，烧一个物品需要10s，所以满载应该是25个熔炉/路，这一点不存在BUG。）</eternalsi></p>
+<p>挖到了一片岩浆海，拿来作为燃料，一炉能烧至少2500+（一整个大箱子）物品。此外，为熔炉阵列添加了燃料指示灯，可以大致了解岩浆用量。</p>
+<h1 id="回顾与思考"><a href="#回顾与思考" class="headerlink" title="回顾与思考"></a>回顾与思考</h1><p>现在，我们已经具有了5000+格的刷怪区域，那么，无脑增加刷怪空间是否一定会增加物品的产量呢？</p>
+<p>我们知道，Minecraft的原版机制允许玩家周围128格空间里存在最多70只敌对生物。这些生物都来自一片刷怪区，却有两个去向：</p>
+<ul>
+<li>despawn</li>
+<li>Be killed</li>
+</ul>
+<p>想多刷怪就要让现有的怪物消失。第一种去向显然不是我们想要的，那么就只剩一条路了：让刷出的怪物尽快被“击败”。此时，14格的垂直高度太大了。</p>
+<h1 id="低延迟改造（第2-5次）"><a href="#低延迟改造（第2-5次）" class="headerlink" title="低延迟改造（第2.5次）"></a>低延迟改造（第2.5次）</h1><p>为了降低延迟，我决定重构渔场中心的刷怪区域，以16*16*6为一个模组，初期建造了4个模组（6，8，14，16），新的刷怪区高度只有之前的一半。作为补偿，总测试面积是前者的2.5倍。守卫者从刷出到落地的延迟大大降低了<del>【数值待测试】</del>不测试了，妈蛋。<img src="https://i.loli.net/2018/01/02/5a4b769a1b4cf.jpg" alt="11.16格规划.jpg"></p>
+<h2 id="糟糕的发现"><a href="#糟糕的发现" class="headerlink" title="糟糕的发现"></a>糟糕的发现</h2><p>但是测试中并没有想象中那么理想，生产高峰时，掉率只有<code>每小时3组海晶灯</code>。</p>
+<p>更糟糕的是，收集系统的漏斗链过载了。</p>
+<p>在测试延迟的过程中，我们无奈地发现了一个事实：第二次改建的分类系统存在设计BUG。每种物品的第一列箱子满仓后，整个装置会彻底失去分类功能，沦为简单的物品存贮仓库。BUG之外，装置对于爆仓也没有很好的处理措施。</p>
+<p>同时，由于服务器上线了新的实体控制策略，玩家不动时刷怪甚少，只有移动的玩家能够触发正常刷怪量[来源请求]。因此xars谋求新的修改。</p>
+<hr>
+<p>于2017.12更新：</p>
+<h2 id="改造结果，并不理想。"><a href="#改造结果，并不理想。" class="headerlink" title="改造结果，并不理想。"></a>改造结果，并不理想。</h2><p>上回书说到，我们减少了刷怪区域的高度，希望守卫者的生命周期更短。可是，也许是毛线服的特性，缩减刷怪水域后，产率也相应下降。因此，Mumbo Jumbo式的十字型小渔场是不适合本服务器的。</p>
+<p>因此，后来我们将其中10个模组的高度改了回来，并对摔落口做了些美化。</p>
+<h1 id="扩建，扩建！"><a href="#扩建，扩建！" class="headerlink" title="扩建，扩建！"></a>扩建，扩建！</h1><p>此时，渔场还是一个只有30x30的小小存在，其他的设施都单独挖坑围绕在摔落平台周围，包括物品收集区和40x熔炉阵列。为了美观，笔者对渔场进行了大规模扩建——不仅是为了美观，更是为了未来的设施布局！</p>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><p>1，圈地：围出一个八边形，从海床向上直达海平面，全部使用蓝色玻璃，迎合深海的氛围。</p>
+<p>2，排水：用沙子把水区划分成若干个方格，然后跳进去放海绵。我们认为4*6的内径可以有效利用海绵。</p>
+<p>3，挖空：将排空积水的区域下挖至基岩层，为了美观，最底层铺满海晶石。</p>
+<p>由于只是掏空了原有的水和岩石，这段日子不算正式的改建。经过长达4个月的施工，虽然还略显粗糙，渔场，已开始将她的潜力展现给世人。<img src="https://i.loli.net/2018/01/02/5a4b78c864c77.png" alt="12.扩建扩建A.png"></p>
+<h1 id="第三次改建"><a href="#第三次改建" class="headerlink" title="第三次改建"></a>第三次改建</h1><p>扩大了渔场的占地范围，我们得以在更大的空间内腾挪。此次修复第二次改建引入的新BUG，并彻底重做铁路布线。</p>
+<h2 id="物品收集区"><a href="#物品收集区" class="headerlink" title="物品收集区"></a>物品收集区</h2><p>此次改建我们引入了新的物品收集装置，相比既往者，这次的收集区特性如下：</p>
+<ul>
+<li>通过以往的观察，我们认为守卫者的掉落物产率约为——海晶碎片4：生鱼2：海晶砂粒1。因此，我们为这三者分别预留了16、8、4个箱子。也为墨囊、粘液球以及其他不属于渔场的物品预留了储藏空间。</li>
+<li>防爆仓溢流槽：当生鱼、海晶碎片塞满了它的全部预留空间，新到来的物品将无法被相应的漏斗截胡而继续向后传输。漏斗链的终点是物品丢弃装置。这样可以有效解决爆仓问题，一劳永逸。</li>
+</ul>
+<h2 id="摔落层及其铁轨"><a href="#摔落层及其铁轨" class="headerlink" title="摔落层及其铁轨"></a>摔落层及其铁轨</h2><p>此前的收集铁轨直接铺在了基岩层上，受基岩位置限制，铁轨层做的很难看。此次将摔落层及其配套铁轨整体上移一层，留出地板的空间，更加美观。<img src="https://i.loli.net/2018/01/02/5a4b78cb1f607.png" alt="13.扩建扩建B.png"></p>
+<h2 id="物品分类系统"><a href="#物品分类系统" class="headerlink" title="物品分类系统"></a>物品分类系统</h2><p>上次改造后我们发现，有时候收集区域会爆仓。所以，此次我们将物品分类系统进行了扩容。每个漏斗矿车都能被两个漏斗矿车同时卸货，效率高达36items/s(Best Effort)。我们为每路矿车配备了独立的分类装置。<img src="https://i.loli.net/2018/01/02/5a4b7a4853696.jpg" alt="14.新分类装置.jpg"></p>
+<p>写到这里，渔场的最终外观已基本成型，<img src="https://i.loli.net/2018/01/02/5a4b84b2cafee.jpg" alt="19.渔场广角.jpg">下文将介绍渔场内外的配套设施。</p>
+<h1 id="周边配套"><a href="#周边配套" class="headerlink" title="周边配套"></a>周边配套</h1><h2 id="交通"><a href="#交通" class="headerlink" title="交通"></a>交通</h2><h3 id="下界冰道（飞行兼容）"><a href="#下界冰道（飞行兼容）" class="headerlink" title="下界冰道（飞行兼容）"></a>下界冰道（飞行兼容）</h3><p>一直以来，MC玩家们都通过下界来快速穿梭，因为它与主世界的尺度是1：8映射的。在游玩了若干时间后，我发现，玩家们的冰道，要么是大量消耗浮冰，要么漆黑一片没有光照。是否能够使用更为廉价的普通冰，且为其部署照明设施呢？</p>
+<p>xars进行了一番尝试。<img src="https://i.loli.net/2018/01/02/5a4b7c703db67.jpg" alt="15.下界冰道布光示例.jpg"></p>
+<p>事实证明，上述猜想是可实现的。此后我们也增加了弯曲的隧道，从主城下界可直飞渔场下界。</p>
+<h3 id="飞行塔坐标"><a href="#飞行塔坐标" class="headerlink" title="飞行塔坐标"></a>飞行塔坐标</h3><p>从主城飞行塔北出口起飞，仰角37度，向西偏航30度，最终可到达渔场。</p>
+<h2 id="配套"><a href="#配套" class="headerlink" title="配套"></a>配套</h2><h2 id="新熔炉阵列（简介）"><a href="#新熔炉阵列（简介）" class="headerlink" title="新熔炉阵列（简介）"></a>新熔炉阵列（简介）</h2><p>有一次看见<code>现充村</code>（注释：一堆肝力无边的dalao的集散地）的玩家拿着若干个潜影盒来渔场烧炼，于是想设计那么个熔炉阵列，规模是上一代的两倍（40x–&gt;80x），无需拿出物品，把盒子丢进去，烧好的东西就装箱丢回给你。</p>
+<p>2017.7开始构思。<img src="https://i.loli.net/2018/01/02/5a4b817431372.jpg" alt="16.潜影卸货器.jpg">设计、实现、调错颇费周折，同年12月终于得以完成。80个熔炉全数亮起的一刻，长叹一声，数个月的开发终于见到了成果。</p>
+<p><img src="https://i.loli.net/2018/01/02/5a4b82541b736.jpg" alt="17.西新熔炉组点亮.jpg"></p>
+<p>这里简单放一张图片，技术细节将独立成篇。</p>
+<h2 id="掉落物收集铃声"><a href="#掉落物收集铃声" class="headerlink" title="掉落物收集铃声"></a>掉落物收集铃声</h2><p>对于渔场出产的粘液球和墨囊，我们为收集行为添加了清脆悦耳的音符盒铃声。</p>
+<p>对于海晶砂粒，每集齐5组，将有一段清脆的旋律响起。</p>
+<p><img src="https://i.loli.net/2018/01/02/5a4b83ed97d5c.jpg" alt="18.能不能和大家一直走下去呢？.jpg"></p>
+<h1 id="意料之外，渔场（无奈）停工：1-14"><a href="#意料之外，渔场（无奈）停工：1-14" class="headerlink" title="意料之外，渔场（无奈）停工：1.14"></a>意料之外，渔场（无奈）停工：1.14</h1><p>Minecraft 1.14将定名为水生更新（Update Aquatic），水流的特性将被改写。守卫者农场本身依赖于隔水而不阻挡物体的方块，此次更新后，各个渔场将遭受灭顶之灾，变为字面意义上的<code>大海鱼塘</code>。</p>
+<p>虽然本渔场的刷鱼模组尚有六个没有完工，但出于未来的不确定性，在服务器升级到1.14以前，我们将不进行刷怪核心的升级，只小小的修补外观。</p>
+<p>届时，如果事实和我们预想的最坏情况相符，整个渔场的核心区域将完全拆除重做。届时我（们）可能在此应用新的设计。<del>反正都挖空了，再挖一次也吼啊</del></p>
+<h1 id="寄语"><a href="#寄语" class="headerlink" title="寄语"></a>寄语</h1><p><img src="https://map.nyaacat.com/kedama/v2_daytime/0/3/3/3/3/3/3/2/3/2/1/3/2.jpg" alt=""><img src="https://map.nyaacat.com/kedama/v2_daytime/0/3/3/3/3/3/3/2/3/2/1/3/3.jpg" alt=""><br><img src="https://map.nyaacat.com/kedama/v2_daytime/0/3/3/3/3/3/3/2/3/2/3/1/0.jpg" alt=""><img src="https://map.nyaacat.com/kedama/v2_daytime/0/3/3/3/3/3/3/2/3/2/3/1/1.jpg" alt=""></p>
+<p>谨以此纪念毛玉线圈物语-v2地图-西北渔场的建设者们。</p>
+<p><img src="https://i.loli.net/2018/01/02/5a4b8783321d0.png" alt="20.辛勤的玩家们-初代渔场.png"></p>
+<blockquote>
+<p>能不能和大家一起走下去呢？</p>
+</blockquote>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2017/10/30/我是如何翻回学校的/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2017/05/01/嘈杂中为你构建一座孤岛-Bose_QC30_使用体验/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="xmoiduts's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        youremail@email.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/01/">一月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/12/">十二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/10/">十月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/09/">九月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/07/">七月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/CPU_Heater" title="暖手宝">
+                
+                    <i class="material-icons sidebar-material-icons">hot_tub</i>
+                
+                暖手宝
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+        <a href="https://www.taobao.com" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/xmoiduts" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+        <a href="https://t.me/xmoiduts" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-telegram">
+                <span class="visuallyhidden">Telegram</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- V2EX -->
+    
+
+    <!-- Segmentfault -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;<span year></span>&nbsp;阵雨之塘
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?Bn9UzEm8RrBSxqyZB0zPjA==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#6cf'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #6cf, 0 0 15px #6cf'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#6cf',
+        'border-left-color': '#6cf'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    var copyrightNow = new Date().getFullYear();
+    var textContent = document.querySelector('span[year]')
+
+    copyrightSince = 2016;
+    if (copyrightSince === copyrightNow||copyrightSince === 0000) {
+        textContent.textContent = copyrightNow
+    } else {
+        textContent.textContent = copyrightSince + ' - ' + copyrightNow
+    }
+
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.6 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
