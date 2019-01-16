@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.6 -->
+    <script>
+        window.materialVersion = "1.5.6"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0',
+            '1.5.2',
+            '1.5.5'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+    <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
+
+
+
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            乌村夜话 - VOL 2 | 
+        
+        阵雨之塘
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content=",这里是，乌普萨拉魔法学院,乌村夜话">
+    <meta name="theme-color" content="#0288d1">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?NKhlKQkXw/c66TR5p4wO+w==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #005b9f;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0288d1 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0288d1 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0288d1 !important;
+  }
+
+  .toTop {
+    background: #005b9f !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #005b9f;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #005b9f;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #005b9f;
+  }
+
+  .post-toc a:hover {
+    color: #005b9f;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="阵雨之塘">
+    <meta name="msapplication-starturl" content="https://xmoiduts.github.io/2019/01/16/乌村夜话Vol2/">
+    <meta name="msapplication-navbutton-color" content="#0288d1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="阵雨之塘">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://xmoiduts.github.io/2019/01/16/乌村夜话Vol2/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="乌村夜话 - VOL 2 | 阵雨之塘">
+    <meta property="og:image" content="/img/favicon.png">
+    <meta property="og:description" content="">
+    <meta property="og:article:tag" content="这里是，乌普萨拉魔法学院"> <meta property="og:article:tag" content="乌村夜话"> 
+
+    
+        <meta property="article:published_time" content="Wed Jan 16 2019 20:00:00 GMT+0100">
+        <meta property="article:modified_time" content="Wed Jan 16 2019 23:30:17 GMT+0100">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://xmoiduts.github.io/2019/01/16/乌村夜话Vol2/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://xmoiduts.github.io/2019/01/16/乌村夜话Vol2/index.html",
+    "headline": "乌村夜话 - VOL 2",
+    "datePublished": "Wed Jan 16 2019 20:00:00 GMT+0100",
+    "dateModified": "Wed Jan 16 2019 23:30:17 GMT+0100",
+    "author": {
+        "@type": "Person",
+        "name": "xmoiduts",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "溯洄从之，道阻且长"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "阵雨之塘",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",这里是，乌普萨拉魔法学院,乌村夜话",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-111947452-1', 'auto');ga('send', 'pageview');
+</script>
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span id="MD-burger-id" class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#我眼中的瑞典高等教育（一窥）"><span class="post-toc-number">1.</span> <span class="post-toc-text">我眼中的瑞典高等教育（一窥）</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#主观印象：几所瑞典高校"><span class="post-toc-number">2.</span> <span class="post-toc-text">主观印象：几所瑞典高校</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Track与课程的选择呢？"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">Track与课程的选择呢？</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#在UU读书是什么样子的呢？"><span class="post-toc-number">3.</span> <span class="post-toc-text">在UU读书是什么样子的呢？</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#你知道吗？"><span class="post-toc-number">4.</span> <span class="post-toc-text">你知道吗？</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#UA网站"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">UA网站</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#“免费”的瑞典语教学"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">“免费”的瑞典语教学</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#重修需要交钱吗？"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">重修需要交钱吗？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#后续学期的学费啥时候交？"><span class="post-toc-number">4.4.</span> <span class="post-toc-text">后续学期的学费啥时候交？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#中年危机？"><span class="post-toc-number">4.5.</span> <span class="post-toc-text">中年危机？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#CS与CS"><span class="post-toc-number">4.6.</span> <span class="post-toc-text">CS与CS</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#写在最后"><span class="post-toc-number">5.</span> <span class="post-toc-text">写在最后</span></a></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://i.loli.net/2019/01/17/5c3fac4f91f93.jpg)">
+    
+            <p class="article-headline-p">
+                乌村夜话 - VOL 2
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>xmoiduts</strong>
+        <span>1月 16, 2019</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC3klEQVR42u3awVLjMBAE0Pz/Ty/XrYKY7pGBRHo+pVKOracDzczo8e/I64GNjY2NjY2NjY39kuxHfP1///Xnz8///K7km+s15GvGxsbGPoH9zZ/+y3u+eMGzFwfblLx39ltsbGzsE9hJaLULmkVju33R07CxsbGxlxmzeMPGxsbG/jl2W5Ak7aTrzcXGxsbGXm8q5WOA6+hKWv+zJhc2Njb2mex7B72/8/nl5tvY2NjYf8Rur9kA4DqW2rJnuHJsbGzsTdntock2YPLBQF6ERHE1q8CwsbGx35B93azPj9Tk1ByZxFgxYMbGxsbelJ206ZN4aA/frATV8JnY2NjYm7LzqJixkyLkdzYUGxsb+xx22wZaicO2FZWXJcWgFxsbG3tr9qw9NGzfj9pPRehiY2Njb8peiZk8fpLnJCPnfNxbzLexsbGx35ydP6gd084Khhl7OB7AxsbG3oK9cmhm1iRKNmW9XBmeOcXGxsbegl08KI69ZNH3PrMOMGxsbOyN2O1Rm1lbKomuNjhvK0WwsbGx34pdj0vLyEmu2aC3bS1hY2Nj781uS4W8DTQrQtbHutjY2NjnsG/+dz94fX5kpy1IvvkeGxsb+wB220Jql9iOJZKipThshI2Njb01OwmkvOm/MqydjSIiCzY2NvbW7BVSXpbkI96kjMkDGBsbG/tkdj4YaH+1UpwkYYaNjY19Dnu2oNnAYBaKs9EvNjY29pnsNtLyLcjbSeujCGxsbOzT2CtNpfzoTPuWlQHw09jDxsbG3pTdXu0G5b9qhw110wobGxt7U3Z7kHFlubMBbb652NjY2Cezk9Bq4212+GYWYMkmYmNjY5/AXm/9LJUK8fihDV1sbGxs7JbUBttsOHH9dmxsbGzspHEzW9Zd9+fhh42NjX0OO2/oJA2gBBmVEOUw4GmIYmNjY2/Nng1622JjfUPzdtUPzrexsbGxX4x9zoWNjY2NjY2NjY39MtcHzlTilb5exGcAAAAASUVORK5CYII=">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/乌村夜话/">乌村夜话</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/这里是，乌普萨拉魔法学院/">这里是，乌普萨拉魔法学院</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=https://xmoiduts.github.io/2019/01/16/乌村夜话Vol2/index.html&title=乌村夜话 - VOL 2" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=阵雨之塘&title=乌村夜话 - VOL 2&summary=&pics=https://xmoiduts.github.io/img/favicon.png&url=https://xmoiduts.github.io/2019/01/16/乌村夜话Vol2/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://xmoiduts.github.io/2019/01/16/乌村夜话Vol2/index.html&text=乌村夜话 - VOL 2" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>讲述笔者在乌村的生活：瑞典高等教育一窥，对几所高校的主观印象，在UU读书是什么样子，Etc.。</p>
+<p>各位读者朋友们<del>真的有吗？</del>，熬完了这个小学期的考试，我们终于又见面啦！度过了1.15号的申请截止，我总算可以发布这份草稿。希望这篇文章对今年的申请并没有太大影响。</p>
+<p>想不断地分享我在乌村的生活经历，奈何手懒+各种事情太忙<del>借口，其实还是手懒。</del>目前，准备把这个系列定为双月更新，这样每次挤一点小话题出来，也不至于攒到太多任务，而不敢着手去写。</p>
+<p>这次，我想谈谈我对瑞典（几所）高校的认知。</p>
+<h1 id="我眼中的瑞典高等教育（一窥）"><a href="#我眼中的瑞典高等教育（一窥）" class="headerlink" title="我眼中的瑞典高等教育（一窥）"></a>我眼中的瑞典高等教育（一窥）</h1><p>瑞典的硕士项目，其实是本科的又一次轮回。我们都知道，瑞典硕士为授课制教学，那么，在我们的选课系统中，“硕士项目”又是怎样体现的呢？</p>
+<p>打开我校的<a href="http://www.it.uu.se/education/courselist_spring" target="_blank" rel="noopener">选课网站</a>，随便点击一门课程，就可以在内文发现<strong>First Cycle</strong> 或 <strong>Second Cycle</strong> 的字样。 前者意味着本科课程，而后者则代表硕士课程。作为硕士项目的学生，你“可以”选择一些本科课程进行学习，毕竟每个人来时的基础不同。有些进阶课程，也需要特定的先修课程作为铺垫。（备注：博士也要修习少量课程，它们被标记为<strong>Third Cycle</strong>。）</p>
+<p>也就是说，这里的高等教育，其实贯彻了这种“螺旋上升”的思想，在一轮又一轮的知识学习当中，你（指瑞典本科新生）从最开始的高中水平，粗浅地涉猎某一方面，积累了少量而广泛的知识后，自由选择一个或几个方面的课程进行进阶一点的修习。学有所成后，若有志于精研学术，还可以申请读博，到那个时候，等待你的就是更加专精和艰深的课程（和科研任务）了。</p>
+<p>从字面上讲，“研究生”是从事学术研究的学生。然而我身边的中国同学，无论是本科还是当前学校，真心想要投身学术的人寥寥。每当问及“你为什么想要考研”时，得到的答案，则大多是基于就业方面的考量：学生希望获得更高的学历，来增加自己在就业市场的竞争力<del>不然就会因为内卷而找不到工作</del>，也有人在本专业撞到了天花板，谋求转行。诚然，我并不能免俗，来读书的理由泯然众人（语法检查），可抱有相同想法的新生后浪推前浪，未来他们（我们）又是否对得起“研究生”这一称谓呢？</p>
+<p>我不得而知。但这里的人们似乎更加“享受生活”。良好的社会福利制度，不同的就业观念，<del>宽松的竞争条件，（请核实）</del>让很多人不需要读完大学就能找到一份工作（先不考虑好坏）。接受高等教育，更多地是你自己的选择，而非拿到一份（普通待遇）工作的必由之路。</p>
+<h1 id="主观印象：几所瑞典高校"><a href="#主观印象：几所瑞典高校" class="headerlink" title="主观印象：几所瑞典高校"></a>主观印象：几所瑞典高校</h1><p><strong>声明：我并没有在文中提及的其他学校实际就读过，这部分内容都是我的主观想法。如果您于之就读的实际体验并不是这样，也欢迎提供您的看法。期待我们的讨论。</strong></p>
+<p><strong>也请留意文末的内容。</strong></p>
+<p>月余以前，笔者耐不住漫漫长夜中的寂寞，只身前往斯京探访其他学校的学生（和/或随行人员）。在此，笔者发现，虽然同为瑞典的高等学府，不同学校的录取风格和就读体验却各不相同。</p>
+<p>我们发现， KTH更倾向于招收：应届，高GPA，合作项目、合作学校的应届学生；他们有一个专门的市场团队，与国内的相关机构进行沟通[来源请求]。</p>
+<p>而UU的招生风格却有所差异：从和UU同学的聊天中我发现，我们中的很多人都不是留学党中，纸面成绩最顶尖的一小搓人，却依然能够得到这所五百多年的瑞典知名大学的录取。在进一步讨论后，总结出这样一句话：</p>
+<blockquote>
+<p>UU的招生，申请人成绩的高低（做出了多厉害的功绩）只是一方面，更重要的是，学校会看这个申请者“是个什么样的人”。</p>
+<p>——沃·兹基·硕德</p>
+</blockquote>
+<p>来个用户画像吧：成绩基本不错（未必是顶尖的一小点），有实习或工作经历。</p>
+<p>UU对中国的市场宣传团队，据我所知……有一个人。加了申请群的人很容易就能猜到。</p>
+<p>UU的招生非常佛系，在整个申请季中，我就没收到任何来自UU的私信，观察KTH和CTH，它们非常热情的给我发了若干条通知，提醒我填写很多表格。<del>然而很遗憾，这些并没有让我得到他们的录取。</del> </p>
+<h2 id="Track与课程的选择呢？"><a href="#Track与课程的选择呢？" class="headerlink" title="Track与课程的选择呢？"></a>Track与课程的选择呢？</h2><p>修读某一专业的研究生，大抵都希望专注于某一领域，各所学校也提供了不同的Track供学生选择。</p>
+<p>UU CS的Track，个人感觉并不严格，学院只是把课程分为几个方向，并画出了前后的依赖关系图。但实际上你想选啥就能选啥。只要CS修够足够的学分，你甚至可以选择其他学院的课程。（备注，有很多<del>机器炼丹的</del>项目可能是拿艺术文凭人的小组在搞。）选课自由度相当高。毕竟， “Computer Science Program”的意思，就仅仅是“你选ITC学院（CS专业在ITC学院下运作）的课保证能选上”的意思。</p>
+<blockquote>
+<p>那如果你选了很多其他专业的课呢？</p>
+</blockquote>
+<p>那你可能会拿到其他专业的文凭，从而顺利毕业。</p>
+<p>在计算机网络课上，有个小哥是UU（物理？）program的学生，但休学一段时间后决定转专业去学CS。由于休学前读的都是高数之类的基础课程，回来读书也只需要选CS课即可，先修课程不会成为他的阻碍。</p>
+<p>而其他学校的Track，约束性可能会更强一些——你选了这个Track，你的课程计划就已经确定了，几乎不需要自己考虑选课问题，学院会引导你走上选定的学习生涯。</p>
+<p>这两种形式各有<del>秋千</del>吧……一个要求很强的自主性，一个约束比较多，但风险可能相对没那么大。</p>
+<p>那么，</p>
+<h1 id="在UU读书是什么样子的呢？"><a href="#在UU读书是什么样子的呢？" class="headerlink" title="在UU读书是什么样子的呢？"></a>在UU读书是什么样子的呢？</h1><p>——不同专业的人，日常的画风迥异。</p>
+<p>作为CS专业的学员，我们的日程表被各种Lecture+Lab（到校上课）占据着，生活，就是住处、教室和菜市场的三点一线。平均每周8节90分钟课程。虽然和其他国家的学校相比可能不算什么，但各专业同学都认为我们课时数比较多。</p>
+<p>作为培养学生多方面发展（是吗？）的高等教育，上课之外，每门课程也会有若干的Assignment、Report 和 <strong>Team Work</strong>。这些也会占据大量的时间。平均下来，每周的课余时间，我能完成一门课程的一个Assignment工作量。三门课程同时进行，单打独斗是不现实的，这就要靠小组合作了。</p>
+<p>课多，相应地，写文章、读文献的任务就没那么重。在一些人文社会专业里，学生每周只需要上两节课，但更多精力都将花在读那些天书中。读完还不够，还要写东西。<del>所以啊别以为日程表空着就可以放羊了，弹性工作制……嘿嘿……大家懂吧？</del> </p>
+<p>还有一些专业的实验占了大头，另一些专业就像上班一样每天出没于各种户外环境。</p>
+<p>总之，大家的体验并不相同，总有新奇在身边。</p>
+<h1 id="你知道吗？"><a href="#你知道吗？" class="headerlink" title="你知道吗？"></a>你知道吗？</h1><p>写了这么多也累了，下面说一点细碎的内容。</p>
+<h2 id="UA网站"><a href="#UA网站" class="headerlink" title="UA网站"></a>UA网站</h2><p>UA这个网站，申请瑞典大学的时候，大家已经很熟悉了。在来到瑞典前，我们将会每天都上去看一看——自己的申请有没有新消息。如果申请顺利，大家可以在每个志愿右边看到：</p>
+<p><code>啥也没有</code> -&gt; <code>In Progress</code> -&gt; <code>(Conditionally) Qualified</code> -&gt; <code>(Conditionally) Admitted</code>.</p>
+<p>这样的转变。其中，Conditionally 代表你现在还没本科毕业，处于在读状态。拿到毕业证+学位证即可录取。放榜过后，申请签证时，这个页面可以生成你的录取PDF，它就是<del>虽然毫无美感但</del>官方唯一承认的录取通知书。</p>
+<p>在开始在瑞典的学习生涯后，你将转为通过学校统一认证的方式登陆UA，这个网站，也是你每学期选课的唯一官方网站。（不过我们第一大学期没自己选，连课程带考试都是学院帮办的，第二大学期开始才需要自己搞。）</p>
+<h2 id="“免费”的瑞典语教学"><a href="#“免费”的瑞典语教学" class="headerlink" title="“免费”的瑞典语教学"></a>“免费”的瑞典语教学</h2><p>来到瑞典，大家会了解到：瑞典有免费的瑞典语课程。但其实这不是真正的免费。所谓“免费”，是政府掏腰包，向语言学校支付你的学费，只是不向学生收费罢了。你若报了名却缺勤（超过三次吧好像），也是会被除名的。</p>
+<h2 id="重修需要交钱吗？"><a href="#重修需要交钱吗？" class="headerlink" title="重修需要交钱吗？"></a>重修需要交钱吗？</h2><p>在UU CS专业，UA的每门课程向你显示的学费（通常为上万克朗），代表的都是Initial tuition fee。挂科重修<strong>不需要</strong>额外交钱，都包含在第一次交的学费里了。每门课包含了不同的部分（考试，report，assignment等），如果这门课你通过了一些部分但挂了另一部分，则可以在下次重修时只参加那个部分。</p>
+<h2 id="后续学期的学费啥时候交？"><a href="#后续学期的学费啥时候交？" class="headerlink" title="后续学期的学费啥时候交？"></a>后续学期的学费啥时候交？</h2><p>我第二学期的学费12月初交的。</p>
+<h2 id="中年危机？"><a href="#中年危机？" class="headerlink" title="中年危机？"></a>中年危机？</h2><p>或许有吧，但是，我的见闻：即使是不惑有余的技术人员，也能在“创业公司”内谋得一席之地。这段描述也适用于炼丹公司。</p>
+<h2 id="CS与CS"><a href="#CS与CS" class="headerlink" title="CS与CS"></a>CS与CS</h2><p>很多人想要转CS，却未必能满足计算<strong>机</strong>科学的招生要求，于是，计算科学成了他们优选的去处。这个专业里很多人都是物理等专业转来的，论知识背景，我这种只学过CS的鶸可能会被秒成渣。</p>
+<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>和之前提到的“螺旋上升”一样，文中的某些观点，在现实中可能与我的所见所感相异。随着居留瑞典的时间不断增加，这片极北之地，在我的眼前也开始生动起来。未来，一些观点可能会被订正，那也将是新篇中的事了。</p>
+<p>bye bye ~</p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2018/12/31/新  年  新  气  象/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="xmoiduts's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        youremail@email.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/12/">十二月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/11/">十一月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/10/">十月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/12/">十二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/10/">十月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/09/">九月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/07/">七月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/CPU_Heater" title="暖手宝">
+                
+                    <i class="material-icons sidebar-material-icons">hot_tub</i>
+                
+                暖手宝
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+        <a href="https://www.taobao.com" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/xmoiduts" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+        <a href="https://t.me/xmoiduts" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-telegram">
+                <span class="visuallyhidden">Telegram</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- V2EX -->
+    
+
+    <!-- Segmentfault -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;<span year></span>&nbsp;阵雨之塘
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?Bn9UzEm8RrBSxqyZB0zPjA==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#6cf'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #6cf, 0 0 15px #6cf'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#6cf',
+        'border-left-color': '#6cf'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    var copyrightNow = new Date().getFullYear();
+    var textContent = document.querySelector('span[year]')
+
+    copyrightSince = 2016;
+    if (copyrightSince === copyrightNow||copyrightSince === 0000) {
+        textContent.textContent = copyrightNow
+    } else {
+        textContent.textContent = copyrightSince + ' - ' + copyrightNow
+    }
+
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.6 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
