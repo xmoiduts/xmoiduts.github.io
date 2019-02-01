@@ -244,7 +244,7 @@
 
     
         <meta property="article:published_time" content="Fri Feb 01 2019 23:00:00 GMT+0100">
-        <meta property="article:modified_time" content="Fri Feb 01 2019 23:54:14 GMT+0100">
+        <meta property="article:modified_time" content="Sat Feb 02 2019 00:09:25 GMT+0100">
     
 
     <!-- The Twitter Card protocol -->
@@ -267,7 +267,7 @@
     "mainEntityOfPage": "https://xmoiduts.github.io/2019/02/01/高ping战士的飞行技巧/index.html",
     "headline": "在高延迟Minecraft服务器中，如何（准）原地起飞",
     "datePublished": "Fri Feb 01 2019 23:00:00 GMT+0100",
-    "dateModified": "Fri Feb 01 2019 23:54:14 GMT+0100",
+    "dateModified": "Sat Feb 02 2019 00:09:25 GMT+0100",
     "author": {
         "@type": "Person",
         "name": "xmoiduts",
@@ -509,9 +509,12 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>在高延迟Minecraft服务器中，如何使用原版火箭和鞘翅（准）原地起飞。</p>
-<h1 id="v"><a href="#v" class="headerlink" title="^v^"></a>^v^</h1><p>ENG： How to launch your elytra (quasi-) in situ when playing on minecraft servers with high latency (ping RTT)?</p>
-<p><a href="#方法">直达正文</a></p>
+        <blockquote>
+<p>起飞需要摸索，囿需要练习。</p>
+</blockquote>
+<p>使用原版鞘翅和烟花火箭，人人都是飞行家。</p>
+<h1 id="v"><a href="#v" class="headerlink" title="^v^"></a>^v^</h1><p><a href="#方法">直达正文</a></p>
+<p>ENG： How to launch your elytra (quasi-) in situ when playing on minecraft servers with high latency (ping RTT)?</p>
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><a href="https://minecraft.net" target="_blank" rel="noopener">Minecraft</a>是一款沙盒游戏，允许玩家自行架设多人游戏设备。一批“中小型”私人服务器围绕它而创立。</p>
 <p>此类服务器的玩家，经常会在同一张地图中游玩，即：通过各种网络前端接入的玩家，最终都由同一台物理机进行服务。所以，不太可能通过分散服务器的方式让每个人的延迟都最短，而所有人又能同台娱乐。</p>
 <p>地域（跨大洲）、网络（长宽/方正/校园网等）因素都会显著增加玩家的Ping RTT时间。高延迟会显著影响玩家的各种游戏体验，其中包括使用鞘翅原地起飞。</p>
@@ -526,7 +529,7 @@
 <li>待玩家的速度方向变为向下（即：开始下落）时，单击空格（千万不要狂按）。此时游戏的视角应转向飞行姿态，即逐渐降低大约一格。</li>
 <li>上一步成功后立即单击鼠标右键，施放烟花火箭。</li>
 </ol>
-<p><strong>总结： 空———————–空-右</strong>-</p>
+<p><strong>总结： 空———————–空-右-</strong></p>
 <p>若玩家突然向前方的空中蹿出，则表示本阶段执行成功。想要成功起飞，需要进行下一阶段的操作。</p>
 <p>若本阶段执行不成功——在高ping玩家中很常见，则重新进行<a href="#准备阶段">准备阶段</a>和本阶段。</p>
 <h2 id="第二阶段：展开鞘翅"><a href="#第二阶段：展开鞘翅" class="headerlink" title="第二阶段：展开鞘翅"></a>第二阶段：展开鞘翅</h2><p>由于玩家到服务器的延迟较高，上一阶段在客户端执行成功后，服务器可能会拒绝承认玩家展开鞘翅的行为，从而将玩家的鞘翅收回未展开状态，但客户端中玩家的速度和位置得以保留。</p>
@@ -536,7 +539,7 @@
 <li>随后立即按鼠标右键，施放烟花火箭。</li>
 </ol>
 <p>经过上述操作，玩家应该得以在高延迟的服务器中，使用鞘翅和烟花火箭成功起飞。若依然作斜抛运动，则重复本阶段，直到成功起飞。不要怕短时间触地，服务器反应不过来的。</p>
-<p><strong>总结：———————-空-右-[———–空-右]*n</strong></p>
+<p><strong>总结：———————-空-右-[———–空-右]*n-</strong></p>
 <h2 id="狂按空格会发生什么？"><a href="#狂按空格会发生什么？" class="headerlink" title="狂按空格会发生什么？"></a>狂按空格会发生什么？</h2><p>玩家会以<strong>每次</strong>施放烟花火箭的地点为起点，重复上述斜抛运动，看起来就像从空中N段连跳，此过程无法真正展开鞘翅。</p>
 <p>如玩家持有足够多的烟花火箭，加上操作时机掌握得当，也可在无高大障碍物的区域实现中短距离的移动。然而，经测试这种行为的用户体验不佳。</p>
 <h1 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h1><p>本文是在安装了MassiveLag插件、<a href="https://github.com/NyaaCat/NyaaUtils" target="_blank" rel="noopener">NyaaUtils插件</a>，并对玩家启用了<code>/nu el</code>功能的<a href="https://papermc.io/" target="_blank" rel="noopener">Paper</a>/<a href="https://www.spigotmc.org/" target="_blank" rel="noopener">Spigot</a>服务端Minecraft服务器<a href="https://craft.moe/" target="_blank" rel="noopener">毛玉线圈物语</a>中进行操作和总结的。</p>
