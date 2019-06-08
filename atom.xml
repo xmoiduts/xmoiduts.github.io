@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>阵雨之塘</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://xmoiduts.github.io/"/>
+  <updated>2019-05-31T16:27:52.131Z</updated>
+  <id>https://xmoiduts.github.io/</id>
+  
+  <author>
+    <name>xmoiduts</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在瑞典续签居留许可</title>
+    <link href="https://xmoiduts.github.io/2019/05/31/%E7%91%9E%E5%85%B8%E7%BB%AD%E7%AD%BE/"/>
+    <id>https://xmoiduts.github.io/2019/05/31/瑞典续签/</id>
+    <published>2019-05-31T10:00:00.000Z</published>
+    <updated>2019-05-31T16:27:52.131Z</updated>
+    
+    <content type="html"><![CDATA[<p>瑞典的居留许可一般只给一年，就读两<sup>+</sup>年项目的人们就需要续签。那么，如何在居留瑞典期间，延长居留许可的有效期呢？</p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>瑞典的居留许可续签事宜由 <a href="https://www.migrationsverket.se/English/Startpage.html" target="_blank" rel="noopener">Migrationsverket</a><sup>瑞典移民局</sup>管理，在当前居留许可的有效期还剩6<sup>-</sup>个月时，允许申请人进行续签的申请工作。</p><p>对于典型的两年项目学生，可以在3月就开始筹备续签工作<sup>银行流水可以更早，如果你想省点事的话</sup>。但4/5月也不晚，六月就有点久了。回国续签请无视本段<sup>或者本文</sup>。</p><p>不过，首次申请瑞典居留许可，有些东西可能对你也有点用（我并不觉得用处太大，但为了收录，还是写了这段。）</p><h1 id="材料准备"><a href="#材料准备" class="headerlink" title="材料准备"></a>材料准备</h1><p>提交续签申请，需要准备以下材料，均可使用扫描件或电子版：</p><table><thead><tr><th>材料</th><th>备注</th></tr></thead><tbody><tr><td>录取通知书</td><td>还是<a href="https://www.universityadmissions.se/intl/start" target="_blank" rel="noopener">UA</a>那个<del>又丑又长的</del>PDF，</td></tr><tr><td></td><td>希望你去年一直保存着</td></tr><tr><td>护照身份页</td><td>跟你首次申请一样</td></tr><tr><td>银行流水</td><td>翻译件或原生英语/瑞典语版</td></tr><tr><td></td><td>请不要使用<del>存款证明</del>，因为会冻结余额</td></tr><tr><td>学习成绩，学分</td><td>希望你这一年获得了足够的学分</td></tr><tr><td>保险</td><td>如填表时勾选“我有人口号”，就没有这项的入口</td></tr></tbody></table><h2 id="银行流水"><a href="#银行流水" class="headerlink" title="银行流水"></a>银行流水</h2><p>瑞典商户可能不接受国内银行卡，即使卡组织是Visa/MasterCard。因此我在SEB办理了储蓄卡（借记卡），用于日常消费。<br>在SEB开具银行流水非常简单，简单到超出想象。<br>简单写写吧，太轻松了。</p><ol><li>登录SEB网银——用SEB网页，和你手机的 Mobile BankID App <a href="没有App？希望你办卡时申请了实体密码器，SEB也支持BankID_Card（密保芯片卡）和DigiPass（数字密码器）登录。">^1</a>。</li><li>办卡后一般会有两个账户，随便点击一个，查看该账户的资金变动记录。</li><li>在页面中查找‘Account Statement’选项卡并点击，填写开具流水的Period——<strong>瑞方要求至少开3个月</strong>，点击‘Get Statement’</li><li>根据页面提示，打开你的银行流水PDF文件，自行保存。</li><li>由于办卡会注册两个账号——个人消费卡账户<sup>刷卡从这里扣款，别放太多钱</sup>、个人余额账户<sup>卡丢了也划不走</sup>，这两个账号的流水都需要开具。</li></ol><p>瑞典的其他银行应该也差不多，网银好用。</p><h3 id="国内的一些金融机构"><a href="#国内的一些金融机构" class="headerlink" title="国内的一些金融机构"></a>国内的一些金融机构</h3><p>如在国内银行办理，请不要开具<strong>存款证明</strong>，会因冻结存款而不符合瑞方要求。</p><p>招商银行储蓄卡可提供中英文银行流水，就算花钱开也值，毕竟翻译要80块一页呢~</p><p>支付宝可以开具流水和资产证明，一样，在APP中申请，选流水。</p><p><strong>有关移民局对银行流水的质疑，请看下文。</strong></p><h2 id="学分证明和成绩单"><a href="#学分证明和成绩单" class="headerlink" title="学分证明和成绩单"></a>学分证明和成绩单</h2><p>我发现这条要求困扰了很多人，在此写写我用的材料。</p><p>瑞典移民局的网页如是描述：</p><blockquote><p>You must enclose a certificate to confirm that you have been accepted onto a continued full-time study course. Full-time study means 30 higher education points per term. When your studies are going according to plan and follow regular study hours, you may submit, for example, a statement showing registration with the place of study with your application. If you are studying on several study programmes, you must submit a certificate to confirm which courses remain for each programme.</p></blockquote><p>这我就很纳闷了，Ladok能开成绩单，可是这个“Continued Studies”去哪证明呢？</p><p>几经周折<sup>其实就是拖延</sup>，我提交了这两份材料：</p><ul><li><strong>注册证明</strong>——你第一年已经在Ladok上确认注册的课程，Ladok 能不能自助开不确定</li><li><strong>成绩单</strong>——过去一年你获得的分数，其实Ladok可以自助开具</li></ul><p>都是给学校的 Helpdesk 发邮件。隔空开具，我手里拿回的只有扫描件。</p><h2 id="保险？"><a href="#保险？" class="headerlink" title="保险？"></a>保险？</h2><p>有人口号就默认为有保险，什么也不用交。请在填表时勾选“我有人口号”</p><p>学校说给保险了也是有保险，两年项目什么也不用交。</p><p>一年项目我不清楚，请参阅其他人的经历。</p><h2 id="我需要先交学费再续签吗？"><a href="#我需要先交学费再续签吗？" class="headerlink" title="我需要先交学费再续签吗？"></a>我需要先交学费再续签吗？</h2><p>我的续签申请过程中，学费都处于未缴纳状态。</p><p>学校的交费邮件表示：作为学生你可以八月之前再交。</p><h1 id="开始申请"><a href="#开始申请" class="headerlink" title="开始申请"></a>开始申请</h1><p>登陆瑞典移民局网站，开始你的填表环节。</p><h2 id="备注："><a href="#备注：" class="headerlink" title="备注："></a>备注：</h2><p>​    Swedish Civic Registration Number = Personnummer = 人口号</p><h2 id="申请费"><a href="#申请费" class="headerlink" title="申请费"></a>申请费</h2><p>交款是填表后期的一个环节，申请费大约一千多克朗，信用卡输入卡号密码即可，要求Visa/Mastercard卡，银联单标卡肯定不行。</p><p>填表成功后，你会得到一个Control Number，这是你录指纹可用的号码，请妥善保管。</p><p>接下来就是漫长的等待（真的很长！）。</p><hr><h1 id="续：资金来源证明邮件"><a href="#续：资金来源证明邮件" class="headerlink" title="续：资金来源证明邮件"></a>续：资金来源证明邮件</h1><p>5月下旬<sup>即网申29天后</sup>，我收到了瑞典移民局的邮件，它们看到了我的账户有大额转账进来，需要我向其回信，如实：</p><ul><li>就资金的来源做出解释，</li><li>以及附上新的银行流水，依然要<strong>3个月</strong>的记录。</li></ul><p>所以，想要<strong>大额转账</strong>的话，也许可以在开流水之前很久转好，“很久”指提前三个月以上。</p><p>交完相关回复和解释后，正好跨了周末，下一个工作日，我就收到了邮件，说“<strong>你的案例已经得到定论</strong>”。</p><blockquote><p>个人总结：你的案例会排队很久，给你发信要求补材料，得到你回复后，这个第二次处理的流程会很快。</p></blockquote><p>接下来，就是登记指纹·拍照·签名的环节了。</p><h2 id="一些回答方式："><a href="#一些回答方式：" class="headerlink" title="一些回答方式："></a>一些回答方式：</h2><p>大家来瑞典读书，费用无非是以下几种的混合：</p><ul><li>自己的工资</li><li>奖学金/申请到的生活补贴</li><li>父母给的</li></ul><p>原则上，即使是大额汇入，只要是你的钱，就……</p><blockquote><p>解释资金证明，嘴要够硬！</p><p>——<a href="https://merlin250.wordpress.com/2010/04/30/%E3%80%90%E7%91%9E%E5%85%B8%E7%95%99%E5%AD%A6%E7%94%B3%E8%AF%B7%E6%80%BB%E7%BB%93%E3%80%91%E5%85%B3%E4%BA%8E%E7%91%9E%E5%85%B8%E7%94%B3%E7%AD%BE%E7%9A%84%E4%BF%A1%E6%81%AF%E5%92%8C%E4%B8%80%E4%BA%9B/" target="_blank" rel="noopener">这个学长</a>说的</p></blockquote><p>既然都是你的钱了，就光明正大地告诉他们，这就是我的钱！</p><p>免得再生岔头。</p><p><a href="https://merlin250.wordpress.com/2008/02/07/%E8%BF%91%E6%9C%9F%E6%9C%89%E5%90%8C%E5%AD%A6%E9%97%AE%E8%B5%B7%E7%94%B3%E8%AF%B7%E7%91%9E%E5%85%B8%E7%9A%84%E5%AD%98%E6%AC%BE%E9%97%AE%E9%A2%98%EF%BC%8C%E5%9C%A8%E6%AD%A4%E4%BD%9C%E7%AD%94%E4%B8%80/" target="_blank" rel="noopener">这里</a> 有他十年前办理申请的帖子，请注意，世界是动态发展的，瑞方的一些要求已经发生了变更。比如冻结——现在<sup>2019年</sup>要求余额必须随时可用，不得冻结。</p><h1 id="录指纹"><a href="#录指纹" class="headerlink" title="录指纹"></a>录指纹</h1><p>录指纹必须预约，不能Drop-In。</p><p><a href="https://www.migrationsverket.se/English/Private-individuals/Residence-permit-card.html" target="_blank" rel="noopener">有关你的居留卡，官网这么说</a></p><p>录指纹，我想是你交表、得到控制号<sup>Control Number</sup>后，就可以开始预约了。</p><blockquote><p>上面这句话是我的推理，但是“我的案例已经得到定论”邮件中说：</p><ul><li>如果定论已经出炉，而你还没录指纹，则请来移民局登录指纹，卡片会在<strong>数周内</strong>寄出。</li><li>如果(定论出炉前)你已经就<strong>此案例</strong><sup>还是以控制号为准</sup>录过指纹了，<strong>一周</strong>内就会收到新的居留卡。</li></ul><p>因此我作出如上判断。</p></blockquote><p>在移民局官网预约时间窗口，我这个五月末，队伍已经排到了7月初。赶时间的同学请精打细算：</p><blockquote><p>你的时间，非常值钱</p><p>——航空公司</p></blockquote><p>我很神奇的约到了一个“明天”的时间，整个5/6月就剩那一个号了。赶紧抓住机会争分夺<sup><del>1</del></sup>秒！</p><h2 id="前往移民局"><a href="#前往移民局" class="headerlink" title="前往移民局"></a>前往移民局</h2><p>各地的移民局位置不同，请自行查阅。</p><p>请带上护照、当前居留卡、ID卡（若有）。</p><h2 id="我需要立即交还旧卡吗？"><a href="#我需要立即交还旧卡吗？" class="headerlink" title="我需要立即交还旧卡吗？"></a>我需要立即交还旧卡吗？</h2><p>有些人曾经提到，他们被要求交还旧卡才能领取新卡。这对于有暑假回国打算的同学们很不友好。因此还诞生了一系列撕?话术。</p><p>我录完指纹后，再次被要求确认我在瑞典的住址，之后他们给了我一个空信封，告诉我：在新卡生效的当天起，将旧卡寄回移民局，无论此时旧卡是否依然生效。</p><p>他们还说，新卡会在10天之内寄到你家。</p><h2 id="是不是越早申请续签越好呢？"><a href="#是不是越早申请续签越好呢？" class="headerlink" title="是不是越早申请续签越好呢？"></a>是不是越早申请续签越好呢？</h2><p>前述链接中提到，新居留许可生效日的3个月前，新卡才会开始制作。所以太早申签可能也要等新卡哦</p><blockquote><p>还是那句老话，不佛系别来瑞典。</p></blockquote><hr><h1 id="一种可能的申请时间线"><a href="#一种可能的申请时间线" class="headerlink" title="一种可能的申请时间线"></a>一种可能的申请时间线</h1><p>以旧居留卡去年8月生效为例，如果你真的想抢时间：</p><table><thead><tr><th>时间</th><th>事件</th><th>事件（并行）</th><th>备注</th></tr></thead><tbody><tr><td>1月初</td><td>向资金卡内转好生活费</td><td></td><td>最晚网申前做</td></tr><tr><td>4月上旬</td><td>问Ladok/学校开具成绩单</td><td></td><td></td></tr><tr><td>4月上旬</td><td>网申填表</td><td></td><td></td></tr><tr><td>4月上/中旬</td><td>预约录指纹</td><td>网申排队中</td><td></td></tr><tr><td>5月上旬</td><td>前往录指纹</td><td>网申出结果</td><td>可能要问你补材料</td></tr><tr><td>5月上旬</td><td>等卡</td><td>制卡</td><td></td></tr><tr><td>5月中旬</td><td>收到新居留卡</td><td></td><td></td></tr><tr><td>新居留卡生效后</td><td>寄回旧居留卡</td><td></td><td>.</td></tr></tbody></table><p>我也不想做成表格的<del>，打钱，给我充个PS<sup>+PR</sup>会员我就做图</del>。</p><hr><p>至此，本文就草草地写完了，如有任何错误之处，欢迎在issues / 下方有效的那个联系方式中联系我修正。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;瑞典的居留许可一般只给一年，就读两&lt;sup&gt;+&lt;/sup&gt;年项目的人们就需要续签。那么，如何在居留瑞典期间，延长居留许可的有效期呢？&lt;/p&gt;
+&lt;h1
+        
+      
+    
+    </summary>
+    
+    
+      <category term="这里是，乌普萨拉魔法学院" scheme="https://xmoiduts.github.io/tags/%E8%BF%99%E9%87%8C%E6%98%AF%EF%BC%8C%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E9%AD%94%E6%B3%95%E5%AD%A6%E9%99%A2/"/>
+    
+      <category term="办事流程" scheme="https://xmoiduts.github.io/tags/%E5%8A%9E%E4%BA%8B%E6%B5%81%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UUHO卡单记</title>
+    <link href="https://xmoiduts.github.io/2019/05/08/UUHO%E5%8D%A1%E5%8D%95%E8%AE%B0/"/>
+    <id>https://xmoiduts.github.io/2019/05/08/UUHO卡单记/</id>
+    <published>2019-05-08T08:00:00.000Z</published>
+    <updated>2019-05-08T08:53:29.976Z</updated>
+    
+    <content type="html"><![CDATA[<p>瑞典的IT系统只是“看上去很美”，实际使用时却是错误频发。这不，笔者的房租都卡单了。怀揣着“马上就要露宿街头”这样的心态，瑟瑟发抖地写下这次卡单的经过。</p><h3 id="QwQ"><a href="#QwQ" class="headerlink" title="QwQ"></a>QwQ</h3><p>……没那么惨啦，起码现在我还住得好好的。</p><h1 id="起"><a href="#起" class="headerlink" title="起"></a>起</h1><p>2019年2月末，我准备支付下个月的房租账单，点击链接就跳转到了DIBS网上支付系统。</p><p>当天的系统不知道抽了什么风，仅有的两种支持卡片都显示“It’s not possible to pay with &lt;Visa/MasterCard&gt;”。</p><p>作为Dirty Hack<a href="指通过简单粗暴的方式修补问题，即使会引入未知隐患。">^1</a>的忠实拥趸，我当然是各种尝试了一番啊！毕竟过了Due Date，就要交60SEK的逾期费了。</p><p>经过一番骚操作后，我终于把卡里的钱（信用额度）花了出去。然而，账单却依然显示“未支付”。也就是说，</p><p><strong>我    卡    单    了    ！</strong>  </p><p>想起往日各种IT系统的BUG，这下我可慌了神。五千多的房租啊！就这么打了水漂？</p><h1 id="承"><a href="#承" class="headerlink" title="承"></a>承</h1><p>抱着侥幸的心态我继续等待支付状态变更。可是一天过去了……三天过去了……十天过去了，这笔消费依然显示<code>入账中</code>。</p><p><img src="https://i.loli.net/2019/03/15/5c8ad499ab2c8.jpg" alt="image (1).jpg"></p><p>耐不住<del>寂寞</del>慌张的我，转身去了楼下的公寓办公室<strong>UUHO</strong>。</p><p>和工作人员解释了一波后，得到的回复是：</p><blockquote><p>“我们没收到你的钱，这笔交易只是“reserve”了你的额度，并没有实际转钱过来。”</p></blockquote><blockquote><p>“我们没收到钱，自然无法帮你退款。你再等几天，被保留的额度就退回到你的卡里了。”</p></blockquote><p>呵呵，你以为我会相信这种话吗？我可是有小学文凭的人~</p><h1 id="转"><a href="#转" class="headerlink" title="转"></a>转</h1><p>既然UUHO没法解决问题，那我就一人兵分两路，分别垂询支付机构 <a href="https://www.dibs.se/" target="_blank" rel="noopener">DIBS</a> 和中行信用卡客服。可接通这两家机构的客服，也是一波三折。</p><h2 id="DIBS-Payment-Services"><a href="#DIBS-Payment-Services" class="headerlink" title="DIBS Payment Services"></a>DIBS Payment Services</h2><p>笔者查询了DIBS的服务状态监控，发现就在我支付的那天，线上收款系统正处于维护状态。</p><p>这个发现，坐实了笔者“卡单”的猜想。</p><p>为了让工作人员注意到这笔“异常”交易，笔者<a href="https://www.bilibili.com/video/av1042364/" target="_blank" rel="noopener">寻遍<del>星空</del></a>网站，却无奈地发现，大多数留言框，都需要以商户ID登陆后才能使用。经过一番摸索才找到了无需登陆的留言板。</p><p>翌日得到回复：</p><blockquote><p>我们已收到您的留言，但您可能来错了地方。这套留言系统是面向我们的客户（收款商户）的。</p><p>工单已记录，请登录论坛以追踪最新进展<del>依然需要商户ID</del>。</p></blockquote><p>那没办法了，等等再联系UUHO吧。</p><h2 id="中国银行信用卡客服"><a href="#中国银行信用卡客服" class="headerlink" title="中国银行信用卡客服"></a>中国银行信用卡客服</h2><p>笔者曾一度想通过信用卡APP询问此事，但并没有于之找到任何客服功能，在手机银行APP中找到的<strong>人工客服</strong>，也<strong>没有权限</strong>进行任何的查询和操作。</p><p>所以，顶着2.86CNY/min的国际长途话费，笔者打出了中行的客服电话 国际线<a href="+86-10-66085566（海外及港澳台地区），拨打时请明确输入&quot;+&quot;号。华为手机的输入方法是，在电话拨号盘处长按“0”键。">^2</a>。</p><p>但这通如此高昂的电话，依然以一系列繁琐的按键菜单开始。重新拨打了几次后，我才终于进入到人工排队阶段。然而，5分钟的等待，换来的只是超时自动挂断。</p><p>为了省点话费，笔者现场学习了瑞典COMVIQ的手机充值方法，终于以更低的价格打通了 国际长途<a href="如已有FastPris套餐，在向手机卡内额外充值（+SALDO）后，可以用每分钟0.45SEK，接通费1SEK的价格拨打国际长途，APP充值100起步。">^3</a>。</p><p>又是无数个五分钟，呵呵，这回我等得起了。</p><p>电话接通，</p><blockquote><p>“我们是无法进行撤销操作的哦，请<strong>联系商户</strong>。但超过<strong>32</strong>天未入账的交易，会被自动撤销。此类未入账的交易无需还款。”</p></blockquote><p>好吧，我去磨UUHO。</p><h2 id="UUHO"><a href="#UUHO" class="headerlink" title="UUHO"></a>UUHO</h2><p>笔者将DIBS的邮件转给了UUHO，通过他们二度转发回DIBS。这回，交易系统表示他们已经“将这笔交易设置为无效”。但退款应该<strong>联系银行</strong>。</p><p>……踢皮球嘛……学习了。反正还有超时保底，懒得去撕了。</p><p>至此，我的账单依然没有偿付，而下一期账单已经到来了。目前来看，没有逾期费。</p><h1 id="合"><a href="#合" class="headerlink" title="合"></a>合</h1><p>32天后，系统自动退款，我的额度得到了恢复。</p><hr><h1 id="延申阅读"><a href="#延申阅读" class="headerlink" title="延申阅读"></a>延<em>申</em>阅读</h1><h2 id="其他IT系统怎么样？"><a href="#其他IT系统怎么样？" class="headerlink" title="其他IT系统怎么样？"></a>其他IT系统怎么样？</h2><p>在为期不长的在瑞留学阶段，我遇见了至少三次IT故障。</p><h3 id="人口号变动导致的学生账号失效"><a href="#人口号变动导致的学生账号失效" class="headerlink" title="人口号变动导致的学生账号失效"></a>人口号变动导致的学生账号失效</h3><p>为了办银行卡，笔者向学校申请了在读证明。由于此时我已经申请到了正式的 人口号<a href="瑞典使用**人口号**标记每个居留超过一年的人，人口号需主动申请，若未申请则以临时号码计入学籍系统。但是，拥有瑞典人口号和/或身份证号，并不代表发生了居留权或国籍状态的增加和/或变更。毕竟这是税务局~~和银行~~承办的东西。">^4</a>，学校就在系统里更新了我的信息。</p><p>时值新LADOK系统上线，取代原有的UPPDOK系统（懒得解释了，瑞典的考试/成绩单系统）的第一天，我开完证明以为就没事了。</p><p>然而，接下来我的学生账号发生了异动，首先邮件告知学生卡失效（门禁功能依然可用），请去办理新卡。然后我的StudentPortal（教务系统，交作业下资料全在这里）登陆后没有任何课程，交不了作业，也看不了课程通知。</p><p>经过与各位老师/教务处/教务系统运维团队的周旋，我们以一种比较Dirty的方式解除了该问题。<del>然而目前我的在修项目中依然有两个<code>Computer Science 120学分</code></del>。</p><p><img src="https://i.loli.net/2019/05/08/5cd293815f312.png" alt="Duplicated_programs.png"></p><h3 id="刷卡把卡机刷死机了"><a href="#刷卡把卡机刷死机了" class="headerlink" title="刷卡把卡机刷死机了"></a>刷卡把卡机刷死机了</h3><p>在ICA超市结账时，我轻轻挥了一下卡片，试图“再次”进行MasterCard Paypass免密支付。然后，系统就死机了。收银员捣鼓了半天也没解决问题，我们只好换了一个款台交钱。</p><h3 id="本次故障"><a href="#本次故障" class="headerlink" title="本次故障"></a>本次故障</h3><p>见正文</p><hr><p>本学期修读了一门课程“Requirements In Agile Development”，一开课就提到，已有的各种系统是多么的坑爹（所以我们要设计新的，更符合心理学和人机交互设计的系统，前期就得把需求做出来）。</p><p>在光鲜的外表下，瑞典的IT系统笼罩在一层BUG的阴影当中。<del>或者是我天生就有招BUG体质？</del></p><h2 id="那应用软件写的怎么样呢？"><a href="#那应用软件写的怎么样呢？" class="headerlink" title="那应用软件写的怎么样呢？"></a>那应用软件写的怎么样呢？</h2><p>看看 Minecraft 你就明白了，发售快10年后，Mojiang 终于决定在1.13版本进行一次大范围的技术重构<del>，然而依然不能摆脱单核游戏的称号</del>。</p><p>5月8日补充：“醒醒，<a href="https://minecraft-zh.gamepedia.com/index.php?title=1.14&amp;variant=zh" target="_blank" rel="noopener">1.14</a>发布了，增加了又一大堆<del>Bug</del> Feature。”</p><hr><p>所以啊，常念支付宝好，常念微信支付好，常念银联云闪付好，保你钱钱永不跑。</p><p><del>我应该去找个软件测试的工作干，保你上线之前BUG原形毕露。</del></p><p><del>然而投了一家公司，人家并不要我。</del></p><p><del>我好菜啊！</del></p><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;瑞典的IT系统只是“看上去很美”，实际使用时却是错误频发。这不，笔者的房租都卡单了。怀揣着“马上就要露宿街头”这样的心态，瑟瑟发抖地写下这次卡单的经过。&lt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="这里是，乌普萨拉魔法学院" scheme="https://xmoiduts.github.io/tags/%E8%BF%99%E9%87%8C%E6%98%AF%EF%BC%8C%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E9%AD%94%E6%B3%95%E5%AD%A6%E9%99%A2/"/>
+    
+      <category term="IT系统" scheme="https://xmoiduts.github.io/tags/IT%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&lt;2018旅日&gt;-Day3：在那群小小小小鹿旁-奈良</title>
+    <link href="https://xmoiduts.github.io/2019/02/02/%E6%97%85%E6%97%A52018-Day3/"/>
+    <id>https://xmoiduts.github.io/2019/02/02/旅日2018-Day3/</id>
+    <published>2019-02-02T07:00:00.000Z</published>
+    <updated>2019-03-25T23:12:34.137Z</updated>
+    
+    <content type="html"><![CDATA[<p>——奈良公园，春日大社，若草山，东大寺，京都站前商业街；便利店、30个小时的每一天<del>、地铁铃声</del>。</p><h1 id="他山之石"><a href="#他山之石" class="headerlink" title="他山之石"></a>他山之石</h1><p>从另一个角度旁观这场旅行，<a href="https://mp.weixin.qq.com/s/x4qe2cw5Pk6lijaSRKVUpQ" target="_blank" rel="noopener">向东瀛︱日本游记•奈良NARA</a></p><h1 id="乘车出发"><a href="#乘车出发" class="headerlink" title="乘车出发"></a>乘车出发</h1><p>经过前两天的游玩，先前购买的<strong>大阪周游卡</strong>或浪费（Day1）或充分利用（Day2），都完成了它的使命。接下来的三天，我们的旅程将由<strong>关西周游卡</strong>全程陪伴。</p><p>拎着行李，从住处一路地铁坐到<code>难波</code>，我们乘坐<code>近铁</code>急行列车出发，今天的第一站是<code>近铁奈良</code>。</p><p>我们都知道奈良以鹿而闻名，但提到“奈良”二字，我最初的印象不是那里的小鹿，而是小学读物中的“奈良馒头”。</p><p>乘客并不多，我们很容易就找到了座位。列车从地下缓缓驶出，起先还是一派繁华，随着我们与市区渐行渐远，高架沿线的景观慢慢变得朴素。一些房屋隐隐呈现出疏于维护的景象。无论是光鲜还是破败，整体环境倒都称得上是“干净、整洁”，随手一拍，照片经得起回首时的挑剔。</p><p><img src="https://i.loli.net/2018/12/14/5c13a4275132c.jpg" alt="03-01.jpg"></p><p>(背后应该是生驹山)</p><p>从生驹山(?)体的隧道中穿过，片刻后，我们抵达了<code>近铁奈良</code>站台。想找行李寄存而不得。这时我惊讶地发现，本站配备了中文向导。从她简短而带有宝岛口音的回答中我们得知，出站后找到名为“金子”的店铺，即可解决眼前的行李问题。闪身出站，以不到1000円的价格将我们随身携带的两个拉杆箱放在了这里。</p><p>今天要<del>打卡</del>参观的景点全都在车站东边，步行上坡，片刻后抵达奈良公园。</p><h1 id="奈良公园"><a href="#奈良公园" class="headerlink" title="奈良公园"></a>奈良公园</h1><p><img src="https://i.loli.net/2018/12/14/5c13a795ac144.jpg" alt="03-02.jpg"></p><p>奈良公园有着大片供人行走的草坪，从这里开始小鹿就多了起来，却不知是这片巨大的草坪引来了它们，还是人类不忍打扰这些生灵，为它们留下了一片草地。然而无论如何，我认为小鹿驻足于此，所图更多的不是青草，而是慕名而来的游人<del>手里摇晃的鹿仙饼</del>。</p><p><img src="https://i.loli.net/2018/12/14/5c13a8f8d088a.jpg" alt="03-03.jpg"></p><p>鹿仙饼在奈良小鹿出没的地点均有销售，价格统一为150円一小叠。没什么滋味<del>可我怎么知道这个</del>，却依然成为了游人与鹿互动的不二之选。在食物经年累月的诱惑下，小鹿已经习惯了与人合影。大家都认为小鹿很可爱，可是一副人畜无害的外表下，它们的流氓习气却无从隐藏。</p><ul><li><p>其一，走在草坪要勤看脚下，这里到处都是黑色的五谷轮回之球，能制造出这些玩意的，除了鹿还能有谁；</p></li><li><p>其二，当你手里的鹿仙饼发完后， 一定要双手摊开表示“真的没有了”，否则免不了被叼一身口水；</p></li><li><p>其三，虽然它们会鞠躬讨食，但作为游人也不要捂着。鞠躬，代表“赶紧喂老子吃东西”。</p></li></ul><p><img src="https://i.loli.net/2018/12/14/5c13ab76dd780.jpg" alt="03-04.jpg"></p><p>玉瓣傲然。</p><h1 id="春日大社"><a href="#春日大社" class="headerlink" title="春日大社"></a>春日大社</h1><p><img src="https://i.loli.net/2018/12/15/5c14121dd9f4d.jpg" alt="03-05.jpg"></p><p>沿着人流向东，在某个十字路口处，一块石碑矗立在<del>鹿</del>路旁，上书“春日大社参道”六个大字。两侧放置了许多石制灯笼(?)，想必是神社充值者的许愿之处。</p><p><img src="https://i.loli.net/2018/12/15/5c141829ec12e.jpg" alt="03-07.jpg"></p><p><a href="https://lixingqiancs.wixsite.com/homepage" target="_blank" rel="noopener">鹿铃清脆。</a></p><p><img src="https://i.loli.net/2018/12/17/5c1699e8358c6.jpg" alt="03-12.jpg"></p><p>眼前一处鸟居，春日大社已经抵达。时至今日（H30），春日大社已创立千二百五十年。</p><p>鸟居是分割俗世与圣域的大门，而参道是神仙行走的道路，为了不挡神明的路，穿越鸟居下方时应当避免行走在参道中央。</p><p><img src="https://i.loli.net/2018/12/15/5c1413e65c09d.jpg" alt="03-06.jpg"></p><p>神社可以进行祈愿等活动，除了常规的祈愿场所外，加钱还可进入神社的较深处进行祈愿。我们对这件事不是特别感兴趣，只是一走一过，而已。</p><p>有关参拜的动作和‘手水所’的正确使用方式，<a href="https://youtu.be/8j6cueDgjIU?t=223" target="_blank" rel="noopener">这个视频</a>给出了一系列很好的示范，请点击查看。</p><p><img src="https://i.loli.net/2019/02/04/5c5767a6da4d7.jpg" alt="03-08.jpg"></p><p>走出神社，附近的古木盘根错节，正如这里千百年的历史。随便找了个小木屋饱食一餐午饭，随后，我们一路向北，前往若草山。</p><p><img src="https://i.loli.net/2018/12/15/5c1420c187439.jpg" alt="03-10.jpg"></p><p><img src="https://i.loli.net/2018/12/15/5c1420b86c795.jpg" alt="03-09.jpg"></p><p><img src="https://i.loli.net/2018/12/15/5c1420c4310ab.jpg" alt="03-11.jpg"></p><h1 id="若草山"><a href="#若草山" class="headerlink" title="若草山"></a>若草山</h1><p><img src="https://i.loli.net/2018/12/17/5c16a6671940a.jpg" alt="03-15.jpg"></p><p>进入若草山需要购买门票，成年人150円/人次，却是不贵。整片山地分为三段，因其形似斗笠，故也被称为“三笠山”。往昔，其因<code>三笠山雪</code>而被收录于在南都八景[^1]中，而今则以冬季的烧山/焰火活动而闻名。我们的出游时间见不到上述景象，索性抛开它们，只当是普通的一场徒步登山。</p><p><img src="https://i.loli.net/2018/12/17/5c16a65b29794.jpg" alt="03-13.jpg"></p><p>时值四月之初，小草稀稀拉拉地冒出了一点嫩芽，我们两人向着爬山步道径直登高。</p><p><img src="https://i.loli.net/2018/12/17/5c16a661763cc.jpg" alt="03-14.jpg"></p><p><img src="https://i.loli.net/2018/12/17/5c16a66ada3e7.jpg" alt="03-16.jpg"></p><p>此间的风儿甚大，甚至能吹得山鹰反向飞翔。它们在空中停留了许久，发现并不能向前，便不再自找没趣（亦或是有趣，而游人不知禽鸟之乐也）。</p><p>起初，工作人员告诉我们，向上攀登的行程大约40分钟，我们仗着年轻力盛不以为意，妄图以人力战胜自然规律。爬到一重目后，才发现自己的简单和幼稚。徐徐前进，在数次歇息后终于登顶三重目。这里同样散布着小鹿和……emm……拍婚纱照的夫妇？</p><p>其实这里有另一条公路，世上无难事，只要走捷径。</p><p><img src="https://i.loli.net/2018/12/17/5c16ae645852e.jpg" alt="03-17.jpg"></p><p>站在山顶，回首来时小小路，我看到的不是“香甜的空气”。今天的奈良笼罩在一层薄雾当中，这里是否同样蕴藏着霾呢？极目远眺，对面山顶插满了天线，翻过去应该就是今天的出发地大阪。稍事休息准备返回山下。</p><blockquote><p>无论你走了多远，自以为攀登地多么卖力，永远会有那么个人等在你的必经之路上，向你兜售清水和<del>鹿的</del>食物。</p></blockquote><p>离开若草山，我们沿路前往东大寺。登山消耗了我们太多的时间，这个景点进不去了。</p><p><img src="https://i.loli.net/2018/12/17/5c16b07adb3a9.jpg" alt="03-18.jpg"></p><p>你站在路旁画风景，路旁的人却用相机将你记录。</p><p><img src="https://i.loli.net/2018/12/17/5c16b07be43e1.jpg" alt="03-19.jpg"></p><p>在外面转转，夕阳下的寺院精致入画。显然，寺院门前的水鸟并不知游人之乐。</p><p><img src="https://i.loli.net/2018/12/17/5c16b1e603add.jpg" alt="03-20.jpg"></p><p>沿着主路径直回返，饥肠辘辘中，在某个安全机关附近找到了一家7-11。钻进去叨口食吃，这里有一些奈良风格的精装食物<del>江米片</del>出售，为了上面的“奈良八景”封面，就算有点小贵也入手了一盒。</p><p>不知不觉中，今天的奈良之行已近尾声，回<code>金子</code>取行李，缓步来到了<code>近铁奈良</code>站。我们的目的地是——<code>京都</code>（站）！</p><hr><h1 id="前往京都"><a href="#前往京都" class="headerlink" title="前往京都"></a>前往京都</h1><p>回到站厅，面对密密麻麻的路线我们又犯了愁。可是时间不等人。转眼间，站台上已经停好了一辆特快列车，我们却暗自发愁：手里的<strong>关西周游卡</strong>是不能乘坐这趟列车啊？列车员走了出来，我们拿着这张卡片，叽里咕噜地用手比划给他看。希望他能理解我们的意思。</p><p>经过与列车员的一番谜之交流后，我们竟然理解了他的意思：</p><blockquote><p>不行，要买特急券。 </p></blockquote><p>赶紧上楼，在专卖特急券的自助机上交钱买票。顾不上“请不要冲进车厢”这样的提示，急急忙忙地跑上了车。地下几十米深处，列车缓缓发动，奔向我们的目的地。入夜的铁路沿线空无一人，只有无数的自动贩卖机矗立在屋檐下，等待着下一位顾客的光临。</p><p>列车驶入<code>京都站</code>大楼，下车后我们如无头苍蝇一般乱撞：出了近铁的地界后，面前是一条南北贯穿的人行通道。可左边新干线右边JR线的标牌，并不能让我们找到地铁的所在。往<del>北</del>南，毫无头绪；往<del>南</del>北，却直接走出了车站大楼[^2]。</p><p>下到<code>PORTA</code>地下商业街买点MUJI产品，几经折腾终于找到了地铁入口。乘坐乌丸线前往我们今天的住处——<code>烏丸五条</code>。</p><p>安顿下来已过晚上九点，我们跑去对面的<strong>大国药妆店</strong>扫货，处理国内友情帮带的需求。其实我不是很懂药妆，只是照着单子去买罢了。</p><p>正扫货时，感觉身后突然有个妹子叫我，发出了“这个这个这个”的声音。转身一看，原来是这家大国的店员。具体的样貌已不可考，但娇小的外观下隐藏着一颗强势的内心。</p><p>一番沟通后才明白，原来这家店快要下班了。转念一想，要买的东西还有很多，想起什么东西先顺手买了再说，以后再走一路买一路即可。</p><p>出门发现，这里的飙车党也不少，深夜的<code>烏丸通</code>里，不少“骑士”飞驰而过，只留下一串轰鸣声。去宾馆旁的7-11随便买了盒饭，回去吃掉。</p><p><img src="https://i.loli.net/2018/12/17/5c16b40068b38.jpg" alt="03-21.jpg"></p><p>一夜无梦。</p><hr><h1 id="便利店"><a href="#便利店" class="headerlink" title="便利店"></a>便利店</h1><p>在一些发达的城市中，便利店真的是无处不在。以一个游人的眼光，我到这能直接说上名字的就有7-11、Lawson、全家这三家。不过，便利店的存在，不只是为了方便快节奏的霓虹人民，它们还有着其他的意义。</p><p>每家便利店的背后，都隐藏着一个农业巨头。作为旗下的连锁店铺，卖卖自家的农产品和深加工农产品，是理所应当的事情吧<del>。从种子到餐桌，从某种程度上实现了“农超对接”</del>。</p><p>便利店的产品实际上也是很贵的，如果是买水的话，可以去药妆店看看，每瓶能省下好几十円。</p><h1 id="30小时的每一天"><a href="#30小时的每一天" class="headerlink" title="30小时的每一天"></a>30小时的每一天</h1><p>在霓虹旅行的途中，我们经常看到这样的标志：</p><p><img src="https://i.loli.net/2019/02/04/5c5767a6d4060.jpg" alt="03-22.jpg"></p><blockquote><p>“一天有25小时”，莫非这句话在日本是真的？</p></blockquote><p>当然不……只是25小时，这个时段，是“30小时制”的一种应用。</p><blockquote><p>震惊！霓虹人每天都有30个小时，而中国人只有24个，它们每天都比我们多出了很多时间。长此以往中或输！请转发告诉你身边的朋友，一次也可以！</p></blockquote><p>诶多……其实大家拥有的时间并没有差异，在快节奏生活的这些地方，人们以早上6：00作为每天的起点，而夜幕降临后，翌日的0-6点则会被24：00-29：59占据，这种做法常见于跨夜<del>修仙</del>运行的行业。</p><p>近年来，国内某些地方也引入了这样的表示法。在Bilibili APP中，当用户开启“修仙模式”选项，则深夜动画的播出时间表也会按照30小时进行显示。</p><p><img src="https://i.loli.net/2019/02/04/5c5767a72b0bd.jpg" alt="03-23.jpg"></p><p>我们所下榻的宾馆提供马杀鸡服务，同样采用了这种时间表示法。</p><blockquote><p>强力推荐这款枕头，瑞典本土版宜家的中枕，比国内小一号又扁很多，对折一下依然不能满足我的睡眠需要。如今编辑到这一篇游记，如果再给我一个机会，我一定会买上这样一个枕头！</p><p>—— 笔者，2019.2 于瑞典乌普萨拉如是写到。</p></blockquote><p><img src="https://i.loli.net/2019/02/04/5c5767a7322d0.jpg" alt="03-24.jpg"></p><h1 id="地铁铃声"><a href="#地铁铃声" class="headerlink" title="地铁铃声"></a><del>地铁铃声</del></h1><p>细节大概忘了，先咕再说，待我跟学长确认一下再编。</p><p><del>我一定会更新的咕咕咕</del></p><hr><p>[^1]: 南都八景： 佐保川蛍、東大寺鐘、三笠山雪、春日野鹿、南円堂藤、猿沢池月、雲居坂雨、轟橋旅人<br>[^2]: 终点站为近铁<code>京都</code>站的近铁列车，会自西向东，从西侧驶入<code>京都</code>车站大楼，并最终停靠在2楼的站台上。当时我们将南北方向弄错了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;——奈良公园，春日大社，若草山，东大寺，京都站前商业街；便利店、30个小时的每一天&lt;del&gt;、地铁铃声&lt;/del&gt;。&lt;/p&gt;
+&lt;h1
+        
+      
+    
+    </summary>
+    
+    
+      <category term="更新中" scheme="https://xmoiduts.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
+    
+      <category term="旅日2018" scheme="https://xmoiduts.github.io/tags/%E6%97%85%E6%97%A52018/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在高延迟Minecraft服务器中，如何（准）原地起飞</title>
+    <link href="https://xmoiduts.github.io/2019/02/01/%E9%AB%98ping%E6%88%98%E5%A3%AB%E7%9A%84%E9%A3%9E%E8%A1%8C%E6%8A%80%E5%B7%A7/"/>
+    <id>https://xmoiduts.github.io/2019/02/01/高ping战士的飞行技巧/</id>
+    <published>2019-02-01T22:00:00.000Z</published>
+    <updated>2019-02-01T23:09:25.629Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>起飞需要摸索，囿需要练习。</p></blockquote><p>使用原版鞘翅和烟花火箭，人人都是飞行家。</p><h1 id="v"><a href="#v" class="headerlink" title="^v^"></a>^v^</h1><p><a href="#方法">直达正文</a></p><p>ENG： How to launch your elytra (quasi-) in situ when playing on minecraft servers with high latency (ping RTT)?</p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><a href="https://minecraft.net" target="_blank" rel="noopener">Minecraft</a>是一款沙盒游戏，允许玩家自行架设多人游戏设备。一批“中小型”私人服务器围绕它而创立。</p><p>此类服务器的玩家，经常会在同一张地图中游玩，即：通过各种网络前端接入的玩家，最终都由同一台物理机进行服务。所以，不太可能通过分散服务器的方式让每个人的延迟都最短，而所有人又能同台娱乐。</p><p>地域（跨大洲）、网络（长宽/方正/校园网等）因素都会显著增加玩家的Ping RTT时间。高延迟会显著影响玩家的各种游戏体验，其中包括使用鞘翅原地起飞。</p><p>本文总结了作者在高延迟网络下，使用Minecraft原版鞘翅和烟花火箭，进行（准）原地起飞的方式。在延迟300ms的网络中可以日常使用，原则上不需要借助高台进行滑翔。</p><h1 id="术语表"><a href="#术语表" class="headerlink" title="术语表"></a>术语表</h1><p><strong><a href="https://minecraft-zh.gamepedia.com/index.php?title=鞘翅" target="_blank" rel="noopener">鞘翅</a></strong>是Minecraft <a href="https://minecraft-zh.gamepedia.com/1.9" target="_blank" rel="noopener">1.9版本</a>添加的一种游戏道具，允许玩家穿戴后进行滑翔。</p><p><strong><a href="https://minecraft-zh.gamepedia.com/index.php?title=%E7%83%9F%E8%8A%B1%E7%81%AB%E7%AE%AD" target="_blank" rel="noopener">烟花火箭</a></strong>是Minecraft 1.4.6版本添加的一种游戏道具，在1.11.1版本中，当使用鞘翅飞行时（即：鞘翅已处于展开状态），可以被使用从而<a href="https://minecraft-zh.gamepedia.com/index.php?title=%E9%9E%98%E7%BF%85#%E5%8E%86%E5%8F%B2" target="_blank" rel="noopener">助推玩家的飞行动作</a>。</p><p>文中对<strong>延迟（ping）</strong>的定义和定量，与第三方服务器性能优化插件<a href="https://www.massivecraft.com/massivelag" target="_blank" rel="noopener">MassiveLag</a>对<code>/ping</code>返回结果的定义与定量相同。</p><p>假定对游戏的操作方法采用默认值，即敲击空格键<strong>起跳</strong>/<strong>展开鞘翅</strong>；使用右键<strong>施放烟花火箭</strong>。</p><h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><h2 id="准备阶段"><a href="#准备阶段" class="headerlink" title="准备阶段"></a>准备阶段</h2><p>玩家身着鞘翅站在固体方块上，右手持烟花火箭数支。建议鞘翅具备一定的耐久值，建议练习期间站在空旷区域。</p><h2 id="第一阶段：-被烟花火箭带飞"><a href="#第一阶段：-被烟花火箭带飞" class="headerlink" title="第一阶段： 被烟花火箭带飞"></a>第一阶段： 被烟花火箭带飞</h2><ol><li>垂直起跳，此时玩家的速度方向为向上，加速度方向为向下。</li><li>待玩家的速度方向变为向下（即：开始下落）时，单击空格（千万不要狂按）。此时游戏的视角应转向飞行姿态，即逐渐降低大约一格。</li><li>上一步成功后立即单击鼠标右键，施放烟花火箭。</li></ol><p><strong>总结： 空———————–空-右-</strong></p><p>若玩家突然向前方的空中蹿出，则表示本阶段执行成功。想要成功起飞，需要进行下一阶段的操作。</p><p>若本阶段执行不成功——在高ping玩家中很常见，则重新进行<a href="#准备阶段">准备阶段</a>和本阶段。</p><h2 id="第二阶段：展开鞘翅"><a href="#第二阶段：展开鞘翅" class="headerlink" title="第二阶段：展开鞘翅"></a>第二阶段：展开鞘翅</h2><p>由于玩家到服务器的延迟较高，上一阶段在客户端执行成功后，服务器可能会拒绝承认玩家展开鞘翅的行为，从而将玩家的鞘翅收回未展开状态，但客户端中玩家的速度和位置得以保留。</p><p>玩家如不操作，则会继续斜向上作抛体运动，最终摔回地面。想要让服务器认为玩家展开鞘翅，需要进行如下操作：</p><ol><li>在玩家向上的速度耗尽，开始向下坠落时，单击空格来展开鞘翅。（千万不要狂按空格）</li><li>随后立即按鼠标右键，施放烟花火箭。</li></ol><p>经过上述操作，玩家应该得以在高延迟的服务器中，使用鞘翅和烟花火箭成功起飞。若依然作斜抛运动，则重复本阶段，直到成功起飞。不要怕短时间触地，服务器反应不过来的。</p><p><strong>总结：———————-空-右-[———–空-右]*n-</strong></p><h2 id="狂按空格会发生什么？"><a href="#狂按空格会发生什么？" class="headerlink" title="狂按空格会发生什么？"></a>狂按空格会发生什么？</h2><p>玩家会以<strong>每次</strong>施放烟花火箭的地点为起点，重复上述斜抛运动，看起来就像从空中N段连跳，此过程无法真正展开鞘翅。</p><p>如玩家持有足够多的烟花火箭，加上操作时机掌握得当，也可在无高大障碍物的区域实现中短距离的移动。然而，经测试这种行为的用户体验不佳。</p><h1 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h1><p>本文是在安装了MassiveLag插件、<a href="https://github.com/NyaaCat/NyaaUtils" target="_blank" rel="noopener">NyaaUtils插件</a>，并对玩家启用了<code>/nu el</code>功能的<a href="https://papermc.io/" target="_blank" rel="noopener">Paper</a>/<a href="https://www.spigotmc.org/" target="_blank" rel="noopener">Spigot</a>服务端Minecraft服务器<a href="https://craft.moe/" target="_blank" rel="noopener">毛玉线圈物语</a>中进行操作和总结的。</p><p>分析其原理后，认为应当也适用于其他<strong>Minecraft 1.11.1或更高版本的多人游戏服务器</strong>，但未实际在其他服务端（Vanilla等）中进行测试。原则上，服务器无需使用上述插件和功能。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;起飞需要摸索，囿需要练习。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;使用原版鞘翅和烟花火箭，人人都是飞行家。&lt;/p&gt;
+&lt;h1
+        
+      
+    
+    </summary>
+    
+    
+      <category term="已封帖" scheme="https://xmoiduts.github.io/tags/%E5%B7%B2%E5%B0%81%E5%B8%96/"/>
+    
+      <category term="游戏" scheme="https://xmoiduts.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+      <category term="Minecraft" scheme="https://xmoiduts.github.io/tags/Minecraft/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>乌村夜话 - VOL 2</title>
+    <link href="https://xmoiduts.github.io/2019/01/16/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9DVol2/"/>
+    <id>https://xmoiduts.github.io/2019/01/16/乌村夜话Vol2/</id>
+    <published>2019-01-16T19:00:00.000Z</published>
+    <updated>2019-01-16T22:41:32.263Z</updated>
+    
+    <content type="html"><![CDATA[<p>讲述笔者在乌村的生活：瑞典高等教育一窥，对几所高校的主观印象，在UU读书是什么样子，Etc.。</p><h1 id="w"><a href="#w" class="headerlink" title="^w^"></a>^w^</h1><p>各位读者朋友们<del>真的有吗？</del>，熬完了这个小学期的考试，我们终于又见面啦！度过了1.15号的申请截止，我总算可以发布这份草稿。希望这篇文章对今年的申请并没有太大影响。</p><p>想不断地分享我在乌村的生活经历，奈何手懒+各种事情太忙<del>借口，其实还是手懒。</del>目前，准备把这个系列定为双月更新，这样每次挤一点小话题出来，也不至于攒到太多任务，而不敢着手去写。</p><p>这次，我想谈谈我对瑞典（几所）高校的认知。</p><h1 id="我眼中的瑞典高等教育（一窥）"><a href="#我眼中的瑞典高等教育（一窥）" class="headerlink" title="我眼中的瑞典高等教育（一窥）"></a>我眼中的瑞典高等教育（一窥）</h1><p>瑞典的硕士项目，其实是本科的又一次轮回。我们都知道，瑞典硕士为授课制教学，那么，在我们的选课系统中，“硕士项目”又是怎样体现的呢？</p><p>打开我校的<a href="http://www.it.uu.se/education/courselist_spring" target="_blank" rel="noopener">选课网站</a>，随便点击一门课程，就可以在内文发现<strong>First Cycle</strong> 或 <strong>Second Cycle</strong> 的字样。 前者意味着本科课程，而后者则代表硕士课程。作为硕士项目的学生，你“可以”选择一些本科课程进行学习，毕竟每个人来时的基础不同。有些进阶课程，也需要特定的先修课程作为铺垫。（备注：博士也要修习少量课程，它们被标记为<strong>Third Cycle</strong>。）</p><p>也就是说，这里的高等教育，其实贯彻了这种“螺旋上升”的思想，在一轮又一轮的知识学习当中，你（指瑞典本科新生）从最开始的高中水平，粗浅地涉猎某一方面，积累了少量而广泛的知识后，自由选择一个或几个方面的课程进行进阶一点的修习。学有所成后，若有志于精研学术，还可以申请读博，到那个时候，等待你的就是更加专精和艰深的课程（和科研任务）了。</p><p>从字面上讲，“研究生”是从事学术研究的学生。然而我身边的中国同学，无论是本科还是当前学校，真心想要投身学术的人寥寥。每当问及“你为什么想要考研”时，得到的答案，则大多是基于就业方面的考量：学生希望获得更高的学历，来增加自己在就业市场的竞争力<del>不然就会因为内卷而找不到工作</del>，也有人在本专业撞到了天花板，谋求转行。诚然，我并不能免俗，来读书的理由泯然众人（语法检查），可抱有相同想法的新生后浪推前浪，未来他们（我们）又是否对得起“研究生”这一称谓呢？</p><p>我不得而知。但这里的人们似乎更加“享受生活”。良好的社会福利制度，不同的就业观念，<del>宽松的竞争条件，（请核实）</del>让很多人不需要读完大学就能找到一份工作（先不考虑好坏）。接受高等教育，更多地是你自己的选择，而非拿到一份（普通待遇）工作的必由之路。</p><h1 id="主观印象：几所瑞典高校"><a href="#主观印象：几所瑞典高校" class="headerlink" title="主观印象：几所瑞典高校"></a>主观印象：几所瑞典高校</h1><p><strong>声明：我并没有在文中提及的其他学校实际就读过，这部分内容都是我的主观想法。如果您于之就读的实际体验并不是这样，也欢迎提供您的看法。期待我们的讨论。</strong></p><p><strong>也请留意文末的内容。</strong></p><p>月余以前，笔者耐不住漫漫长夜中的寂寞，只身前往斯京探访其他学校的学生（和/或随行人员）。在此，笔者发现，虽然同为瑞典的高等学府，不同学校的录取风格和就读体验却各不相同。</p><p>我们发现， KTH更倾向于招收：应届，高GPA，合作项目、合作学校的应届学生；他们有一个专门的市场团队，与国内的相关机构进行沟通[来源请求]。</p><p>而UU的招生风格却有所差异：从和UU同学的聊天中我发现，我们中的很多人都不是留学党中，纸面成绩最顶尖的一小搓人，却依然能够得到这所五百多年的瑞典知名大学的录取。在进一步讨论后，总结出这样一句话：</p><blockquote><p>UU的招生，申请人成绩的高低（做出了多厉害的功绩）只是一方面，更重要的是，学校会看这个申请者“是个什么样的人”。</p><p>——沃·兹基·硕德</p></blockquote><p>来个用户画像吧：成绩基本不错（未必是顶尖的一小点），有实习或工作经历。</p><p>UU对中国的市场宣传团队，据我所知……有一个人。加了申请群的人很容易就能猜到。</p><p>UU的招生非常佛系，在整个申请季中，我就没收到任何来自UU的私信，观察KTH和CTH，它们非常热情的给我发了若干条通知，提醒我填写很多表格。<del>然而很遗憾，这些并没有让我得到他们的录取。</del> </p><h2 id="Track与课程的选择呢？"><a href="#Track与课程的选择呢？" class="headerlink" title="Track与课程的选择呢？"></a>Track与课程的选择呢？</h2><p>修读某一专业的研究生，大抵都希望专注于某一领域，各所学校也提供了不同的Track供学生选择。</p><p>UU CS的Track，个人感觉并不严格，学院只是把课程分为几个方向，并画出了前后的依赖关系图。但实际上你想选啥就能选啥。只要CS修够足够的学分，你甚至可以选择其他学院的课程。（备注，有很多<del>机器炼丹的</del>项目可能是拿艺术文凭人的小组在搞。）选课自由度相当高。毕竟， “Computer Science Program”的意思，就仅仅是“你选ITC学院（CS专业在ITC学院下运作）的课保证能选上”的意思。</p><blockquote><p>那如果你选了很多其他专业的课呢？</p></blockquote><p>那你可能会拿到其他专业的文凭，从而顺利毕业。</p><p>在计算机网络课上，有个小哥是UU（物理？）program的学生，但休学一段时间后决定转专业去学CS。由于休学前读的都是高数之类的基础课程，回来读书也只需要选CS课即可，先修课程不会成为他的阻碍。</p><p>而其他学校的Track，约束性可能会更强一些——你选了这个Track，你的课程计划就已经确定了，几乎不需要自己考虑选课问题，学院会引导你走上选定的学习生涯。</p><p>这两种形式各有<del>秋千</del>吧……一个要求很强的自主性，一个约束比较多，但风险可能相对没那么大。</p><p>那么，</p><h1 id="在UU读书是什么样子的呢？"><a href="#在UU读书是什么样子的呢？" class="headerlink" title="在UU读书是什么样子的呢？"></a>在UU读书是什么样子的呢？</h1><p>——不同专业的人，日常的画风迥异。</p><p>作为CS专业的学员，我们的日程表被各种Lecture+Lab（到校上课）占据着，生活，就是住处、教室和菜市场的三点一线。平均每周8节90分钟课程。虽然和其他国家的学校相比可能不算什么，但各专业同学都认为我们课时数比较多。</p><p>作为培养学生多方面发展（是吗？）的高等教育，上课之外，每门课程也会有若干的Assignment、Report 和 <strong>Team Work</strong>。这些也会占据大量的时间。平均下来，每周的课余时间，我能完成一门课程的一个Assignment工作量。三门课程同时进行，单打独斗是不现实的，这就要靠小组合作了。</p><p>课多，相应地，写文章、读文献的任务就没那么重。在一些人文社会专业里，学生每周只需要上两节课，但更多精力都将花在读那些天书中。读完还不够，还要写东西。<del>所以啊别以为日程表空着就可以放羊了，弹性工作制……嘿嘿……大家懂吧？</del> </p><p>还有一些专业的实验占了大头，另一些专业就像上班一样每天出没于各种户外环境。</p><p>总之，大家的体验并不相同，总有新奇在身边。</p><h1 id="你知道吗？"><a href="#你知道吗？" class="headerlink" title="你知道吗？"></a>你知道吗？</h1><p>写了这么多也累了，下面说一点细碎的内容。</p><h2 id="UA网站"><a href="#UA网站" class="headerlink" title="UA网站"></a>UA网站</h2><p>UA这个网站，申请瑞典大学的时候，大家已经很熟悉了。在来到瑞典前，我们将会每天都上去看一看——自己的申请有没有新消息。如果申请顺利，大家可以在每个志愿右边看到：</p><p><code>啥也没有</code> -&gt; <code>In Progress</code> -&gt; <code>(Conditionally) Qualified</code> -&gt; <code>(Conditionally) Admitted</code>.</p><p>这样的转变。其中，Conditionally 代表你现在还没本科毕业，处于在读状态。拿到毕业证+学位证即可录取。放榜过后，申请签证时，这个页面可以生成你的录取PDF，它就是<del>虽然毫无美感但</del>官方唯一承认的录取通知书。</p><p>在开始在瑞典的学习生涯后，你将转为通过学校统一认证的方式登陆UA，这个网站，也是你每学期选课的唯一官方网站。（不过我们第一大学期没自己选，连课程带考试都是学院帮办的，第二大学期开始才需要自己搞。）</p><h2 id="“免费”的瑞典语教学"><a href="#“免费”的瑞典语教学" class="headerlink" title="“免费”的瑞典语教学"></a>“免费”的瑞典语教学</h2><p>来到瑞典，大家会了解到：瑞典有免费的瑞典语课程。但其实这不是真正的免费。所谓“免费”，是政府掏腰包，向语言学校支付你的学费，只是不向学生收费罢了。你若报了名却缺勤（超过三次吧好像），也是会被除名的。</p><h2 id="重修需要交钱吗？"><a href="#重修需要交钱吗？" class="headerlink" title="重修需要交钱吗？"></a>重修需要交钱吗？</h2><p>在UU CS专业，UA的每门课程向你显示的学费（通常为上万克朗），代表的都是Initial tuition fee。挂科重修<strong>不需要</strong>额外交钱，都包含在第一次交的学费里了。每门课包含了不同的部分（考试，report，assignment等），如果这门课你通过了一些部分但挂了另一部分，则可以在下次重修时只参加那个部分。</p><h2 id="后续学期的学费啥时候交？"><a href="#后续学期的学费啥时候交？" class="headerlink" title="后续学期的学费啥时候交？"></a>后续学期的学费啥时候交？</h2><p>我第二学期的学费12月初交的。</p><h2 id="中年危机？"><a href="#中年危机？" class="headerlink" title="中年危机？"></a>中年危机？</h2><p>或许有吧，但是，我的见闻：即使是不惑有余的技术人员，也能在“创业公司”内谋得一席之地。这段描述也适用于炼丹公司。</p><h2 id="CS与CS"><a href="#CS与CS" class="headerlink" title="CS与CS"></a>CS与CS</h2><p>很多人想要转CS，却未必能满足计算<strong>机</strong>科学的招生要求，于是，计算科学成了他们优选的去处。这个专业里很多人都是物理等专业转来的，论知识背景，我这种只学过CS的鶸可能会被秒成渣。</p><h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>和之前提到的“螺旋上升”一样，文中的某些观点，在现实中可能与我的所见所感相异。随着居留瑞典的时间不断增加，这片极北之地，在我的眼前也开始生动起来。未来，一些观点可能会被订正，那也将是新篇中的事了。</p><p>bye bye ~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;讲述笔者在乌村的生活：瑞典高等教育一窥，对几所高校的主观印象，在UU读书是什么样子，Etc.。&lt;/p&gt;
+&lt;h1 id=&quot;w&quot;&gt;&lt;a href=&quot;#w&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="这里是，乌普萨拉魔法学院" scheme="https://xmoiduts.github.io/tags/%E8%BF%99%E9%87%8C%E6%98%AF%EF%BC%8C%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E9%AD%94%E6%B3%95%E5%AD%A6%E9%99%A2/"/>
+    
+      <category term="乌村夜话" scheme="https://xmoiduts.github.io/tags/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新  年  新  气  象</title>
+    <link href="https://xmoiduts.github.io/2018/12/31/%E6%96%B0%20%20%E5%B9%B4%20%20%E6%96%B0%20%20%E6%B0%94%20%20%E8%B1%A1/"/>
+    <id>https://xmoiduts.github.io/2018/12/31/新  年  新  气  象/</id>
+    <published>2018-12-31T19:00:00.000Z</published>
+    <updated>2018-12-31T22:18:25.512Z</updated>
+    
+    <content type="html"><![CDATA[<p>写在2018年的尾巴</p><h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>坦率地讲，我并未打算写这篇文章。2018年，其实我过的很……消沉，并且目睹了自己创造力、耐心和精力的三重崩塌。不过，凭借着以往二十多年的基础，今年还是完成了一些事情的。但是今天去看新年焰火，我被哥德堡奇葩的公共汽车系统惊到了。不吐不快，那索性就把年终总结写了吧。</p><p>下面就让我来总结一下，2018年我完成了的，和未竟的“事业”们。</p><h1 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h1><ol><li><p>申请一所瑞典大学。</p><p>状态：完成。</p><p>佛系申请，玄学录取。更多信息请参阅<a href="/2018/04/17/报offer：2017-2018/" title="这一站，乌普萨拉">这一站，乌普萨拉</a></p></li><li><p>进行毕业设计/论文，从本科学校毕业。</p><p>状态：完成。</p><p>此前，我自拟题目，以负责人（和主要开发者）的身份参与了学校的大创计划。该项目顺利通过验收，并被评级为“国家级优秀”项目。今年，我在这个项目的基础上继续开发，完善了实物设计，同时将手焊的飞线电路升级为工厂打样的PCB电路。这些实物与毕业论文一起，为我的大学（本科）生活划上了一个圆满的句号。</p><p>备注：题目大概是基于Arduino单片机平台设计一款空净，我基于现有独立模块，搞了好几个PM2.5+温湿度表头和一个空净设备。让他们通过nRF24模块无线连接，来控制风速。其实没有多高端，但是处理的细节问题真是不少。</p></li><li><p>进行一次海外旅游。</p><p>状态：完成。</p><p>2018年4月上旬，我和同学共计2人，前往不远处的岛国日本，进行了一段为期9天的旅游。短暂的旅行感想颇多。</p><p>请看下一条。</p></li><li><p>为上述旅行撰写游记</p><p>状态：未完成</p><p>进度：3/9</p><p>游记发布在本博客上，请参阅<a href="https://xmoiduts.github.io/tags/%E6%97%85%E6%97%A52018/">tag: 旅日2018</a> 。</p><p>游记还未定名，不过我心里已经有了一个候选。截至年终，游记的第二天——大阪已经发布。即将完成的第三天——奈良之旅在我的存稿中。</p><p>平均下来，每篇文章需要手打8个小时，然而之后的图片处理才是最闹心的事情。</p></li><li><p>收到10个rej</p><p>状态：未完成。</p><p>进度：4/10</p><p>真实的目标是多去尝试，然而出于引言中的原因，这个目标并没有实现。</p></li><li><p>奔赴瑞典，开启新的学习生涯。</p><p>状态：进行中。</p><p>请参阅 <a href="https://xmoiduts.github.io/tags/%E8%BF%99%E9%87%8C%E6%98%AF%EF%BC%8C%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E9%AD%94%E6%B3%95%E5%AD%A6%E9%99%A2/">tag: 这里是，乌普萨拉魔法学院</a></p><p>被乌普萨拉大学录取实是侥幸，GPA并不高的我从未想过，自己能被这样一所大学录取。作为一个人口18万的小镇，待在乌村使我不再焦躁，慢下来才好静静地享受<strong>独居生活</strong>。</p></li><li><p>你猜？</p><p>状态：未完成</p><p>看上一条中的粗体字。</p><blockquote><p>冷冷的<del>冰雨</del>狗粮在脸上胡乱地拍。</p></blockquote><p>连续22年未完成该目标。</p></li></ol><h1 id="2019年有什么打算？"><a href="#2019年有什么打算？" class="headerlink" title="2019年有什么打算？"></a>2019年有什么打算？</h1><ol><li><p>好好学习，不要挂科。</p><p>你来乌村的原因是什么？</p></li><li><p>完成日本游记</p><p>记得在乌校的必修课中，老师曾用调查问卷的方式问我们：“对于一篇报告/论文，最重要的品质是什么？”</p><p>当时很多人都选了<code>完成度</code>。可我并不知道何谓完成，为什么它这么重要。</p><p>时至今日，我认为，我想通了。这与我一直信奉的“善始善终，自圆其说”异曲同工。毕竟，开了坑最后却咕掉不太好。</p></li><li><p>看2018总结中的第7条。</p><p>今年……</p></li><li><p>健身</p><p>该提上日程了。远离了996的环境，更当好好珍惜着来之不易的work-life balance.</p></li><li><p>申请企业实习</p><p>去真实的工作环境中体验一下，为成为<code>社会人</code>做好准备。</p></li></ol><p>暂时就写这么多。</p><h1 id="公共汽车怎么了？"><a href="#公共汽车怎么了？" class="headerlink" title="公共汽车怎么了？"></a>公共汽车怎么了？</h1><p>是日，我们想去lindholmen附近，观看年终的焰火晚会。</p><p>需要乘坐公交1-&gt;公交2，才能到达我们的目的地。</p><p>公交1迟到了5分钟。</p><p>公交2，第一趟车几无立锥之地。</p><p>又等了15分钟来了第二辆，走到半路上换了司机，随后车子出现了故障。五六分钟才修好，继续前行。此时焰火晚会已经开始。我们无法在短短15分钟的表演期间到达那里，只好提前下车，隔着河流观望对面的烟花。整整一天，哥屯都笼罩在一层薄雾之中，空中绽放的焰火，也只有下半边能被看见。</p><p>我们看到的焰火持续了1分钟便告结束。</p><p>回程需要乘坐有轨3-&gt;公交4。</p><p>有轨3除了减震差，速度慢以外没什么大毛病。</p><p>公交4，开着开着，警察敲门，让司机出示了驾照以后，把驾驶员带上了警车。留下一车人面面相觑。没办法，疾走25分钟终于回到了住处。</p><p>以上。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;写在2018年的尾巴&lt;/p&gt;
+&lt;h1 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="年终总结" scheme="https://xmoiduts.github.io/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ACRH17刷机，刷opboot的随笔</title>
+    <link href="https://xmoiduts.github.io/2018/12/05/ACRH17%E5%88%B7%E6%9C%BA/"/>
+    <id>https://xmoiduts.github.io/2018/12/05/ACRH17刷机/</id>
+    <published>2018-12-05T20:00:00.000Z</published>
+    <updated>2019-05-08T10:58:57.354Z</updated>
+    
+    <content type="html"><![CDATA[<p>给华硕 ACRH17 路由器刷入 Lean 制作的 OpenWRT/LEDE 系统，期间安装了 OpBoot 。</p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>2015年前后，笔者购入了自己的第一台“智能”路由器：优酷路由宝 YK-L1 。笔者当初买它只是为了挂流量币，接触 OpenWRT 后，却越来越为其功能所倾倒<del>虽然大部分用不上</del>。后来接触了某讯 K2 和硬改 K2P ，也在入手的第一时间将其改成了OpenWRT 系统。苦于该版本系统不易安装 Zerotier ，更是一步步找到了讨论群。</p><p>在群里，ACRH17的出镜率相当高，大佬们似乎已经钦定了它的优秀。本着跟风的心理，笔者也去JD买了一台，飘扬过海将它带到了北欧。</p><p>初来乍到，它的性能很是令我满意；经年累月的磨合却暴露了它的一些不足：</p><ul><li>SAMBA 只有 SMBv2 ，Windows 拒绝挂载这个设备——挂硬盘的功能废了。</li><li>信号不稳定，电脑连接总是断流，不知道是哪方的问题。</li><li>我想装 Zerotier 。</li></ul><p>于是，我决定跟随 dalao 们的脚步，为其安装定制化的 OpenWRT 系统。</p><p>笔者一度向谷歌娘发出了细密的询问请求，却无奈的发现，恩山的编译刷机教程散落在各个帖子中，就算是计算机专业的学生也未必能照着复现<del>或许只是我太菜了吧</del>。</p><p>偶然间，笔者上网搜索，突然找到了网友编译好的成品！</p><p>“解决”了编译问题，剩下的内容，就在笔者的能力范围之内了。</p><p>刷机计划，开始！</p><h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>本文写于2018.12月，如果你的路由器购于今年早期，刷机方法或有不同。</p><p>本次刷机，笔者使用了 lean 大佬制作的 <code>OpenWrt R8.1.11</code> 固件(以下简称<strong>OpenWRT系统</strong>)，由恩山网友<a href="https://www.right.com.cn/forum/space-uid-30178.html" target="_blank" rel="noopener">czytea</a>代为编译，请浏览 <a href="https://www.right.com.cn/forum/thread-342735-1-1.html" target="_blank" rel="noopener">ta的帖子</a> 获得下载链接。</p><p>为了安全地将其刷入路由器，笔者也用到了 <code>opboot-rt-acrh17-flash-v1.0.4</code> 版bootloader系统（以下简称<strong>opboot</strong>），请在 <a href="https://www.right.com.cn/FORUM/thread-304434-1-1.html" target="_blank" rel="noopener">这里</a> 回帖获得资源站点地址，站点中， v1.0.4文件夹中的 opboot-rt-acrh17-flash-v1.0.4.bin 就是我们要的<em>opboot</em>。</p><p>以及可以解锁bootloader的固件 <code>openwrt-ipq806x-asus_rt-acrh17-squashfs-flash-factory.trx</code> （以下简称<strong>过渡系统</strong>），上文资源站点内的“免拆机……”文件夹中装的，就是这个<em>过渡系统</em>。</p><p>刷机的整个过程，你都需要保持细心和耐心。虽然笔者为若干( ≥ 3)台路由器改装过openwrt系统，但也差点翻车变砖——那时候就得拆机上编程器喽！</p><p>其他材料：</p><ul><li>运行华硕原装系统，没有刷过机的ACRH-17一台。</li><li><code>scp</code>客户端，我选用winscp，请自行搜索下载。</li><li><code>ssh</code>客户端，我使用cmder，你也可以选择PuTTY，更加轻便，请自行搜索下载</li><li>桌面电脑一台，最好有网线插口。</li><li>一颗沉着冷静的心。</li></ul><p>请务必在开始刷机前准备好这些东西，理论上全程你是没有网的。</p><h1 id="开始搞事"><a href="#开始搞事" class="headerlink" title="开始搞事"></a>开始搞事</h1><h2 id="1-备份ART分区"><a href="#1-备份ART分区" class="headerlink" title="1.备份ART分区"></a>1.备份ART分区</h2><p>这部分内容参考了 <a href="https://www.right.com.cn/FORUM/thread-309740-1-1.html" target="_blank" rel="noopener">https://www.right.com.cn/FORUM/thread-309740-1-1.html</a> ，照着帖子细心做没有问题。</p><h3 id="1-开启SSH服务端"><a href="#1-开启SSH服务端" class="headerlink" title="1.开启SSH服务端"></a>1.开启SSH服务端</h3><p>登陆华硕路由器原版系统（我的是192.168.50.1），在<code>系统设置</code>中找到<code>SSH</code>的开关，选择<code>开启SSH</code> -&gt; <code>是</code>。其他选项见下表：</p><table><thead><tr><th>SSH port</th><th>22</th></tr></thead><tbody><tr><td>允许密码登录</td><td>是</td></tr><tr><td>Authorized_keys</td><td>不填</td></tr></tbody></table><p>点击<code>保存配置</code>。</p><h3 id="2-备份ART分区"><a href="#2-备份ART分区" class="headerlink" title="2.备份ART分区"></a>2.备份ART分区</h3><p>使用ssh客户端连接路由器： <code>ssh admin@192.168.50.1</code>     </p><p>输入<code>cat /proc/mtd</code> 查看ART分区在哪<del>，在哪都不影响后面的操作</del>。</p><p>把ART分区备份到 <code>/tmp</code> 临时文件夹中，以备后续使用。 注意， <code>/tmp</code> 可能是断电/重启清空的，请勿瞎操作。</p><p>“这里 我们需要用到DD命令”</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /tmp</span><br><span class="line">dd <span class="keyword">if</span>=/dev/mtd3 of=/tmp/Factory.bin</span><br><span class="line">dd <span class="keyword">if</span>=/dev/mtd4 of=/tmp/Factory2.bin</span><br></pre></td></tr></table></figure><p>这样，ART分区就被复制到了 <code>/tmp</code> 目录下的两个bin文件中。</p><h3 id="3-导出ART分区文件"><a href="#3-导出ART分区文件" class="headerlink" title="3.导出ART分区文件"></a>3.导出ART分区文件</h3><p>用winscp连接华硕路由器原版系统，文件协议<code>SCP</code>，IP地址 <code>192.168.50.1</code>， 端口号<code>22</code>. 找到 <code>/tmp</code> 分区，把两个文件 <code>Factory.bin</code> 和<code>Factory2.bin</code> 拖到桌面电脑里，备份即告完成。</p><p>备注：我也不知道ART分区是什么东西。如果你弄丢了，却很可能要花上几十块钱买网友的。所以还是备份一下吧。</p><h2 id="2-刷入过渡系统"><a href="#2-刷入过渡系统" class="headerlink" title="2.刷入过渡系统"></a>2.刷入<em>过渡系统</em></h2><p>这部分内容参考了 <a href="https://www.right.com.cn/FORUM/thread-309834-1-1.html" target="_blank" rel="noopener">https://www.right.com.cn/FORUM/thread-309834-1-1.html</a> ，细心，耐心，把文章看全了，可以成功的。</p><p>前言：虽然opboot 1.0.4宣称我们无需刷过渡系统，但我没有在华硕原版系统里找到mtd命令。所以还是使用老办法来曲线救国吧——或许这个功能不是给华硕原版系统设计的呢？</p><p><em>opboot</em>和<em>过渡系统</em> 的获得方法看<a href="#准备工作">准备工作</a>部分。</p><h3 id="1-上传过渡系统"><a href="#1-上传过渡系统" class="headerlink" title="1.上传过渡系统"></a>1.上传过渡系统</h3><p>连接华硕路由器，在原厂固件的升级页面上传过渡系统，耐心等待刷机成功，预计耗时3分钟。</p><h3 id="2-连接过渡系统"><a href="#2-连接过渡系统" class="headerlink" title="2.连接过渡系统"></a>2.连接过渡系统</h3><p>使用winscp连接<em>过渡系统</em>，协议为<code>scp</code>，ip地址为<code>192.168.1.1</code>，端口为<code>22</code>，用户名为<code>root</code>，密码为<code>password</code>。</p><h3 id="3-上传OpBoot"><a href="#3-上传OpBoot" class="headerlink" title="3.上传OpBoot"></a>3.上传<em>OpBoot</em></h3><p>在winscp界面中，将<em>opboot</em>上传至<code>/tmp</code>目录下。</p><h3 id="4-解锁Bootloader分区"><a href="#4-解锁Bootloader分区" class="headerlink" title="4.解锁Bootloader分区"></a>4.解锁Bootloader分区</h3><p>使用ssh客户端连接过渡系统，解锁Bootloader分区，命令为：<code>mtd unlock /dev/mtd0</code></p><h3 id="5-校验OpBoot文件"><a href="#5-校验OpBoot文件" class="headerlink" title="5.校验OpBoot文件"></a>5.校验<em>OpBoot</em>文件</h3><p>使用<code>md5sum</code>命令校验上传的<em>opboot</em>是否正确， 命令： <code>md5sum /tmp/opboot-rt-acrh17-flash-v1.0.4.bin</code> 。</p><p>输出结果必须为  <code>aa55260085df0ceac59f9bc8f6fb56f9</code></p><p>备注：</p><ul><li>其他版本的opboot请上资源站点的相应版本目录下，查看“更新说明”/“刷机说明”这样的文件，里面有对应的md5摘要值。</li></ul><blockquote><p>如果校验都没问题则进入最激动人心的时刻，将opboot刷入Bootloader分区，请看下一小节</p></blockquote><h2 id="3-刷入opboot系统"><a href="#3-刷入opboot系统" class="headerlink" title="3.刷入opboot系统"></a>3.刷入<em>opboot</em>系统</h2><p>这部分与过渡系统参考了同样的教程。</p><p>在我们与过渡系统的ssh连接中，敲出：</p><p><code>mtd -r write /tmp/opboot-rt-acrh17-flash-v1.0.4.bin Bootloader</code></p><p>注意：刷其他版本的opboot请改文件名。</p><p>几秒内就能刷完，此时路由器会重启。如果要进入<em>opboot</em>，请在上电前按住<strong>WPS</strong>按钮。Opboot 1.0.4版本使用WPS键进入（，老版本用复位键，请去帖子里查询），<strong>千万别手抖！这个路由器有实体电源按钮，而WPS键在USB一侧</strong>。</p><p>备注：最好用有线网络连接电脑与路由器，可以没外网。</p><h2 id="4-刷入OpenWRT系统"><a href="#4-刷入OpenWRT系统" class="headerlink" title="4.刷入OpenWRT系统"></a>4.刷入<em>OpenWRT</em>系统</h2><p>无须赘述，Opboot界面就一个功能。选好系统上传刷机，一气呵成。</p><p>路由器将在系统刷好后自动重启。</p><p><em>Openwrt</em>系统的管理ip地址： <code>192.168.1.1</code>，用户名：<code>root</code>， 密码： <code>password</code> 。</p><h1 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h1><ul><li><p>5Ghz频段，使用80Mhz频宽即可，手机和电脑可能搜不到160Mhz信号。</p></li><li><p>信号强度，30dbm对应1000mw也就是一瓦，这个太高了。我使用10dbm（5Ghz）和14dbm（2.4Ghz），同屋内信号良好。</p><p>我不考虑穿墙，更希望电磁波不要侵犯到别人。</p></li><li><p>刷好机子配置外网时，记得把网线插回WAN口。</p></li><li><p>本次刷机备份了ART分区，但全程无需将其还原到新系统中。</p><blockquote><p>不到万不得已，不要动ART。</p></blockquote></li><li><p>对自己能力有信心的同学，欢迎自行编译，教程请参考<a href="https://github.com/coolsnowwolf/lede" target="_blank" rel="noopener">Lean的源码</a>。</p></li></ul><h1 id="待续："><a href="#待续：" class="headerlink" title="待续："></a>待续：</h1><ul><li>opkg换源：笔者在海外，内置ustc源未必好用。</li><li>挂载硬盘和文件共享：我想搞简易网络存储。</li></ul><hr><p>如果这篇文章帮到了你，欢迎在博客的issues里扣个1哦~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;给华硕 ACRH17 路由器刷入 Lean 制作的 OpenWRT/LEDE 系统，期间安装了 OpBoot 。&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="OpenWRT" scheme="https://xmoiduts.github.io/tags/OpenWRT/"/>
+    
+      <category term="通透的网络" scheme="https://xmoiduts.github.io/tags/%E9%80%9A%E9%80%8F%E7%9A%84%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>乌村碎碎念 - VOL 1</title>
+    <link href="https://xmoiduts.github.io/2018/12/01/%E4%B9%8C%E6%9D%91%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <id>https://xmoiduts.github.io/2018/12/01/乌村碎碎念/</id>
+    <published>2018-12-01T20:00:00.000Z</published>
+    <updated>2019-05-08T08:59:23.077Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录笔者在乌村的日子</p><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>自打笔者到达乌村开始新一轮学习，转眼已是三月有余。</p><p>之前一直想要周更/月更一些见闻与感想，然而，这里<del>安逸</del>的生活，无疑放出了笔者体内的白鸽之魂，所以……啥也没发出来。就连之前的两篇笔记，也是半存稿半强迫自己编写的。</p><p>漫漫长夜，只做信息的消费者，显然有点浪费了呢~</p><p>趁着交完LAB的空当，我还是决定新开一篇，把堆积如山的观点慢慢写出来，也给自己的生活留一点记录。</p><h1 id="正题"><a href="#正题" class="headerlink" title="正题"></a>正题</h1><h2 id="隐私"><a href="#隐私" class="headerlink" title="隐私"></a>隐私</h2><p>GDPR，相信大家多少都已有所耳闻，早在半年前，有些灵智已开的孩子们就收到了一大波邮件轰炸。这绝非是欧洲的有司没事找事，就算没有这样的条例，隐私也是这边民众时时刻刻都在关注的事情。</p><p>笔者和很多同学一样，上课会携带笔记本电脑进入教室，虽是初来乍到，但很多人已经身体力行，将笔记本的摄像头用纸糊上*。我与一个德国小哥聊了聊这个问题，他对隐私也非常看重，当谈到GDPR时更是表达了自己的支持。</p><blockquote><p>事情总在变得更好，不是吗？</p></blockquote><p>遥远的东方正在弯道超车，但我们已经能感受到“大数据下无隐私”的现状。舵手要怎么做我们不去置喙，但每个人的心里都会有一块自留地。</p><p>* 当然，你也可以说“Windows Hello 真香”</p><h2 id="排队文化"><a href="#排队文化" class="headerlink" title="排队文化"></a>排队文化</h2><h3 id="招生时-内含瑞典的招生机制（国际生部分）"><a href="#招生时-内含瑞典的招生机制（国际生部分）" class="headerlink" title="招生时-内含瑞典的招生机制（国际生部分）"></a>招生时-内含瑞典的招生机制（国际生部分）</h3><p><del>这段跑题了，写的是录取流程，但不解释清楚招生机制没法说排队，请宽容地看待吧。</del></p><p>笔者在前面的文章里提到，瑞典的招生流程佛性得很，在申请流程截止（一月中旬）后，如不需要补交其他材料，你会一直等到放榜（2018年为4月6号）。这三个月的时间里，你，基本，什 么 都 做 不 了 。等待，成为了作为申请人的你，的唯一选择。</p><p>录取放榜采用排队制，对于每个专业，所有通过材料初筛的申请人自动流入几个长长的队列，按照生源可以分为“欧盟/欧洲经济区等（BEFR ?）”、“国际生（付费生 AVG ）”等队列。根据生源质量，每个队列里的每个人（也就是每份志愿）都会有一个内部得分（Merit Ranking, 比如KTH 0-75分的 <code>evaluation scale</code>）。</p><h4 id="AUAVG是什么意思？"><a href="#AUAVG是什么意思？" class="headerlink" title="AUAVG是什么意思？"></a>AUAVG是什么意思？</h4><blockquote><p>AVG = avgift 学费<br>这个意思是说，你来自需要交学费的地区，而不是你必须要交学费</p><p>AU 就是 自由选择 主要就是你没有参与瑞典高考以及瑞典各种评分体系，所以没法把你和瑞典学生放在一个组里竞争</p><p>每个专业大概有1/3的名额保留给AU组，也就是这些外国人。</p><p>学校制定录取规定的时候，是根据瑞典的各种评级体系制定的，因此对于那些没有参与过这些评级体系的人（也就是我们）来说，学校可以自主确定一些标准，所谓AU。</p></blockquote><hr><p>寄托等论坛里，前辈们会说自己的Merit Ranking分数，但我在某处查到:</p><blockquote><p>这个分数不是给你看的，只是招生官内部使用。我们增加了选项，允许学校隐藏这个分数。然后很多学校就这么做了。</p></blockquote><p>所以看不到分数是正常的。不过如果你足够优秀，学校们可能会提前通知你。</p><p>放榜后，offer按照MR分数高低，直接发出等同于全部招生人数的Offer。比如500人申请某校的CS专业，200人通过了<del>简历</del>材料初筛<del>事实上很多人都没能完成他们的申请计划，所以UHR上看到的数字可能虚高。</del>，计划录取6人，那么，<strong>排队的</strong>分数最高的6人就会直接收到(Conditional（交学费、拿到本科双证）) Admission。</p><p>这其中肯定会有人咕……拒掉到手的Offer，空出一些位置。不要慌，从队首自动补位发放offer。<strong>不过这基本是5月末的事情了，放心，补发offer的时候，4月6号那批offer的学费单早就过期了。</strong><del>不然我应该是能等到CTH的补录，不过现在我已经在UU这条大船上了。</del></p><h3 id="办ID卡"><a href="#办ID卡" class="headerlink" title="办ID卡"></a>办ID卡</h3><p>ID卡类似但又不同于国内的身份证，居留一年以上即可办理。<a href="https://www.thenewbieguide.se/just-arrived/get-a-id-card/" target="_blank" rel="noopener">这里</a> 提供了申请的方法，需要“获得人口号、400克朗汇入某账户，预约采集身份信息，柜面领取ID卡”这些操作。</p><p>在预约采集身份信息时，我惊讶的发现，下个空闲的时段已经排到了一周以后。心急的孩子可能要疯了，还好我恰恰相反。所以，早排队早开心</p><hr><p>如果不理会<a href="http://housingoffice.se" target="_blank" rel="noopener">UUHO</a>，租房子也是需要排队的 ，但我还没排过所以此处不展开。</p><h3 id="微波炉"><a href="#微波炉" class="headerlink" title="微波炉"></a>微波炉</h3><p>笔者在Polacksbacken校区上课，这里和Ångström实验楼各自都有餐厅，但价格会比较贵（95sek/餐）。很多学生预算有限，会选择自己带饭。</p><p>楼里准备了大量的微波炉，为学生提供免费热饭的场所。以ITC为例，虽然有10台微波炉，但在中午人流的冲击下依然供不应求。这里的人们会把餐盒放在桌上<strong>排成一列</strong>，前面的饭烧好后，队首的<strong>饭</strong>顶上。虽然队列很长，往前移动的速度却也不慢。</p><p>对排队的时间期望感兴趣的UU同学，可以自选计算机网络II（10学分），已经开课的链接在<a href="http://www.uu.se/en/admissions/master/selma/Kurser/?kKod=1DT074&amp;typ=1" target="_blank" rel="noopener">这里</a> 。课程会讲述排队论。</p><h3 id="自行车"><a href="#自行车" class="headerlink" title="自行车"></a>自行车</h3><p>等红灯的时候，自从车会在非机动车道上自觉排成一/两列，取决于路口走向。</p><hr><p>总之，就是干啥都排队，着急也没用。对了，尽量别得病，主题医院的这句<a href="https://www.bilibili.com/video/av8190946" target="_blank" rel="noopener">口号</a> 源于现实，高于现实。</p><h2 id="自行车-1"><a href="#自行车-1" class="headerlink" title="自行车"></a>自行车</h2><p>上面说了骑车，那买（自行）车呢？</p><p>很多人为了省钱会认为二手车一样用。如果你具备机械学技能，会修车，那“还好”，但是能被出售的二手车多数维护不周，要想骑得舒服要换/买很多东西。花钱一样不少。</p><p>所以，直接买新车不是不可接受的挥霍行为，而是预算不那么紧张时的一种<strong>选择</strong>。迪卡侬有售，便宜量又足。记得早去，1499kr的变速城市自行车（站着骑，贼优雅）很快就卖光。喜欢趴着骑可选2499的山地自行车。</p><p>以笔者的二手自行车为例：</p><p>​    初期花费：</p><ul><li>车子 + 蜡烛前后灯 + 锁/钥匙 ：      500kr</li><li>迪卡侬柔软坐垫：                 99 kr</li><li>迪卡侬买菜前车筐：                   149kr</li><li>二手保温手套，都开线了：         30kr</li><li>变速手柄维修： 白嫖（就是上了点润滑脂和WD-40）</li><li>铃铛：                         29kr</li><li>反光板（轮上卡着那个）：         15kr</li><li>车油：                    50kr</li></ul><p>​    中期花费：</p><ul><li>咸鱼二手 Fenix BC25R 截止线车灯 190RMB</li><li>一侧内外胎+撬胎棒：        200kr</li><li>二手挡泥板（同学装不上，我收了）：60kr</li></ul><p>注意，迪卡侬79的挡泥板不能装他家山地车上，两百块的才行。这又是一笔开销。</p><p>花了这么多钱，至今这辆车还没修完，在对付着骑。</p><ol><li>没有打气筒：蹭免费的公共充气桩</li><li>前胎快爆了：先将就着用，准备坏了找人换。自己动手真的太累了，一人忙了几个点。</li><li>轴位不正：闸皮蹭轮圈，怎么调刹车都不好使。</li><li>刹车聊胜于无：设计陈旧，倒Y型闸线设计效率低下，可能要换个刹车夹器</li><li>变速不准，调完一个月就恢复原状。</li></ol><p>打到这里我突然想把它卖了，买个省事的骑。谨记买新车是一种可行的选择，告诫之心。</p><h2 id="诸事分开"><a href="#诸事分开" class="headerlink" title="诸事分开"></a>诸事分开</h2><p>瑞典的各种东西都分得很开，</p><p>最基本的，还是接着上面的自行车讲。国内很多电摩，在这里我几乎见不到。电动自行车就是自行车外观，摩托车就是又黑又重，看着马力就很大那种。</p><p>指望着用“电动踏板摩托车”来混淆界限，达到摸鱼的目的，在这里是不现实的。</p><p>这里基本不加班，工作与生活的界限分明[来源请求]</p><p>商店基本只卖一类物品，很少有那种“万货全”的综合超市。比如，ICA和WILLY:S基本只卖食品和日常清洁用品，elegiganten 和mediamarket以及一众“网店”（网上逛街，到店自提），如NetOnNet 和Webhallen， 只卖家用电器和消费电子。</p><p>至于学校嘛……研究型大学和面向工业界的大学分得也很开。但这个我不能给大家定论。</p><p>比如UU是一所研究型大学，相比而言KTH可能工业一点[来源请求]，但在Chalmers（CTH）眼中，KTH是一所更加学术的学校。</p><p>与国内的大杂烩，不顾工作与私人界限的做法相比，这里提供了另一种生活方式。无意比较两者的好坏，这可能就是文化差异。</p><p>不过饭还是要一口一口地吃，指望弯道超车齐头并进，可能会吃到罚单/高额保险单哦。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;记录笔者在乌村的日子&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="这里是，乌普萨拉魔法学院" scheme="https://xmoiduts.github.io/tags/%E8%BF%99%E9%87%8C%E6%98%AF%EF%BC%8C%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E9%AD%94%E6%B3%95%E5%AD%A6%E9%99%A2/"/>
+    
+      <category term="乌村夜话" scheme="https://xmoiduts.github.io/tags/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一次新建Zerotier网络时遇到的问题： Flow Rules</title>
+    <link href="https://xmoiduts.github.io/2018/11/13/%E8%BE%A3%E9%B8%A1Zerotier%E6%AF%81%E6%88%91%E9%9D%92%E6%98%A5_huaji/"/>
+    <id>https://xmoiduts.github.io/2018/11/13/辣鸡Zerotier毁我青春_huaji/</id>
+    <published>2018-11-13T10:00:00.000Z</published>
+    <updated>2018-11-17T22:40:36.242Z</updated>
+    
+    <content type="html"><![CDATA[<p>新建的Zerotier网络虽提供了一组 Flow Rules 流控规则，初次启动时却不会自动应用。调了一小时才发现。                      </p><p>太长不读：跳转到解决方案 <a href="#空格大法">点我</a></p><blockquote><p>关于Zerotier的基础配置教程，在<a href="https://www.google.se/search?q=zerotier+教程" target="_blank" rel="noopener">这里</a>查看应该很方便。我实在不想写了。</p><p>链接打不开？你需要特殊的查看姿势哦，连这个都看不到，任何教程的内容你都无法实践的呢~</p></blockquote><h1 id="窥一斑而见全豹"><a href="#窥一斑而见全豹" class="headerlink" title="窥一斑而见全豹"></a>窥一斑而见全豹</h1><p>点击<a href="http://35.220.193.119/?p=29" target="_blank" rel="noopener">这里</a>，以学长的视角入门zerotier的基础配置，不搞技术也能看得懂!</p><h1 id="起"><a href="#起" class="headerlink" title="起"></a>起</h1><p>昨晚一个学长问我，怎么才能在家连单位电脑/怎么才能在单位连接家里电脑。（均是Windows 10 专业版）</p><p><strong>TeamViewer？ 向日葵？</strong></p><p>他们都<strong>可以</strong>做到这件事。但学长提出了新的需求：</p><blockquote><p>双十一网络流量比较大，这种中转的会卡。</p><p>这几个软件图标都太明显，霓虹人认识，一看就知道是另一台电脑。</p><p>有没有不那么明显的啊？</p></blockquote><p>好吧，我只好祭出自用联网方案——Zerotier+RDP</p><h1 id="开始搞事"><a href="#开始搞事" class="headerlink" title="开始搞事"></a>开始搞事</h1><h2 id="工具-材料介绍"><a href="#工具-材料介绍" class="headerlink" title="工具/材料介绍"></a>工具/材料介绍</h2><p>要互访的电脑两台，均配备了<code>Windows10专业版</code> -&gt; 自带RDP服务端</p><p><img src="https://i.loli.net/2018/11/13/5bea9e6ed6207.png" alt="ZT.1.png"></p><p>Zerotier，客户端装在电脑上，账号注册好。</p><p>备用远程软件，TV或向日葵或啥都行，哪个顺手用哪个。适用于配置另一场所的电脑。</p><h2 id="建设网络"><a href="#建设网络" class="headerlink" title="建设网络"></a>建设网络</h2><p>两台电脑的RDP功能打开，</p><p>去Zerotier的网站控制台，把两台电脑都拉到同一个虚拟子网下，可以看到他们都被分配了想要的IP。</p><p>假设家里的是192.168.191.30，单位的是192.168.191.40 。</p><p><img src="https://i.loli.net/2018/11/13/5bea9e73d2d2d.png" alt="ZT.2.png"></p><h1 id="出现了，问题怪！"><a href="#出现了，问题怪！" class="headerlink" title="出现了，问题怪！"></a>出现了，问题怪！</h1><p>我以前配置的网络，做到这一步已经完工了。但第二天起床一看，学长给我发了一堆消息。看起来确实有问题。</p><p>看他的配置都对，我依样新建了一个网络，拉进自己的两台电脑，RDP连不通！</p><p>回过头通过我运行一年有余的网络测试（其实就是连接这台笔记本挂载的另一个Zerotier网络的IP），能够连接！</p><p>问题复现。</p><h1 id="尝试排除故障。"><a href="#尝试排除故障。" class="headerlink" title="尝试排除故障。"></a>尝试排除故障。</h1><p>首先，我尝试了新建网络，不通。</p><p>然后，我反复断开/重连自己两台电脑的网络，无论怎么折腾，结果都是：新网络不能联通，老网络可以联通。</p><p>之后，我把设备加入学长的网络，不通。</p><p>再然后，我把学长的设备加入我的老网络，通了！</p><h2 id="短暂的分析"><a href="#短暂的分析" class="headerlink" title="短暂的分析"></a>短暂的分析</h2><p>看起来各个新网络都有什么东西配得不对。 </p><h1 id="定位异常点"><a href="#定位异常点" class="headerlink" title="定位异常点"></a>定位异常点</h1><p>屏幕比较小，让两个窗口各占半边，发现了奇怪的现象：完全相同的默认配置文件，解析出的流控规则数量却不一样。</p><p><img src="https://i.loli.net/2018/11/13/5bea9e72be3c3.png" alt="ZT.3.png"></p><p>把老网络的配置复制到新网络里，没有弹出保存按钮。</p><h2 id="发现华点"><a href="#发现华点" class="headerlink" title="发现华点"></a>发现华点</h2><p>已经准备大干一场了。搬出吃灰的 Surface Pro 2017 做副屏，让两个窗口各占一屏，我突然看见了解析出来的规则！</p><p><img src="https://i.loli.net/2018/11/13/5bea9e6feab8d.png" alt="ZT.4.png"></p><p>这™谁写的响应式！</p><p>稍微尝试了一下，只有在配置文件编辑框中的内容<strong>改变</strong>时，保存按钮才会出现。粘贴老网络的配置时，因为都是默认配置文件，内容不会发生改变，也就不能保存。</p><h1 id="解决问题"><a href="#解决问题" class="headerlink" title="解决问题"></a>解决问题</h1><p>既然两个配置文件相同，是不是网络建立时这个文件没有被加载啊……那我手动强制加载一下呢？</p><p>抱着这种想法，我稍微调试了一下：</p><h2 id="空格大法"><a href="#空格大法" class="headerlink" title="空格大法"></a>空格大法</h2><p>在配置编辑框内无伤大雅的行尾加一个空格，保存变更。</p><p><img src="https://i.loli.net/2018/11/13/5bea9e7533e19.png" alt="ZT.5.png"></p><p><strong>问题解决！</strong></p><p>终于连上了RDP。</p><h1 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h1><blockquote><p>windows家庭版能不能用RDP互相远程互访啊？</p></blockquote><p>去看 rdpwrap ，注意每次windows升级后，都可能有 dll 失效，使得rdpwrap无法工作。请参阅该项目下的issues进行修复。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;新建的Zerotier网络虽提供了一组 Flow Rules 流控规则，初次启动时却不会自动应用。调了一小时才发现。                  
+        
+      
+    
+    </summary>
+    
+    
+      <category term="通透的网络" scheme="https://xmoiduts.github.io/tags/%E9%80%9A%E9%80%8F%E7%9A%84%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="折腾" scheme="https://xmoiduts.github.io/tags/%E6%8A%98%E8%85%BE/"/>
+    
+      <category term="Zerotier" scheme="https://xmoiduts.github.io/tags/Zerotier/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在乌普萨拉大学考试是怎样一种体验</title>
+    <link href="https://xmoiduts.github.io/2018/10/24/%E5%9C%A8%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E5%A4%A7%E5%AD%A6%E8%80%83%E8%AF%95%E6%98%AF%E6%80%8E%E6%A0%B7%E4%B8%80%E7%A7%8D%E4%BD%93%E9%AA%8C/"/>
+    <id>https://xmoiduts.github.io/2018/10/24/在乌普萨拉大学考试是怎样一种体验/</id>
+    <published>2018-10-24T19:24:00.000Z</published>
+    <updated>2018-10-24T21:40:13.811Z</updated>
+    
+    <content type="html"><![CDATA[<p>在乌普萨拉大学的第一波考试</p><h1 id="镜"><a href="#镜" class="headerlink" title="镜"></a>镜</h1><p>一转眼，我踏上瑞典这片土地已经二月有余，正赶上第一个小学期的尾巴。本小学期我修了三门课：</p><ul><li>在瑞典学习进阶计算机课程（瑞典以外的学生必修，课程的内容基本贯穿瑞典学生的基础教育和高等教育，因此他们免修）</li><li>并行计算导论（锁，条件变量，存储模型，OpenMP与MPI）</li><li>人工智能（走马观花式的概览）</li></ul><p>日复一日地往返于住处和Polacksbacken，终于也迎来了了第一波考试。那么，乌普萨拉大学的考试，会以怎样的形式进行呢？</p><h1 id="花"><a href="#花" class="headerlink" title="花"></a>花</h1><p>考试的地点并不在普通教室。而在专门的<a href="https://www.uu.se/en/students/your_rights/examination/" target="_blank" rel="noopener">考试中心</a>。我所在的校区有一栋专门的建筑，但并非所有的考试都在这里举行。有些时候，它会跑到城市的另一边，需要骑行15分钟才能抵达。</p><p><img src="https://i.loli.net/2018/10/25/5bd0e30a4bc7c.jpg" alt="3.jpg"></p><h2 id="考试的流程（以早场为例）"><a href="#考试的流程（以早场为例）" class="headerlink" title="考试的流程（以早场为例）"></a>考试的流程（以早场为例）</h2><p><img src="https://i.loli.net/2018/10/25/5bd0e30a4a078.jpg" alt="2.jpg"></p><ol><li>8点前考生到达考试中心，将手机锁在考场外的柜子里。</li><li>看好自己在哪屋的哪排考试。</li><li>8点进入考场，持<code>ID卡</code>，或<code>护照和/或居留许可（不能只拿居留许可！）</code>验证身份，在指定那几排随便找桌坐下。一个考场会并行多门考试，所以看好你的排号。</li><li>背包和大衣挂到考场两侧，桌面只能出现允许携带的物品（有些科目让用计算器）</li><li>考试开始，慢慢作答吧</li><li>你的匿名考号是监考给你的三位数+你自选的座位号。</li><li>答完可以提前交卷，想要intended fail也要开考45分钟后才能离场<del>摸鱼</del>。</li><li>8点后到考场的，要等8：45才能进场，再没到的，等补考吧。</li></ol><p><img src="https://i.loli.net/2018/10/25/5bd0e30a47fbc.jpg" alt="1.jpg"></p><p>瑞典人不喜加班，考试时间会尽可能选在工作时段。我的两场考试时间相隔半周，分别在8-13点和14-17点。</p><blockquote><p>8-13点？！天哪，一场考试要坐五个小时，膀胱岂不是要憋炸了！</p><p>​                                    ——不明真相的围观群众</p></blockquote><p>然而并没有，考场内外均设有厕所， 您可以随时让自己更加方便。</p><p>虽然不用担心内息紊乱，但五个小时的考试，无论是精神还是体力都会消耗颇多。所以，考试时允许携带……</p><h1 id="水"><a href="#水" class="headerlink" title="水"></a>水</h1><p>和食物。一般大家都会带水果啦，我一开始不懂，傻ふふ地装了米饭和鸡腿过去，到考场一看根本没有人这么带。不过个人觉得巧克力<del>肥宅快乐</del>棒还是很适合边考边吃的。</p><p>这几个问题解决了，剩下的也只是水到渠成。</p><p>考完这两场测试，我的体会大概是这样的：</p><ul><li>在国内，三个小时的考试一定是漫长的；来了这里，同样的三小时却只能算是短场。</li><li>五个小时未必漫长，三个小时也不一定仓促。把时间拉得这么长，就是为了抹平大家写字速度的差异。不用担心会做而写不完答案。</li><li>来UU，做你自己的老板（自己决定一切事情）。</li></ul><h1 id="月"><a href="#月" class="headerlink" title="月"></a>月</h1><h2 id="成绩的组成部分"><a href="#成绩的组成部分" class="headerlink" title="成绩的组成部分"></a>成绩的组成部分</h2><p>在这里，考试并不能代表一切，每个学科的最终成绩，包含平时作业（Assignment）和考卷分数。二者通通达标才能拿到<code>及格</code>，想要<code>良好</code>和<code>优秀</code>，反倒是要在Assignment上多下功夫——有些课的分数由它决定，考试只是让你“及格”而已。</p><h2 id="一评本小学期的三门课程。"><a href="#一评本小学期的三门课程。" class="headerlink" title="一评本小学期的三门课程。"></a>一评本小学期的三门课程。</h2><p><strong>在瑞典学习进阶计算机课程</strong>：还好啦，做做树莓派编程，听一下学术诚信什么的东西就完事了。</p><p><strong>并行计算导论</strong>：我挺喜欢听这老师讲课，课程的难度和内容也还可以。但是如果LAB摊上不靠谱的队友就很恶心了（震声）。拖了进度可是拿不到高分的哦~</p><p><strong>人工智能</strong>：这门课讲道理，他的课程安排并不咋地。寥寥5个学分的时长却要覆盖那么大的范围。老师讲的内容我们都觉得听不明白，但听川大交换来的dalao说：</p><blockquote><p>这老师讲的贼好！我用8种方法实现了A*搜索!</p></blockquote><p>或许这就是大佬吧……</p><p>这门课的考试是用R语言脚本自动生成的，源码第一节课就给大家。题型是不变的，但问题的数值和图结构每次都在变。所以笔试并不那么可怕，准备个三四天就能全搞定。如果你是dalao就更轻松了。</p><p>虽说考试不难，但它的Assignment工作量非常大。基本一整周的课余时间都搞这个，才能搞出来一个答案——两天写代码，五天debug调优。</p><p>以上</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在乌普萨拉大学的第一波考试&lt;/p&gt;
+&lt;h1 id=&quot;镜&quot;&gt;&lt;a href=&quot;#镜&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="这里是，乌普萨拉魔法学院" scheme="https://xmoiduts.github.io/tags/%E8%BF%99%E9%87%8C%E6%98%AF%EF%BC%8C%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E9%AD%94%E6%B3%95%E5%AD%A6%E9%99%A2/"/>
+    
+      <category term="瑞典留学" scheme="https://xmoiduts.github.io/tags/%E7%91%9E%E5%85%B8%E7%95%99%E5%AD%A6/"/>
+    
+  </entry>
+  
+</feed>
