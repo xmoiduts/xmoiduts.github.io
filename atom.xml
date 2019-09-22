@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xmoiduts.github.io/"/>
-  <updated>2019-08-27T10:24:40.470Z</updated>
+  <updated>2019-09-22T10:54:20.849Z</updated>
   <id>https://xmoiduts.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bose QC30的四次返修</title>
+    <link href="https://xmoiduts.github.io/2019/09/22/QC30%E7%9A%84%E5%9B%9B%E6%AC%A1%E8%BF%94%E4%BF%AE/"/>
+    <id>https://xmoiduts.github.io/2019/09/22/QC30的四次返修/</id>
+    <published>2019-09-22T12:00:00.000Z</published>
+    <updated>2019-09-22T10:54:20.849Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在修好QC30的半年后，开胶又一次如约而至，同时前来的还有巨大的爆音。&lt;/p&gt;
+&lt;h1 id=&quot;前文&quot;&gt;&lt;a href=&quot;#前文&quot; class=&quot;head
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Bose" scheme="https://xmoiduts.github.io/tags/Bose/"/>
+    
+      <category term="QC30" scheme="https://xmoiduts.github.io/tags/QC30/"/>
+    
+      <category term="返修" scheme="https://xmoiduts.github.io/tags/%E8%BF%94%E4%BF%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>乌村夜话 - VOL 3</title>
@@ -151,9 +180,9 @@
     
       <category term="已封帖" scheme="https://xmoiduts.github.io/tags/%E5%B7%B2%E5%B0%81%E5%B8%96/"/>
     
-      <category term="Minecraft" scheme="https://xmoiduts.github.io/tags/Minecraft/"/>
-    
       <category term="游戏" scheme="https://xmoiduts.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+      <category term="Minecraft" scheme="https://xmoiduts.github.io/tags/Minecraft/"/>
     
   </entry>
   
@@ -262,34 +291,6 @@
       <category term="这里是，乌普萨拉魔法学院" scheme="https://xmoiduts.github.io/tags/%E8%BF%99%E9%87%8C%E6%98%AF%EF%BC%8C%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E9%AD%94%E6%B3%95%E5%AD%A6%E9%99%A2/"/>
     
       <category term="乌村夜话" scheme="https://xmoiduts.github.io/tags/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记一次新建Zerotier网络时遇到的问题： Flow Rules</title>
-    <link href="https://xmoiduts.github.io/2018/11/13/%E8%BE%A3%E9%B8%A1Zerotier%E6%AF%81%E6%88%91%E9%9D%92%E6%98%A5_huaji/"/>
-    <id>https://xmoiduts.github.io/2018/11/13/辣鸡Zerotier毁我青春_huaji/</id>
-    <published>2018-11-13T10:00:00.000Z</published>
-    <updated>2018-11-17T22:40:36.242Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;新建的Zerotier网络虽提供了一组 Flow Rules 流控规则，初次启动时却不会自动应用。调了一小时才发现。                   
-        
-      
-    
-    </summary>
-    
-    
-      <category term="通透的网络" scheme="https://xmoiduts.github.io/tags/%E9%80%9A%E9%80%8F%E7%9A%84%E7%BD%91%E7%BB%9C/"/>
-    
-      <category term="折腾" scheme="https://xmoiduts.github.io/tags/%E6%8A%98%E8%85%BE/"/>
-    
-      <category term="Zerotier" scheme="https://xmoiduts.github.io/tags/Zerotier/"/>
     
   </entry>
   
