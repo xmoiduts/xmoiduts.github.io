@@ -48,7 +48,7 @@
     
     <title>
         
-            ACRH17刷机，刷opboot的随笔 | 
+            归档 | 
         
         阵雨之塘
     </title>
@@ -59,7 +59,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content=",OpenWRT,通透的网络">
+    <meta name="keywords" content="">
     <meta name="theme-color" content="#0288d1">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -220,7 +220,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="阵雨之塘">
-    <meta name="msapplication-starturl" content="https://xmoiduts.github.io/2018/12/05/ACRH17刷机/">
+    <meta name="msapplication-starturl" content="https://xmoiduts.github.io/archives/page/4/">
     <meta name="msapplication-navbutton-color" content="#0288d1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="阵雨之塘">
@@ -239,16 +239,13 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://xmoiduts.github.io/2018/12/05/ACRH17刷机/">
+    <meta property="og:url" content="https://xmoiduts.github.io/archives/page/4/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="ACRH17刷机，刷opboot的随笔 | 阵雨之塘">
+    <meta property="og:title" content="归档 | 阵雨之塘">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="">
-    <meta property="og:article:tag" content="OpenWRT"> <meta property="og:article:tag" content="通透的网络"> 
-
     
-        <meta property="article:published_time" content="Wed Dec 05 2018 21:00:00 GMT+0100">
-        <meta property="article:modified_time" content="Wed May 08 2019 12:58:57 GMT+0200">
+
     
 
     <!-- The Twitter Card protocol -->
@@ -256,43 +253,13 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://xmoiduts.github.io/2018/12/05/ACRH17刷机/index.html" />
+        <link rel="canonical" href="https://xmoiduts.github.io/archives/page/4/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
-
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "mainEntityOfPage": "https://xmoiduts.github.io/2018/12/05/ACRH17刷机/index.html",
-    "headline": "ACRH17刷机，刷opboot的随笔",
-    "datePublished": "Wed Dec 05 2018 21:00:00 GMT+0100",
-    "dateModified": "Wed May 08 2019 12:58:57 GMT+0200",
-    "author": {
-        "@type": "Person",
-        "name": "xmoiduts",
-        "image": {
-            "@type": "ImageObject",
-            "url": "/img/avatar.png"
-        },
-        "description": "溯洄从之，道阻且长"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "阵雨之塘",
-        "logo": {
-            "@type":"ImageObject",
-            "url": "/img/favicon.png"
-        }
-    },
-    "keywords": ",OpenWRT,通透的网络",
-    "description": "",
-}
-</script>
 
 
     
@@ -334,336 +301,98 @@
                         </button>
                     
 
-                    <!-- Post TOC -->
-
+                    <!-- Index Module -->
+<div class="material-index mdl-grid">
     
-    <!-- Back Button -->
-    <!--
-    <div class="material-back" id="backhome-div" tabindex="0">
-        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
-           href="#" onclick="window.history.back();return false;"
-           target="_self"
-           role="button"
-           data-upgraded=",MaterialButton,MaterialRipple">
-            <i class="material-icons" role="presentation">arrow_back</i>
-            <span class="mdl-button__ripple-container">
-                <span class="mdl-ripple"></span>
-            </span>
-        </a>
-    </div>
-    -->
+    <div class="locate-thumbnail-symbol"></div>
 
-
-    <!-- Left aligned menu below button -->
-    
-    
-    <button id="post-toc-trigger-btn"
-        class="mdl-button mdl-js-button mdl-button--icon">
-        <i class="material-icons">format_list_numbered</i>
-    </button>
-
-    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#前言"><span class="post-toc-number">1.</span> <span class="post-toc-text">前言</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#准备工作"><span class="post-toc-number">2.</span> <span class="post-toc-text">准备工作</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#开始搞事"><span class="post-toc-number">3.</span> <span class="post-toc-text">开始搞事</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-备份ART分区"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">1.备份ART分区</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#1-开启SSH服务端"><span class="post-toc-number">3.1.1.</span> <span class="post-toc-text">1.开启SSH服务端</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-备份ART分区"><span class="post-toc-number">3.1.2.</span> <span class="post-toc-text">2.备份ART分区</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#3-导出ART分区文件"><span class="post-toc-number">3.1.3.</span> <span class="post-toc-text">3.导出ART分区文件</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#2-刷入过渡系统"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">2.刷入过渡系统</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#1-上传过渡系统"><span class="post-toc-number">3.2.1.</span> <span class="post-toc-text">1.上传过渡系统</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-连接过渡系统"><span class="post-toc-number">3.2.2.</span> <span class="post-toc-text">2.连接过渡系统</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#3-上传OpBoot"><span class="post-toc-number">3.2.3.</span> <span class="post-toc-text">3.上传OpBoot</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#4-解锁Bootloader分区"><span class="post-toc-number">3.2.4.</span> <span class="post-toc-text">4.解锁Bootloader分区</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#5-校验OpBoot文件"><span class="post-toc-number">3.2.5.</span> <span class="post-toc-text">5.校验OpBoot文件</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#3-刷入opboot系统"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">3.刷入opboot系统</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#4-刷入OpenWRT系统"><span class="post-toc-number">3.4.</span> <span class="post-toc-text">4.刷入OpenWRT系统</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#备注"><span class="post-toc-number">4.</span> <span class="post-toc-text">备注</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#待续："><span class="post-toc-number">5.</span> <span class="post-toc-text">待续：</span></a></li></ol>
-    </ul>
+    <!-- Pin on top -->
     
 
-
-
-
-<!-- Layouts -->
-
-    <!-- Post Module -->
-    <div class="material-post_container">
-
-        <div class="material-post mdl-grid">
-            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
-
-                <!-- Post Header(Thumbnail & Title) -->
-                
-    <!-- Paradox Post Header -->
+    <!-- Normal Post -->
+    
+        
+            
+                <!-- Paradox Thumbnail -->
+                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
+    <!-- Post Thumbnail -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-            <script type="text/ls-javascript" id="post-thumbnail-script">
-    var randomNum = Math.floor(Math.random() * 19 + 1);
+        
+    
 
-    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+        <!-- Post Title -->
+        <p class="article-headline-p"><a href="/2016/01/01/hello-world/">Hello World</a></p>
+    </div>
+
+    <!-- Post Excerpt -->
+    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
+        
+            Welcome to Hexo
+        
+        &nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="/2016/01/01/hello-world/" target="_self">阅读全文</a>
+        </span>
+    </div>
+    <!-- Post_entry Info-->
+    <div id="post_entry-info">
+        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
+            <!-- Author Avatar -->
+            <div id="author-avatar">
+                <img src="/img/avatar.png" width="44px" height="44px" alt="xmoiduts's avatar">
+            </div>
+            <div>
+                <strong>xmoiduts</strong>
+                <span>1月 01, 2016</span>
+            </div>
+        </div>
+        <div id="post_entry-right-info">
+          
+
+            
+
+            
+
+            <!-- Post Views -->
+            <span class="post_entry-views">
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+            
+        
+    
+
+    
+    <!-- Index nav -->
+        <nav class="material-nav mdl-cell mdl-cell--12-col">
+            <a class="extend prev" rel="prev" href="/archives/page/3/"><button aria-label="Last page" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons" role="presentation">arrow_back</i></button></a><a class="page-number" href="/archives/">1</a><a class="page-number" href="/archives/page/2/">2</a><a class="page-number" href="/archives/page/3/">3</a><span class="page-number current">4</span>
+        </nav>
+    
+
+    
+        <script type="text/ls-javascript" id="thumbnail-script">
+    var randomNum;
+
+    var locatePost = $('.locate-thumbnail-symbol').next();
+    for(var i = 0; i < 10; i++) {
+        randomNum = Math.floor(Math.random() * 19 + 1);
+
+        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
+        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
+
+        locatePost = locatePost.next();
+    }
 </script>
 
-        
-    
-            <p class="article-headline-p">
-                ACRH17刷机，刷opboot的随笔
-            </p>
-        </div>
-
-
-
-
-
-                
-                    <!-- Paradox Post Info -->
-                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
-
-    <!-- Author Avatar -->
-    <div id="author-avatar">
-        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
-    </div>
-    <!-- Author Name & Date -->
-    <div>
-        <strong>xmoiduts</strong>
-        <span>12月 05, 2018</span>
-    </div>
-
-    <div class="section-spacer"></div>
-
-    <!-- Favorite -->
-    <!--
-        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
-            <i class="material-icons" role="presentation">favorite</i>
-            <span class="visuallyhidden">favorites</span>
-        </button>
-    -->
-
-    <!-- Qrcode -->
-    
-        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons" role="presentation">devices other</i>
-    <span class="visuallyhidden">devices other</span>
-</button>
-<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
-    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
-    
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACZklEQVR42u3aQXKDMBAEQP//08kDUsEzKyGTVHNKxQbUHBZ5dl9f//p44eHh4eHh4eHhPYz3io/2rJ/fT87dsDY8PDy8I7w3pfbyxteA67sk16nXhoeHh3eQ91vBvb7l9dJn35ytDQ8PD+/JvLzo538n38TDw8P7u7zfqG1xb6l4eHh4T+O1S0zOSmKIJPw9lLXg4eHhxby8yXT+76P9PTw8PLyAV480jVr++dU2D13h4eHh3cBbH4e63kDPQod2PXh4eHgnee1yV0r89Ta9fYjFlhoPDw/vBt6bYHQhOGjvlUfJw18MeHh4eJt465vj2RhB3jbLHx8eHh7eGV5b6PNPVwYU2lcCHh4e3hneLFTNt8XrowBt8IGHh4d3nrey/c0fzazBFq0cDw8P7wivDSPyh1K3r8oxWTw8PLzzvPWIdjYyNXuFRO06PDw8vJt5bbiQlO986CqPiYtXCx4eHt4RXlt89xb0JAje8IsBDw8PbxMvKdkteDY0MGuV1b8Y8PDw8JZ57eZ11rhKWll5qPEmbsbDw8M7wptto5OAYDZekLe+8PDw8J7AWy/rbdyQn5VcEw8PD+8kb3i5oKCvbLiT8AIPDw/vaby80bXykmjjjzqMwMPDw9vEa4/hLcsgON9q4+Hh4Z3nrTe68k93BbhLM2V4eHh4m3httNoGEO1DySMPPDw8vM/y8gKdN7TyUCN/UQ1HB/Dw8PAeyVsJedsgeJhS4+Hh4X2Ilxf3+/5/45YaDw8Pb2sY0UYS+Stk1gDDw8PD+xRvZdQpx+QPa+leeHh4eDfz/t+Bh4eHh4eHh4f3gOMb6azOSoNxAD4AAAAASUVORK5CYII=">
-    
-</ul>
-
-    
-
-    <!-- Tags (bookmark) -->
-    
-    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-        <i class="material-icons" role="presentation">bookmark</i>
-        <span class="visuallyhidden">bookmark</span>
-    </button>
-    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
-        <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/OpenWRT/">OpenWRT</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/通透的网络/">通透的网络</a>
-    </ul>
-    
-
-    <!-- Share -->
-    
-        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons" role="presentation">share</i>
-    <span class="visuallyhidden">share</span>
-</button>
-<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    
-
-    
-
-    <!-- Share Weibo -->
-    
-
-    <!-- Share Twitter -->
-    
-
-    <!-- Share Facebook -->
-    
-
-    <!-- Share Google+ -->
-    
-
-    <!-- Share LinkedIn -->
-    
-        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=https://xmoiduts.github.io/2018/12/05/ACRH17刷机/index.html&title=ACRH17刷机，刷opboot的随笔" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 LinkedIn
-            </li>
-        </a>
-    
-
-    <!-- Share QQ -->
-    
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=阵雨之塘&title=ACRH17刷机，刷opboot的随笔&summary=&pics=https://xmoiduts.github.io/img/favicon.png&url=https://xmoiduts.github.io/2018/12/05/ACRH17刷机/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 QQ
-            </li>
-        </a>
-    
-
-    <!-- Share Telegram -->
-    
-        <a class="post_share-link" href="https://telegram.me/share/url?url=https://xmoiduts.github.io/2018/12/05/ACRH17刷机/index.html&text=ACRH17刷机，刷opboot的随笔" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Telegram
-            </li>
-        </a>
-    
-</ul>
-
     
 </div>
-
-                
-
-                <!-- Post Content -->
-                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
-    
-        <p>给华硕 ACRH17 路由器刷入 Lean 制作的 OpenWRT/LEDE 系统，期间安装了 OpBoot 。</p>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>2015年前后，笔者购入了自己的第一台“智能”路由器：优酷路由宝 YK-L1 。笔者当初买它只是为了挂流量币，接触 OpenWRT 后，却越来越为其功能所倾倒<del>虽然大部分用不上</del>。后来接触了某讯 K2 和硬改 K2P ，也在入手的第一时间将其改成了OpenWRT 系统。苦于该版本系统不易安装 Zerotier ，更是一步步找到了讨论群。</p>
-<p>在群里，ACRH17的出镜率相当高，大佬们似乎已经钦定了它的优秀。本着跟风的心理，笔者也去JD买了一台，飘扬过海将它带到了北欧。</p>
-<p>初来乍到，它的性能很是令我满意；经年累月的磨合却暴露了它的一些不足：</p>
-<ul>
-<li>SAMBA 只有 SMBv2 ，Windows 拒绝挂载这个设备——挂硬盘的功能废了。</li>
-<li>信号不稳定，电脑连接总是断流，不知道是哪方的问题。</li>
-<li>我想装 Zerotier 。</li>
-</ul>
-<p>于是，我决定跟随 dalao 们的脚步，为其安装定制化的 OpenWRT 系统。</p>
-<p>笔者一度向谷歌娘发出了细密的询问请求，却无奈的发现，恩山的编译刷机教程散落在各个帖子中，就算是计算机专业的学生也未必能照着复现<del>或许只是我太菜了吧</del>。</p>
-<p>偶然间，笔者上网搜索，突然找到了网友编译好的成品！</p>
-<p>“解决”了编译问题，剩下的内容，就在笔者的能力范围之内了。</p>
-<p>刷机计划，开始！</p>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>本文写于2018.12月，如果你的路由器购于今年早期，刷机方法或有不同。</p>
-<p>本次刷机，笔者使用了 lean 大佬制作的 <code>OpenWrt R8.1.11</code> 固件(以下简称<strong>OpenWRT系统</strong>)，由恩山网友<a href="https://www.right.com.cn/forum/space-uid-30178.html" target="_blank" rel="noopener">czytea</a>代为编译，请浏览 <a href="https://www.right.com.cn/forum/thread-342735-1-1.html" target="_blank" rel="noopener">ta的帖子</a> 获得下载链接。</p>
-<p>为了安全地将其刷入路由器，笔者也用到了 <code>opboot-rt-acrh17-flash-v1.0.4</code> 版bootloader系统（以下简称<strong>opboot</strong>），请在 <a href="https://www.right.com.cn/FORUM/thread-304434-1-1.html" target="_blank" rel="noopener">这里</a> 回帖获得资源站点地址，站点中， v1.0.4文件夹中的 opboot-rt-acrh17-flash-v1.0.4.bin 就是我们要的<em>opboot</em>。</p>
-<p>以及可以解锁bootloader的固件 <code>openwrt-ipq806x-asus_rt-acrh17-squashfs-flash-factory.trx</code> （以下简称<strong>过渡系统</strong>），上文资源站点内的“免拆机……”文件夹中装的，就是这个<em>过渡系统</em>。</p>
-<p>刷机的整个过程，你都需要保持细心和耐心。虽然笔者为若干( ≥ 3)台路由器改装过openwrt系统，但也差点翻车变砖——那时候就得拆机上编程器喽！</p>
-<p>其他材料：</p>
-<ul>
-<li>运行华硕原装系统，没有刷过机的ACRH-17一台。</li>
-<li><code>scp</code>客户端，我选用winscp，请自行搜索下载。</li>
-<li><code>ssh</code>客户端，我使用cmder，你也可以选择PuTTY，更加轻便，请自行搜索下载</li>
-<li>桌面电脑一台，最好有网线插口。</li>
-<li>一颗沉着冷静的心。</li>
-</ul>
-<p>请务必在开始刷机前准备好这些东西，理论上全程你是没有网的。</p>
-<h1 id="开始搞事"><a href="#开始搞事" class="headerlink" title="开始搞事"></a>开始搞事</h1><h2 id="1-备份ART分区"><a href="#1-备份ART分区" class="headerlink" title="1.备份ART分区"></a>1.备份ART分区</h2><p>这部分内容参考了 <a href="https://www.right.com.cn/FORUM/thread-309740-1-1.html" target="_blank" rel="noopener">https://www.right.com.cn/FORUM/thread-309740-1-1.html</a> ，照着帖子细心做没有问题。</p>
-<h3 id="1-开启SSH服务端"><a href="#1-开启SSH服务端" class="headerlink" title="1.开启SSH服务端"></a>1.开启SSH服务端</h3><p>登陆华硕路由器原版系统（我的是192.168.50.1），在<code>系统设置</code>中找到<code>SSH</code>的开关，选择<code>开启SSH</code> -&gt; <code>是</code>。其他选项见下表：</p>
-<table>
-<thead>
-<tr>
-<th>SSH port</th>
-<th>22</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>允许密码登录</td>
-<td>是</td>
-</tr>
-<tr>
-<td>Authorized_keys</td>
-<td>不填</td>
-</tr>
-</tbody>
-</table>
-<p>点击<code>保存配置</code>。</p>
-<h3 id="2-备份ART分区"><a href="#2-备份ART分区" class="headerlink" title="2.备份ART分区"></a>2.备份ART分区</h3><p>使用ssh客户端连接路由器： <code>ssh admin@192.168.50.1</code>     </p>
-<p>输入<code>cat /proc/mtd</code> 查看ART分区在哪<del>，在哪都不影响后面的操作</del>。</p>
-<p>把ART分区备份到 <code>/tmp</code> 临时文件夹中，以备后续使用。 注意， <code>/tmp</code> 可能是断电/重启清空的，请勿瞎操作。</p>
-<p>“这里 我们需要用到DD命令”</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /tmp</span><br><span class="line">dd <span class="keyword">if</span>=/dev/mtd3 of=/tmp/Factory.bin</span><br><span class="line">dd <span class="keyword">if</span>=/dev/mtd4 of=/tmp/Factory2.bin</span><br></pre></td></tr></table></figure>
-<p>这样，ART分区就被复制到了 <code>/tmp</code> 目录下的两个bin文件中。</p>
-<h3 id="3-导出ART分区文件"><a href="#3-导出ART分区文件" class="headerlink" title="3.导出ART分区文件"></a>3.导出ART分区文件</h3><p>用winscp连接华硕路由器原版系统，文件协议<code>SCP</code>，IP地址 <code>192.168.50.1</code>， 端口号<code>22</code>. 找到 <code>/tmp</code> 分区，把两个文件 <code>Factory.bin</code> 和<code>Factory2.bin</code> 拖到桌面电脑里，备份即告完成。</p>
-<p>备注：我也不知道ART分区是什么东西。如果你弄丢了，却很可能要花上几十块钱买网友的。所以还是备份一下吧。</p>
-<h2 id="2-刷入过渡系统"><a href="#2-刷入过渡系统" class="headerlink" title="2.刷入过渡系统"></a>2.刷入<em>过渡系统</em></h2><p>这部分内容参考了 <a href="https://www.right.com.cn/FORUM/thread-309834-1-1.html" target="_blank" rel="noopener">https://www.right.com.cn/FORUM/thread-309834-1-1.html</a> ，细心，耐心，把文章看全了，可以成功的。</p>
-<p>前言：虽然opboot 1.0.4宣称我们无需刷过渡系统，但我没有在华硕原版系统里找到mtd命令。所以还是使用老办法来曲线救国吧——或许这个功能不是给华硕原版系统设计的呢？</p>
-<p><em>opboot</em>和<em>过渡系统</em> 的获得方法看<a href="#准备工作">准备工作</a>部分。</p>
-<h3 id="1-上传过渡系统"><a href="#1-上传过渡系统" class="headerlink" title="1.上传过渡系统"></a>1.上传过渡系统</h3><p>连接华硕路由器，在原厂固件的升级页面上传过渡系统，耐心等待刷机成功，预计耗时3分钟。</p>
-<h3 id="2-连接过渡系统"><a href="#2-连接过渡系统" class="headerlink" title="2.连接过渡系统"></a>2.连接过渡系统</h3><p>使用winscp连接<em>过渡系统</em>，协议为<code>scp</code>，ip地址为<code>192.168.1.1</code>，端口为<code>22</code>，用户名为<code>root</code>，密码为<code>password</code>。</p>
-<h3 id="3-上传OpBoot"><a href="#3-上传OpBoot" class="headerlink" title="3.上传OpBoot"></a>3.上传<em>OpBoot</em></h3><p>在winscp界面中，将<em>opboot</em>上传至<code>/tmp</code>目录下。</p>
-<h3 id="4-解锁Bootloader分区"><a href="#4-解锁Bootloader分区" class="headerlink" title="4.解锁Bootloader分区"></a>4.解锁Bootloader分区</h3><p>使用ssh客户端连接过渡系统，解锁Bootloader分区，命令为：<code>mtd unlock /dev/mtd0</code></p>
-<h3 id="5-校验OpBoot文件"><a href="#5-校验OpBoot文件" class="headerlink" title="5.校验OpBoot文件"></a>5.校验<em>OpBoot</em>文件</h3><p>使用<code>md5sum</code>命令校验上传的<em>opboot</em>是否正确， 命令： <code>md5sum /tmp/opboot-rt-acrh17-flash-v1.0.4.bin</code> 。</p>
-<p>输出结果必须为  <code>aa55260085df0ceac59f9bc8f6fb56f9</code></p>
-<p>备注：</p>
-<ul>
-<li>其他版本的opboot请上资源站点的相应版本目录下，查看“更新说明”/“刷机说明”这样的文件，里面有对应的md5摘要值。</li>
-</ul>
-<blockquote>
-<p>如果校验都没问题则进入最激动人心的时刻，将opboot刷入Bootloader分区，请看下一小节</p>
-</blockquote>
-<h2 id="3-刷入opboot系统"><a href="#3-刷入opboot系统" class="headerlink" title="3.刷入opboot系统"></a>3.刷入<em>opboot</em>系统</h2><p>这部分与过渡系统参考了同样的教程。</p>
-<p>在我们与过渡系统的ssh连接中，敲出：</p>
-<p><code>mtd -r write /tmp/opboot-rt-acrh17-flash-v1.0.4.bin Bootloader</code></p>
-<p>注意：刷其他版本的opboot请改文件名。</p>
-<p>几秒内就能刷完，此时路由器会重启。如果要进入<em>opboot</em>，请在上电前按住<strong>WPS</strong>按钮。Opboot 1.0.4版本使用WPS键进入（，老版本用复位键，请去帖子里查询），<strong>千万别手抖！这个路由器有实体电源按钮，而WPS键在USB一侧</strong>。</p>
-<p>备注：最好用有线网络连接电脑与路由器，可以没外网。</p>
-<h2 id="4-刷入OpenWRT系统"><a href="#4-刷入OpenWRT系统" class="headerlink" title="4.刷入OpenWRT系统"></a>4.刷入<em>OpenWRT</em>系统</h2><p>无须赘述，Opboot界面就一个功能。选好系统上传刷机，一气呵成。</p>
-<p>路由器将在系统刷好后自动重启。</p>
-<p><em>Openwrt</em>系统的管理ip地址： <code>192.168.1.1</code>，用户名：<code>root</code>， 密码： <code>password</code> 。</p>
-<h1 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h1><ul>
-<li><p>5Ghz频段，使用80Mhz频宽即可，手机和电脑可能搜不到160Mhz信号。</p>
-</li>
-<li><p>信号强度，30dbm对应1000mw也就是一瓦，这个太高了。我使用10dbm（5Ghz）和14dbm（2.4Ghz），同屋内信号良好。</p>
-<p>我不考虑穿墙，更希望电磁波不要侵犯到别人。</p>
-</li>
-<li><p>刷好机子配置外网时，记得把网线插回WAN口。</p>
-</li>
-<li><p>本次刷机备份了ART分区，但全程无需将其还原到新系统中。</p>
-<blockquote>
-<p>不到万不得已，不要动ART。</p>
-</blockquote>
-</li>
-<li><p>对自己能力有信心的同学，欢迎自行编译，教程请参考<a href="https://github.com/coolsnowwolf/lede" target="_blank" rel="noopener">Lean的源码</a>。</p>
-</li>
-</ul>
-<h1 id="待续："><a href="#待续：" class="headerlink" title="待续："></a>待续：</h1><ul>
-<li>opkg换源：笔者在海外，内置ustc源未必好用。</li>
-<li>挂载硬盘和文件共享：我想搞简易网络存储。</li>
-</ul>
-<hr>
-<p>如果这篇文章帮到了你，欢迎在博客的issues里扣个1哦~</p>
-
-        
-    
-
-    
-</div>
-
-
-                
-
-                <!-- Post Comments -->
-                
-                    
-                
-            </div>
-
-            <!-- Post Prev & Next Nav -->
-            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-    <!-- Prev Nav -->
-    
-        <a href="/2018/12/31/新  年  新  气  象/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
-
-    <!-- Section Spacer -->
-    <div class="section-spacer"></div>
-
-    <!-- Next Nav -->
-    
-        <a href="/2018/12/01/乌村碎碎念/" id="post_nav-older" class="next-content">
-            旧篇
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_forward</i>
-            </button>
-        </a>
-    
-</nav>
-
-        </div>
-    </div>
-
 
 
                     

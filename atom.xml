@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xmoiduts.github.io/"/>
-  <updated>2019-09-22T15:38:42.179Z</updated>
+  <updated>2019-10-06T09:07:26.207Z</updated>
   <id>https://xmoiduts.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我在瑞典看牙医-Vol1</title>
+    <link href="https://xmoiduts.github.io/2019/09/22/%E6%88%91%E5%9C%A8%E7%91%9E%E5%85%B8%E7%9C%8B%E7%89%99%E5%8C%BB-Vol1/"/>
+    <id>https://xmoiduts.github.io/2019/09/22/我在瑞典看牙医-Vol1/</id>
+    <published>2019-09-22T12:00:00.000Z</published>
+    <updated>2019-10-06T09:07:26.207Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;——等等，为什么这个也要加 Vol1 ？本宝宝&lt;sup&gt;Child, 医生说的&lt;/sup&gt;哭了……&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前
+        
+      
+    
+    </summary>
+    
+    
+      <category term="乌村夜话" scheme="https://xmoiduts.github.io/tags/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9D/"/>
+    
+      <category term="瑞典留学" scheme="https://xmoiduts.github.io/tags/%E7%91%9E%E5%85%B8%E7%95%99%E5%AD%A6/"/>
+    
+      <category term="牙医" scheme="https://xmoiduts.github.io/tags/%E7%89%99%E5%8C%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>Bose QC30的四次返修</title>
@@ -37,11 +66,11 @@
     </summary>
     
     
-      <category term="返修" scheme="https://xmoiduts.github.io/tags/%E8%BF%94%E4%BF%AE/"/>
-    
       <category term="Bose" scheme="https://xmoiduts.github.io/tags/Bose/"/>
     
       <category term="QC30" scheme="https://xmoiduts.github.io/tags/QC30/"/>
+    
+      <category term="返修" scheme="https://xmoiduts.github.io/tags/%E8%BF%94%E4%BF%AE/"/>
     
   </entry>
   
@@ -264,33 +293,6 @@
       <category term="OpenWRT" scheme="https://xmoiduts.github.io/tags/OpenWRT/"/>
     
       <category term="通透的网络" scheme="https://xmoiduts.github.io/tags/%E9%80%9A%E9%80%8F%E7%9A%84%E7%BD%91%E7%BB%9C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>乌村碎碎念 - VOL 1</title>
-    <link href="https://xmoiduts.github.io/2018/12/01/%E4%B9%8C%E6%9D%91%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    <id>https://xmoiduts.github.io/2018/12/01/乌村碎碎念/</id>
-    <published>2018-12-01T20:00:00.000Z</published>
-    <updated>2019-08-27T10:38:34.799Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;记录笔者在乌村的日子，乌村夜话破冰&lt;/p&gt;
-&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="这里是，乌普萨拉魔法学院" scheme="https://xmoiduts.github.io/tags/%E8%BF%99%E9%87%8C%E6%98%AF%EF%BC%8C%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E9%AD%94%E6%B3%95%E5%AD%A6%E9%99%A2/"/>
-    
-      <category term="乌村夜话" scheme="https://xmoiduts.github.io/tags/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9D/"/>
     
   </entry>
   
