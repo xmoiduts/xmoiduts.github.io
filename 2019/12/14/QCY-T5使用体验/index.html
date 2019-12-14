@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.6 -->
+    <script>
+        window.materialVersion = "1.5.6"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0',
+            '1.5.2',
+            '1.5.5'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+    <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
+
+
+
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            QCY-T5使用体验 | 
+        
+        阵雨之塘
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content=",使用体验,耳机">
+    <meta name="theme-color" content="#0288d1">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?NKhlKQkXw/c66TR5p4wO+w==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #005b9f;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0288d1 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0288d1 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0288d1 !important;
+  }
+
+  .toTop {
+    background: #005b9f !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #005b9f;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #005b9f;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #005b9f;
+  }
+
+  .post-toc a:hover {
+    color: #005b9f;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="阵雨之塘">
+    <meta name="msapplication-starturl" content="https://xmoiduts.github.io/2019/12/14/QCY-T5使用体验/">
+    <meta name="msapplication-navbutton-color" content="#0288d1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="阵雨之塘">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+        
+            <link rel=alternate type="application/atom+xml" href="/atom.xml">
+        
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://xmoiduts.github.io/2019/12/14/QCY-T5使用体验/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="QCY-T5使用体验 | 阵雨之塘">
+    <meta property="og:image" content="/img/favicon.png">
+    <meta property="og:description" content="">
+    <meta property="og:article:tag" content="使用体验"> <meta property="og:article:tag" content="耳机"> 
+
+    
+        <meta property="article:published_time" content="Sat Dec 14 2019 23:33:33 GMT+0100">
+        <meta property="article:modified_time" content="Sat Dec 14 2019 23:58:02 GMT+0100">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://xmoiduts.github.io/2019/12/14/QCY-T5使用体验/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://xmoiduts.github.io/2019/12/14/QCY-T5使用体验/index.html",
+    "headline": "QCY-T5使用体验",
+    "datePublished": "Sat Dec 14 2019 23:33:33 GMT+0100",
+    "dateModified": "Sat Dec 14 2019 23:58:02 GMT+0100",
+    "author": {
+        "@type": "Person",
+        "name": "xmoiduts",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "溯洄从之，道阻且长"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "阵雨之塘",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",使用体验,耳机",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-111947452-1', 'auto');ga('send', 'pageview');
+</script>
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span id="MD-burger-id" class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#前言"><span class="post-toc-number">1.</span> <span class="post-toc-text">前言</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#我对新耳机的期望："><span class="post-toc-number">1.1.</span> <span class="post-toc-text">我对新耳机的期望：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#了解QCY的契机"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">了解QCY的契机</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#外观"><span class="post-toc-number">2.</span> <span class="post-toc-text">外观</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#音质"><span class="post-toc-number">3.</span> <span class="post-toc-text">音质</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#佩戴"><span class="post-toc-number">4.</span> <span class="post-toc-text">佩戴</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#充电"><span class="post-toc-number">5.</span> <span class="post-toc-text">充电</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#你知道吗"><span class="post-toc-number">5.1.</span> <span class="post-toc-text">你知道吗</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#信号和单设备连接"><span class="post-toc-number">6.</span> <span class="post-toc-text">信号和单设备连接</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#信号强度"><span class="post-toc-number">6.1.</span> <span class="post-toc-text">信号强度</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#信号稳定性"><span class="post-toc-number">6.2.</span> <span class="post-toc-text">信号稳定性</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#质量"><span class="post-toc-number">6.3.</span> <span class="post-toc-text">质量</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#多设备连接"><span class="post-toc-number">7.</span> <span class="post-toc-text">多设备连接</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#操作"><span class="post-toc-number">8.</span> <span class="post-toc-text">操作</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#游戏低延迟模式"><span class="post-toc-number">9.</span> <span class="post-toc-text">游戏低延迟模式</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#总结："><span class="post-toc-number">10.</span> <span class="post-toc-text">总结：</span></a></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://i.loli.net/2019/12/15/lncIGFLgj6aHBdm.jpg)">
+    
+            <p class="article-headline-p">
+                QCY-T5使用体验
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>xmoiduts</strong>
+        <span>12月 14, 2019</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC2UlEQVR42u3aUXKrMAwF0Ox/0+0C+nCuJNLy7MNXJgHjQ2cqrOvX15HHCxsbGxsbGxsbG/uR7Fd8/GOg5Tk/v7/6/POq9fe9OWNjY2PvzX7zr794TjLFq5Gvzkke2XrO2NjY2Cewk8mtJ3r1a1J41gVyMmdsbGxs7OScdSFJylj18WFjY2Nj31XAqo2kvG2EjY2Njf2JptKcPWlC/VkvDRsbG/vx7Dw0fc7nX823sbGxsR/Mrh5J8UgWHtXNOvk4l+NjY2Njb8q+N4i9K/TNt3XmcQU2Njb2ruxeS2j9TXVC+b3yOWBjY2Ofw14HsVGAGoQH1avKxSmIk7GxsbF3ZU/i3k9s8enBylt2sLGxsbdm58uAvNjkhXD9KKvnYGNjY5/ATl7i15OrhrjJRpzqYua2oBcbGxv7v2XnkWqOrJa03oInKY3Y2NjYe7PLTfbWguRzG3QKDxQbGxt7a3a+DOi1nH4/4sXGxsY+jZ0/iMnSpddO6pXJwlIEGxsbewt2PlC+ROldm28GKv/BsLGxsTdlTyLbKq+62Jhs08HGxsY+h917xe818SdbghLem5GxsbGxD2ZXm/7zRUtyxzxywMbGxt6bXX3dTxYh+a9vJlrcxPPm4WJjY2Nvze5FBb1ikx+jWBcbGxv7GHZSNqolqlp4qo8+D4mxsbGxT2DnL/T57XutohxQbSdhY2Njn8CeR7a9LZKTGCAPibGxsbFPY89bPPOyN/m1EPRiY2Njb8euFqqkzZQ0qnrtqvI8sbGxsTdl98LXeyeXj5OHGdjY2NjnsKsTzZcoeZRbbTb1QgVsbGzsvdnzolW9ajLabQUMGxsbezt2tcWfTKW64aa3vLk5HsDGxsY+jJ3cftI2uqvgYWNjY2PnG3fu2sQzeSjY2NjYZ7KTBUNyVR7NVhc2k9GwsbGx92ZXGzfVuDePeOfz+Ui+jY2Njf1g9jkHNjY2NjY2NjY29mOObxwoe+6ikckRAAAAAElFTkSuQmCC">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/使用体验/">使用体验</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/耳机/">耳机</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=https://xmoiduts.github.io/2019/12/14/QCY-T5使用体验/index.html&title=QCY-T5使用体验" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=阵雨之塘&title=QCY-T5使用体验&summary=&pics=https://xmoiduts.github.io/img/favicon.png&url=https://xmoiduts.github.io/2019/12/14/QCY-T5使用体验/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://xmoiduts.github.io/2019/12/14/QCY-T5使用体验/index.html&text=QCY-T5使用体验" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>作者再按：我不是要评测QCY-T5，这些都是个人体验，“愉快的”体验。</p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>想买的东西总是很多，但笔者作为一名穷♭留学生，在拿到无论何处发来的、可持续的工资以前，显然不应进行过度消费。小本本里的购物清单就这样越积越多。</p>
+<p>然而陪伴了笔者两年的 Bose QC30 再次出现开胶爆音情况。尽管返修换新成功，出于对M国产品质量的怀疑，笔者也并没有将其拆封，而是指望着把他“全新”转手回血<del>，换购一台同品牌圆台型音箱</del>。</p>
+<p>耳机返修期间，笔者正上着组合优化建模的课，需要在校听Coursera的视频讲义补充知识。迫于手头没有可用耳机，笔者就从投身于去年从国内带来的一堆行李中，挖出了华为手机自带的半入耳式耳机。</p>
+<p>然而那体验实在是忍无可忍：</p>
+<ol>
+<li>没 有 低 音</li>
+<li>经 常 掉 落 （这个可能不怪华为，我耳型特殊，只能戴入耳式或鲨鱼鳍）</li>
+</ol>
+<p>于是，笔者决定入手一副耳机临时过渡，挺过这段没有收入的日子<sup>1</sup>。</p>
+<p><sup>1</sup>： <small>留学生当然没收入啦。对于瑞 典 人/欧 盟 人/申 根 人来说，他们的选择宽松得多</small>。</p>
+<h2 id="我对新耳机的期望："><a href="#我对新耳机的期望：" class="headerlink" title="我对新耳机的期望："></a>我对新耳机的期望：</h2><ul>
+<li>水果 AirPods 横空出世后，市场的追随者们也纷纷推出了TWS（真无线立体声，下同）耳机。笔者也想“真香”一把，所以，新耳机优先选择<strong>TWS</strong>。</li>
+<li>笔者耳形特殊，上文提到的半入耳耳机（各种品牌都一样，并不限于华为）走几步道就会掉；户外的噪音也会盖过耳机，让人听不到音乐。所以，优先选择<strong>入耳式</strong>耳机。</li>
+<li>上文已经提到了经济因素，所以，新耳机<strong>不应太贵</strong>。</li>
+</ul>
+<h2 id="了解QCY的契机"><a href="#了解QCY的契机" class="headerlink" title="了解QCY的契机"></a>了解QCY的契机</h2><p>“学弟”出来读书带了个QCY T1，人家表示这耳机一百多，而且坏了包换，再坏再换，用起来也不亏。<br>然后我就入坑了。趁着同学回瑞上学，托人家代买捎来，我也整到了一个！</p>
+<h1 id="外观"><a href="#外观" class="headerlink" title="外观"></a>外观</h1><p>QCY T5由两枚耳机和一枚充电盒组成，每只单独的耳机就像单声道时代的蓝牙耳机一样。在我看来，它就是两个小米蓝牙耳机青春版加上了充电盒、加上了双耳机立体声。<br>138的售价需要极端压缩成本才能实现。</p>
+<h1 id="音质"><a href="#音质" class="headerlink" title="音质"></a>音质</h1><p>能响，高频（镲类乐器）音质略差。</p>
+<p>给个128Kbps的评价吧。这个售价买两只蓝牙耳机，不能奢求太多，甚至我觉得能这个体积价格，能做出来已经非常难得了，高频什么的……世界加钱可及，去看看B\&amp;O吧，我不是玄学大师。<br>一旦熟悉了这种风格，音质什么的咱也感觉不出来，甚至用着还很开心，毕竟就是路上简单用用，在家谁戴这么小的东西啊。</p>
+<p>但是对“学弟”用这牌子来听<code>爱失眠人</code>这件事，我是不太理解的。因为它最低音量也挺大的。换我来听肯定睡不着。</p>
+<h1 id="佩戴"><a href="#佩戴" class="headerlink" title="佩戴"></a>佩戴</h1><p>并没有QC30舒适，入耳式耳机的通病：听诊器效应、耳塞发涨感都有。它可以换不同尺码的耳塞套，但小号会有松脱滑落感。<br>戴好后隔音不错，路上听歌够了。</p>
+<h1 id="充电"><a href="#充电" class="headerlink" title="充电"></a>充电</h1><p>耳机使用充电盒进行充电，按照设计容量，充电盒应当满足4次双耳机充电。</p>
+<p>实际使用下，耳机盒充一次能供耳机中度（“工作<sup>2</sup>”期间听歌）使用3天，轻度使用（通勤路上听歌，“工作”期间开机连电脑，但不怎么放音）4-5天。</p>
+<p><sup>2</sup> : 只要不给工资就不能真正视为工作，必须加上引号。</p>
+<p>值得注意的是，充电盒通过绿灯表示自己正在充电，自身却不带电量显示功能。所以笔者对这个盒子的电量总是心里没底。</p>
+<p>拿到耳机的第二天，可能是盒子电量不足使左耳机过度放电，左耳机出现了短暂的<strong>无法充电</strong>问题，几个小时后却自己好了。虚惊一场，虚惊一场。不过也侧面反映出厂家压成本带来的品控问题。</p>
+<h2 id="你知道吗"><a href="#你知道吗" class="headerlink" title="你知道吗"></a><em>你知道吗</em></h2><ul>
+<li>笔者对充电触点进行了测量，盒子为耳机提供5.08V电压。所以说，这么小的耳机内部还有降压电路。如果是 DC-DC 降压，意味着空间和成本都会被耗占；如果是线性降压，则代表充电盒那点可怜的电力会被低效利用。</li>
+<li>如果耳机充电过程中盒子电力耗尽，则耳机会认为自己被拿出了充电盒，自动开机去连接上个设备。这会让你早起玩手机时手机不发声，让你以为是外放喇叭坏了。</li>
+</ul>
+<h1 id="信号和单设备连接"><a href="#信号和单设备连接" class="headerlink" title="信号和单设备连接"></a>信号和单设备连接</h1><h2 id="信号强度"><a href="#信号强度" class="headerlink" title="信号强度"></a>信号强度</h2><p>QCY T5 这么小的两只耳机能做到标称的连接范围，已经实属不易。实际体验中连接距离还好，可以距离七八米外加穿一堵墙去正常播放媒体。</p>
+<h2 id="信号稳定性"><a href="#信号稳定性" class="headerlink" title="信号稳定性"></a>信号稳定性</h2><p>可能受成本和当前技术水平限制，耳机厂已经预想到断连的频率不会极其低。因此， QCY T5 的断线重连策略被设计得<strong>非常激进</strong>。</p>
+<p>断连现象有之，每天也就一两次或者那天比较幸运不断线。掉线后会立即尝试重连，主观上可以认为断线是这款耳机的一部分，但不需要重点讨论及过于妖魔化，基本不影响使用。</p>
+<p>有意思的是，如果用它来连接电脑（测试设备： Surface Book 2），在电脑上把它踢掉后，他会立即自动重连。也就是说，你是踢不掉它的。</p>
+<h2 id="质量"><a href="#质量" class="headerlink" title="质量"></a>质量</h2><p>笔者使用这款耳机月余，目前出现了小规模的左右耳声音不同步现象，但仅仅出现一次，加起来不到5分钟。随后的使用并未出现类似情况。</p>
+<p>也是月余过后，耳机自动断线并丢失了手机配对信息，被踢进音频设备配对模式。但不用担心，手机可以一秒立即重新配对。</p>
+<p>少数时候，放音会回落到通话通道（低音质），重启耳机可破。</p>
+<p>耳机有时会和手机断开连接，且手机无法重连，重启耳机可以解决。</p>
+<h1 id="多设备连接"><a href="#多设备连接" class="headerlink" title="多设备连接"></a>多设备连接</h1><p>Bose QC30 的多设备连接为笔者留下了深刻的印象，很遗憾的是 QCY T5 不支持这个功能，连接一台设备后，其他设备就无法接入。笔者平日有两台设备要连耳机，就只能同时连接一台设备。</p>
+<p>想要切换设备？关闭这台设备的蓝牙，再在另一台设备的蓝牙界面里连接耳机。</p>
+<p>但这样有个缺点，笔者每天会背着笔记本电脑，带着手机和耳机出门上学。电脑蓝牙在路上也会开启，但我又不能把它拿出来开屏关掉蓝牙是吧。那……不能操作电脑的时候，怎么让 QCY T5 这款耳机切换两台设备呢？<br>经过一番摸索，笔者发现，QCY T5的单只耳机在开机后，总是会首先尝试连接它的配对耳机，然后再连接（配对耳机正在连接的设备|本耳机关机前连接的设备）。在此期间<strong>可以</strong>接受已配对设备的连入。<br>于是我的操作出来了：</p>
+<ul>
+<li>首先，把两只耳机全部关机（也可放在盒子里自动关机），手机打开蓝牙设备页面；</li>
+<li>然后，把一只耳机拿出来/开机，手机瞬间点击连接 QCY-T5 设备；</li>
+<li>连接成功后，把另一只耳机拿出来/开机，就能正常配对，在手机上播放媒体内容了。</li>
+</ul>
+<h1 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h1><p>QCY-T5的两只耳机都具备触摸区域，厂家为产品定义了一套并不简单的操作。</p>
+<p>实际体验下来，双击播放/暂停易被误触成其他操作，但几乎没有不想操作时（例如扶一下耳机）被误触出操作的情况。</p>
+<h1 id="游戏低延迟模式"><a href="#游戏低延迟模式" class="headerlink" title="游戏低延迟模式"></a>游戏低延迟模式</h1><p>耳机配备了游戏模式，个人感觉启用后延迟有提升，lipsync 好了很多，打游戏的声音也更跟手了。</p>
+<h1 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h1><p>QCY-T5 它香吗？emmmm……抛开价格看产品本身的话，其实没那么香。需要指出的是，本文大量使用了笔者的上一副主力耳机Bose QC30与其比较，这样的价格差距下，比较结果对QCY-T5并不公平。<br>但是，真无线，蓝牙5.0，138这个价位，笔者已经知足了。如果大家尚未知足，请务必让笔者用上好耳机，以<strong>资</strong>鼓励。</p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2019/12/11/我在瑞典看牙医-Vol2/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="xmoiduts's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        youremail@email.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2019/12/">十二月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/11/">十一月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/09/">九月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/08/">八月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/05/">五月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/02/">二月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/12/">十二月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/11/">十一月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/10/">十月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/12/">十二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/10/">十月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/09/">九月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/07/">七月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/CPU_Heater" title="暖手宝">
+                
+                    <i class="material-icons sidebar-material-icons">hot_tub</i>
+                
+                暖手宝
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/看不见的风景" title="内页">
+                
+                    <i class="material-icons sidebar-material-icons">visibility_off</i>
+                
+                内页
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+        <a href="https://www.taobao.com" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/xmoiduts" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+        <a href="https://t.me/xmoiduts_blog" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-telegram">
+                <span class="visuallyhidden">Telegram</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- V2EX -->
+    
+
+    <!-- Segmentfault -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;<span year></span>&nbsp;阵雨之塘
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?Bn9UzEm8RrBSxqyZB0zPjA==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#6cf'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #6cf, 0 0 15px #6cf'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#6cf',
+        'border-left-color': '#6cf'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    var copyrightNow = new Date().getFullYear();
+    var textContent = document.querySelector('span[year]')
+
+    copyrightSince = 2016;
+    if (copyrightSince === copyrightNow||copyrightSince === 0000) {
+        textContent.textContent = copyrightNow
+    } else {
+        textContent.textContent = copyrightSince + ' - ' + copyrightNow
+    }
+
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.6 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
