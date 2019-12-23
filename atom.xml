@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xmoiduts.github.io/"/>
-  <updated>2019-12-14T22:58:02.617Z</updated>
+  <updated>2019-12-23T11:41:38.590Z</updated>
   <id>https://xmoiduts.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我在瑞典看牙医-Vol3</title>
+    <link href="https://xmoiduts.github.io/2019/12/21/%E6%88%91%E5%9C%A8%E7%91%9E%E5%85%B8%E7%9C%8B%E7%89%99%E5%8C%BB-Vol3/"/>
+    <id>https://xmoiduts.github.io/2019/12/21/我在瑞典看牙医-Vol3/</id>
+    <published>2019-12-21T19:00:00.000Z</published>
+    <updated>2019-12-23T11:41:38.590Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot; class=&quot;headerlink&quot; title=&quot;前情提要&quot;&gt;&lt;/a&gt;前情提要&lt;/h1&gt;&lt;p&gt;上回
+        
+      
+    
+    </summary>
+    
+    
+      <category term="乌村夜话" scheme="https://xmoiduts.github.io/tags/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9D/"/>
+    
+      <category term="瑞典留学" scheme="https://xmoiduts.github.io/tags/%E7%91%9E%E5%85%B8%E7%95%99%E5%AD%A6/"/>
+    
+      <category term="牙医" scheme="https://xmoiduts.github.io/tags/%E7%89%99%E5%8C%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>QCY-T5使用体验</title>
@@ -151,11 +179,11 @@
     </summary>
     
     
-      <category term="返修" scheme="https://xmoiduts.github.io/tags/%E8%BF%94%E4%BF%AE/"/>
-    
       <category term="Bose" scheme="https://xmoiduts.github.io/tags/Bose/"/>
     
       <category term="QC30" scheme="https://xmoiduts.github.io/tags/QC30/"/>
+    
+      <category term="返修" scheme="https://xmoiduts.github.io/tags/%E8%BF%94%E4%BF%AE/"/>
     
   </entry>
   
@@ -265,38 +293,6 @@
       <category term="更新中" scheme="https://xmoiduts.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
     
       <category term="旅日2018" scheme="https://xmoiduts.github.io/tags/%E6%97%85%E6%97%A52018/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在高延迟Minecraft服务器中，如何（准）原地起飞</title>
-    <link href="https://xmoiduts.github.io/2019/02/01/%E9%AB%98ping%E6%88%98%E5%A3%AB%E7%9A%84%E9%A3%9E%E8%A1%8C%E6%8A%80%E5%B7%A7/"/>
-    <id>https://xmoiduts.github.io/2019/02/01/高ping战士的飞行技巧/</id>
-    <published>2019-02-01T22:00:00.000Z</published>
-    <updated>2019-02-01T23:09:25.629Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;起飞需要摸索，囿需要练习。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;使用原版鞘翅和烟花火箭，人人都是飞行家。&lt;/p&gt;
-&lt;h1 
-        
-      
-    
-    </summary>
-    
-    
-      <category term="已封帖" scheme="https://xmoiduts.github.io/tags/%E5%B7%B2%E5%B0%81%E5%B8%96/"/>
-    
-      <category term="游戏" scheme="https://xmoiduts.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
-    
-      <category term="Minecraft" scheme="https://xmoiduts.github.io/tags/Minecraft/"/>
     
   </entry>
   
