@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xmoiduts.github.io/"/>
-  <updated>2019-12-23T11:45:10.822Z</updated>
+  <updated>2020-01-28T00:22:35.886Z</updated>
   <id>https://xmoiduts.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>乌村夜话 - VOL 5</title>
+    <link href="https://xmoiduts.github.io/2020/01/28/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9D-Vol5/"/>
+    <id>https://xmoiduts.github.io/2020/01/28/乌村夜话-Vol5/</id>
+    <published>2020-01-28T19:00:00.000Z</published>
+    <updated>2020-01-28T00:22:35.886Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;组合优化与 MiniZinc 与澳洲水资源调度（？）；共享罚单；华为云电脑海外体验；一封五百块的邮件。&lt;/p&gt;
+&lt;h1 id=&quot;简评组合优化建模（M4CO
+        
+      
+    
+    </summary>
+    
+    
+      <category term="这里是，乌普萨拉魔法学院" scheme="https://xmoiduts.github.io/tags/%E8%BF%99%E9%87%8C%E6%98%AF%EF%BC%8C%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E9%AD%94%E6%B3%95%E5%AD%A6%E9%99%A2/"/>
+    
+      <category term="乌村夜话" scheme="https://xmoiduts.github.io/tags/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9D/"/>
+    
+      <category term="瑞典留学" scheme="https://xmoiduts.github.io/tags/%E7%91%9E%E5%85%B8%E7%95%99%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我在瑞典看牙医-Vol3</title>
     <link href="https://xmoiduts.github.io/2019/12/21/%E6%88%91%E5%9C%A8%E7%91%9E%E5%85%B8%E7%9C%8B%E7%89%99%E5%8C%BB-Vol3/"/>
     <id>https://xmoiduts.github.io/2019/12/21/我在瑞典看牙医-Vol3/</id>
     <published>2019-12-21T19:00:00.000Z</published>
-    <updated>2019-12-23T11:45:10.822Z</updated>
+    <updated>2020-01-27T23:50:07.891Z</updated>
     
     <summary type="html">
     
@@ -37,11 +66,11 @@
     </summary>
     
     
-      <category term="乌村夜话" scheme="https://xmoiduts.github.io/tags/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9D/"/>
-    
       <category term="瑞典留学" scheme="https://xmoiduts.github.io/tags/%E7%91%9E%E5%85%B8%E7%95%99%E5%AD%A6/"/>
     
       <category term="牙医" scheme="https://xmoiduts.github.io/tags/%E7%89%99%E5%8C%BB/"/>
+    
+      <category term="我在瑞典看牙医" scheme="https://xmoiduts.github.io/tags/%E6%88%91%E5%9C%A8%E7%91%9E%E5%85%B8%E7%9C%8B%E7%89%99%E5%8C%BB/"/>
     
   </entry>
   
@@ -77,7 +106,7 @@
     <link href="https://xmoiduts.github.io/2019/12/11/%E6%88%91%E5%9C%A8%E7%91%9E%E5%85%B8%E7%9C%8B%E7%89%99%E5%8C%BB-Vol2/"/>
     <id>https://xmoiduts.github.io/2019/12/11/我在瑞典看牙医-Vol2/</id>
     <published>2019-12-11T19:00:00.000Z</published>
-    <updated>2019-12-14T23:03:58.666Z</updated>
+    <updated>2020-01-27T23:50:15.176Z</updated>
     
     <summary type="html">
     
@@ -93,11 +122,11 @@
     </summary>
     
     
-      <category term="乌村夜话" scheme="https://xmoiduts.github.io/tags/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9D/"/>
-    
       <category term="瑞典留学" scheme="https://xmoiduts.github.io/tags/%E7%91%9E%E5%85%B8%E7%95%99%E5%AD%A6/"/>
     
       <category term="牙医" scheme="https://xmoiduts.github.io/tags/%E7%89%99%E5%8C%BB/"/>
+    
+      <category term="我在瑞典看牙医" scheme="https://xmoiduts.github.io/tags/%E6%88%91%E5%9C%A8%E7%91%9E%E5%85%B8%E7%9C%8B%E7%89%99%E5%8C%BB/"/>
     
   </entry>
   
@@ -131,35 +160,6 @@
   </entry>
   
   <entry>
-    <title>我在瑞典看牙医-Vol1</title>
-    <link href="https://xmoiduts.github.io/2019/09/22/%E6%88%91%E5%9C%A8%E7%91%9E%E5%85%B8%E7%9C%8B%E7%89%99%E5%8C%BB-Vol1/"/>
-    <id>https://xmoiduts.github.io/2019/09/22/我在瑞典看牙医-Vol1/</id>
-    <published>2019-09-22T12:00:00.000Z</published>
-    <updated>2019-10-06T09:07:26.207Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;——等等，为什么这个也要加 Vol1 ？本宝宝&lt;sup&gt;Child, 医生说的&lt;/sup&gt;哭了……&lt;/p&gt;
-&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前
-        
-      
-    
-    </summary>
-    
-    
-      <category term="乌村夜话" scheme="https://xmoiduts.github.io/tags/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9D/"/>
-    
-      <category term="瑞典留学" scheme="https://xmoiduts.github.io/tags/%E7%91%9E%E5%85%B8%E7%95%99%E5%AD%A6/"/>
-    
-      <category term="牙医" scheme="https://xmoiduts.github.io/tags/%E7%89%99%E5%8C%BB/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Bose QC30的四次返修</title>
     <link href="https://xmoiduts.github.io/2019/09/22/QC30%E7%9A%84%E5%9B%9B%E6%AC%A1%E8%BF%94%E4%BF%AE/"/>
     <id>https://xmoiduts.github.io/2019/09/22/QC30的四次返修/</id>
@@ -185,6 +185,35 @@
       <category term="Bose" scheme="https://xmoiduts.github.io/tags/Bose/"/>
     
       <category term="QC30" scheme="https://xmoiduts.github.io/tags/QC30/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我在瑞典看牙医-Vol1</title>
+    <link href="https://xmoiduts.github.io/2019/09/22/%E6%88%91%E5%9C%A8%E7%91%9E%E5%85%B8%E7%9C%8B%E7%89%99%E5%8C%BB-Vol1/"/>
+    <id>https://xmoiduts.github.io/2019/09/22/我在瑞典看牙医-Vol1/</id>
+    <published>2019-09-22T12:00:00.000Z</published>
+    <updated>2020-01-27T23:50:25.464Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;——等等，为什么这个也要加 Vol1 ？本宝宝&lt;sup&gt;Child, 医生说的&lt;/sup&gt;哭了……&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前
+        
+      
+    
+    </summary>
+    
+    
+      <category term="瑞典留学" scheme="https://xmoiduts.github.io/tags/%E7%91%9E%E5%85%B8%E7%95%99%E5%AD%A6/"/>
+    
+      <category term="牙医" scheme="https://xmoiduts.github.io/tags/%E7%89%99%E5%8C%BB/"/>
+    
+      <category term="我在瑞典看牙医" scheme="https://xmoiduts.github.io/tags/%E6%88%91%E5%9C%A8%E7%91%9E%E5%85%B8%E7%9C%8B%E7%89%99%E5%8C%BB/"/>
     
   </entry>
   
@@ -267,33 +296,6 @@
       <category term="这里是，乌普萨拉魔法学院" scheme="https://xmoiduts.github.io/tags/%E8%BF%99%E9%87%8C%E6%98%AF%EF%BC%8C%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E9%AD%94%E6%B3%95%E5%AD%A6%E9%99%A2/"/>
     
       <category term="IT系统" scheme="https://xmoiduts.github.io/tags/IT%E7%B3%BB%E7%BB%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>&lt;2018旅日&gt;-Day3：在那群小小小小鹿旁-奈良</title>
-    <link href="https://xmoiduts.github.io/2019/02/02/%E6%97%85%E6%97%A52018-Day3/"/>
-    <id>https://xmoiduts.github.io/2019/02/02/旅日2018-Day3/</id>
-    <published>2019-02-02T07:00:00.000Z</published>
-    <updated>2019-03-25T23:12:34.137Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;——奈良公园，春日大社，若草山，东大寺，京都站前商业街；便利店、30个小时的每一天&lt;del&gt;、地铁铃声&lt;/del&gt;。&lt;/p&gt;
-&lt;h1 id=&quot;他山之石&quot;&gt;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="更新中" scheme="https://xmoiduts.github.io/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
-    
-      <category term="旅日2018" scheme="https://xmoiduts.github.io/tags/%E6%97%85%E6%97%A52018/"/>
     
   </entry>
   

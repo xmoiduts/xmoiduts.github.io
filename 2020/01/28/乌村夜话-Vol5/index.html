@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.6 -->
+    <script>
+        window.materialVersion = "1.5.6"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0',
+            '1.5.2',
+            '1.5.5'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+    <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
+
+
+
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            乌村夜话 - VOL 5 | 
+        
+        阵雨之塘
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content=",这里是，乌普萨拉魔法学院,乌村夜话,瑞典留学">
+    <meta name="theme-color" content="#0288d1">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?NKhlKQkXw/c66TR5p4wO+w==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #005b9f;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0288d1 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0288d1 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0288d1 !important;
+  }
+
+  .toTop {
+    background: #005b9f !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #005b9f;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #005b9f;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #005b9f;
+  }
+
+  .post-toc a:hover {
+    color: #005b9f;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="阵雨之塘">
+    <meta name="msapplication-starturl" content="https://xmoiduts.github.io/2020/01/28/乌村夜话-Vol5/">
+    <meta name="msapplication-navbutton-color" content="#0288d1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="阵雨之塘">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+        
+            <link rel=alternate type="application/atom+xml" href="/atom.xml">
+        
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://xmoiduts.github.io/2020/01/28/乌村夜话-Vol5/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="乌村夜话 - VOL 5 | 阵雨之塘">
+    <meta property="og:image" content="/img/favicon.png">
+    <meta property="og:description" content="">
+    <meta property="og:article:tag" content="这里是，乌普萨拉魔法学院"> <meta property="og:article:tag" content="乌村夜话"> <meta property="og:article:tag" content="瑞典留学"> 
+
+    
+        <meta property="article:published_time" content="Tue Jan 28 2020 20:00:00 GMT+0100">
+        <meta property="article:modified_time" content="Tue Jan 28 2020 01:22:35 GMT+0100">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://xmoiduts.github.io/2020/01/28/乌村夜话-Vol5/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://xmoiduts.github.io/2020/01/28/乌村夜话-Vol5/index.html",
+    "headline": "乌村夜话 - VOL 5",
+    "datePublished": "Tue Jan 28 2020 20:00:00 GMT+0100",
+    "dateModified": "Tue Jan 28 2020 01:22:35 GMT+0100",
+    "author": {
+        "@type": "Person",
+        "name": "xmoiduts",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "溯洄从之，道阻且长"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "阵雨之塘",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",这里是，乌普萨拉魔法学院,乌村夜话,瑞典留学",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-111947452-1', 'auto');ga('send', 'pageview');
+</script>
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span id="MD-burger-id" class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#简评组合优化建模（M4CO）"><span class="post-toc-number">1.</span> <span class="post-toc-text">简评组合优化建模（M4CO）</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#太长不读TLDR："><span class="post-toc-number">1.1.</span> <span class="post-toc-text">太长不读TLDR：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#星舰生产排期问题"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">星舰生产排期问题</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#自选大作业"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">自选大作业</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#所以……"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">所以……</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#斯京人民与SL的斗智斗勇"><span class="post-toc-number">2.</span> <span class="post-toc-text">斯京人民与SL的斗智斗勇</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#华为云电脑海外体验"><span class="post-toc-number">3.</span> <span class="post-toc-text">华为云电脑海外体验</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#我花费499克朗，从瑞典往国内寄了封信"><span class="post-toc-number">4.</span> <span class="post-toc-text">我花费499克朗，从瑞典往国内寄了封信</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#你知道吗？"><span class="post-toc-number">5.</span> <span class="post-toc-text">你知道吗？</span></a></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://i.loli.net/2020/01/28/8GrXjPZd6vAODQF.jpg)">
+    
+            <p class="article-headline-p">
+                乌村夜话 - VOL 5
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>xmoiduts</strong>
+        <span>1月 28, 2020</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC5ElEQVR42u3aQXLbMBAEQP3/0841VY6kmQXtUEDzpLJMEg0f1ruDx9eR1wMbGxsbGxsbGxv7luxHfD193JNvk3uLRf/1nNmasbGxsfdm56+86ne+L+7Zov8BGK0HGxsb+wR28uJni0ie87rIvea9/hxtFjY2NjZ28DtJw5C3FvkWYGNjY2OvFLAcOXsyNjY2Nva1Q6W2UCWblb/rv83SsLGxsW/PzkPT+3z+1XwbGxsb+8bs9aMz7fGaPB649ugPNjY29q7svDC0g6TZqCh/Zn1IFBsbG3tTdltOksM6+SiqHSTlfwxsbGzsk9mzcDcvLXkksBI5FEMlbGxs7A9nz9qPnD1rYJIwuN5cbGxs7E3ZeVvSvn52rKd9wsVBLzY2NvbHsttodiUMngW6s5VgY2Njn8BOljhrOWZDq5WiVcQD2NjY2Bux84UmW3Ptz/PWZSkVwcbGxt6CnQ+A2jB4NtZPvm3Xg42NjX0OOxnxtC3EerFceQ42Njb2aey8SZiFuLNhVlu6hnUbGxsb+wPZ+T/9bZsx29C2QcpDAmxsbOxz2LNDNrNRfr6SNtaN8m1sbGzsLdjJItpBz6xtSEpdPt4a5tvY2NjYH8iObsgPOC40Gz8dQmBjY2Ofxr4qEmg3tB1XDQ9fYmNjY2/H/rnDN3kLsb6eN8USGxsbe2v2esvRFps2pr1gi7GxsbGPZCeBbnuMZqWk5dHCxfEANjY29oew80Wsj3uuPcSzVMCwsbGxN2K3DUMbxK6D22KJjY2NfQK7vdrXRxHsaLuTe7GxsbFPYM8Yb0rFKFRI2pv8c5FvY2NjY2/BbsPUdoS0MsbKo+U3CmxsbOwD2HnxmB3raY/srATJw1kaNjY29mHsfNyTNyH5SCtfMzY2NjZ2XszyMVM+rsqD4ToewMbGxt6O3Q56VkZOs2jh9fYNCxg2Njb2FuzZocZiNF+WtDZmju7CxsbG3pR9zoWNjY2NjY2NjY19m+sP1Nd77i89GnoAAAAASUVORK5CYII=">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/乌村夜话/">乌村夜话</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/瑞典留学/">瑞典留学</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/这里是，乌普萨拉魔法学院/">这里是，乌普萨拉魔法学院</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=https://xmoiduts.github.io/2020/01/28/乌村夜话-Vol5/index.html&title=乌村夜话 - VOL 5" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=阵雨之塘&title=乌村夜话 - VOL 5&summary=&pics=https://xmoiduts.github.io/img/favicon.png&url=https://xmoiduts.github.io/2020/01/28/乌村夜话-Vol5/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://xmoiduts.github.io/2020/01/28/乌村夜话-Vol5/index.html&text=乌村夜话 - VOL 5" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>组合优化与 MiniZinc 与澳洲水资源调度（？）；共享罚单；华为云电脑海外体验；一封五百块的邮件。</p>
+<h1 id="简评组合优化建模（M4CO）"><a href="#简评组合优化建模（M4CO）" class="headerlink" title="简评组合优化建模（M4CO）"></a>简评组合优化建模（M4CO）</h1><p>时间来到了我在乌普萨拉的第三个学期。说实话，第二年的课程选择并没有很多：有意思/能划水的课头一年都修完了。</p>
+<p>久闻<a href="http://user.it.uu.se/~pierref/" target="_blank" rel="noopener">皮埃尔</a>的课要求高、难度大，刚来时不敢选，可笔者在瑞典读了一年的书，对一些事情有了新的看法，变得越来越放飞自我。</p>
+<p>所以，就选你了，M4CO (组合优化建模)。</p>
+<h2 id="太长不读TLDR："><a href="#太长不读TLDR：" class="headerlink" title="太长不读TLDR："></a>太长不读TLDR：</h2><p>难度不小，肝度很高，Pierre 大名保证，学费花到超值（指花5学分的钱肝20学分数量的作业）。</p>
+<p><strong>以下内容均可跳过</strong></p>
+<hr>
+<p>组合优化建模是个啥呢？假设你面前有个 数独/八皇后/旅行商人 之类的问题，用暴力搜索需要很长时间。有时会有专门设计的高效算法，但部分问题会有额外的约束，使那些算法不再适用，这时就可以用组合优化算法来求解。</p>
+<p>课程使用 MiniZinc 语言（其中的入门级的语法）进行<strong>建模</strong>，建好的模型丢给现成的求解器/优化器（Gurobi/Chuffed/Gecode/or-tools等）去跑。Vol4 中已经提到过，这门新的语言与大众化的编程语言并不相同，因此边学边做作业真是付出了巨大的功夫。</p>
+<p>下面付作业一例：</p>
+<h2 id="星舰生产排期问题"><a href="#星舰生产排期问题" class="headerlink" title="星舰生产排期问题"></a>星舰生产排期问题</h2><blockquote>
+<p>2137年，星舰公司开始接造船订单，订单包括飞船的型号和交付周数。飞船必须如期交付，你的任务是拟定生产计划，尽可能降低总的生产开销。</p>
+<p>生产计划指各周生产哪型飞船（或什么也不生产），生产每艘飞船都要耗时一周，每周也只能生产一艘飞船；<strong>生产开销</strong>由仓储费用和产线切换费用组成。</p>
+<p>飞船可在交期之前任意一周进行生产，但飞船在库积压期间（假设仓库无限大）会产生<strong>仓储费用</strong>，每艘飞船（型号不限）每周10块钱（说不定是BTC呢？）；生产当周就交付的飞船无此费用。</p>
+<p>生产线只有一条，如果先后生产的两艘飞船型号不一，生产线就要变动，产生<strong>产线切换费用</strong>。例如从生产A型变为生产C型，需要花费<code>SetupCost[A,C]</code>元。开产前的产线准备和停产后的产线拆除免费，如果连续生产同种飞船（允许中间有停产周），只要途中不切换生产品类就无此费用。费用满足三角不等式：<code>SetupCost[A,B]</code> + <code>SetupCost[B,C]</code> &gt;= <code>SetupCost[A,C]</code>。</p>
+</blockquote>
+<p>这样的作业有三次（上面是第二次），每次作业给两周时间，并且如流水线般前后重叠。作业的难度不断增加，这道题花了我大概整整两周，同期我还有个10学分的课，实际投入后者的时间却被压缩到了极限。</p>
+<p>我自己写的代码，对<em>100周15种飞船</em>，要花77秒解出答案（Gurobi优化器，辣鸡至强单核）；在事后的习题课上，一种我们从未想到的既有组合优化约束（请细心揣摩本文）竟然还能快上很多倍。</p>
+<h2 id="自选大作业"><a href="#自选大作业" class="headerlink" title="自选大作业"></a>自选大作业</h2><p>除了三次作业之外，我们还要自选题目（CSPlib &amp;&amp; Google Hashcode 的指定题目子集，部分题目被做过了所以排除在外）进行解答（交代码，交报告，做presentation）。 我和同学搭伙选了CSPlib一道比较简单的题：<a href="http://csplib.org/Problems/prob011/" target="_blank" rel="noopener">ACC篮球排期问题</a>：</p>
+<blockquote>
+<p>西大洋海岸联盟（ACC）在1997-98年遇到了棘手的球赛排期问题，球队的强弱/既有安排/招新安排/休息时间/主客场公平性、电视直播商的利益、比赛组委会的好恶和往年的赛程安排都会对排班产生影响，使得赛程安排变得难上加难。</p>
+<p><a href="https://mat.tepper.cmu.edu/trick/acc.pdf" target="_blank" rel="noopener">（Nemhauser 和 Trick，1997）</a>使用组合优化技术，在轻松满足各方利益的情况下，还游刃有余地选出了3组赛程表交给举办方，最终获得认可。</p>
+</blockquote>
+<p>由于我和队友都不懂<del>唱、跳、RAP、</del>篮球，在<a href="http://www.cqvip.com/QK/90337X/201215/41925134.html" target="_blank" rel="noopener">这篇中文内容</a>的帮助下，我们终于厘清了ACC的赛制。那篇论文所用的语言与我们所用的完全不同，我们也无意去用别人的解法，在读完了论文introduction后，我们就自行对这个问题做了建模。</p>
+<p>编码过程出乎意料地顺利，真正的开发只用了一个周末。跑出的1083个解（中文文章给出的是179个解，很奇怪）也包含了当年的真实赛程安排。</p>
+<p>做题期间，我也终于理解了一件事——为什么pierre会这么严格地要求学生：</p>
+<blockquote>
+<p>如果不对学生做出这么严格的要求，学生们就总会以各种方法来逃避/钻你空子，交出不合格的答案。教书，育人，行事，无异于此。</p>
+</blockquote>
+<p>把<code>学生</code>替换成<code>求解器</code>，这就是我对做题过程的概括。</p>
+<p>CSPlib版本的问题对真实问题做了弱化，事实上1997年论文所研究的问题更难，原作者给出的可行结果也更少些。</p>
+<hr>
+<p>在完成作业和自选题目的过程中，<strong>我觉得这门课还是有很强的现实意义的</strong>。其他组做的问题里，我印象深刻的另有一道：<a href="https://storage.googleapis.com/coding-competitions.appspot.com/HC/2017/hashcode2017_qualification_task.pdf" target="_blank" rel="noopener">Google Hashcode 2017 资格赛</a>：</p>
+<blockquote>
+<p>面对海量Youtube视频请求和硬盘空间有限的CDN服务器，如何控制缓存哪些视频，来尽可能降低用户等着<sup>缓</sup>冲的时间？</p>
+</blockquote>
+<p>Presentation课上也请到了当年选了此题的学生，<sup>确实,</sup>这哥们最后去了谷歌。</p>
+<p>2019/2020之交的<strong>澳洲森林大火</strong>牵动着很多人的心，水源总是人类要保卫的重要资源。课程也请到过莫纳什大学的<a href="https://research.monash.edu/en/persons/guido-tack" target="_blank" rel="noopener">相关学者</a>，为我们讲述了澳洲水库之间的<a href="https://research.monash.edu/en/projects/optimising-melbourne-waters-bulk-water-supply-system-with-a-five-" target="_blank" rel="noopener">调水/供水/淡化优化模型</a>的开发过程。</p>
+<h2 id="所以……"><a href="#所以……" class="headerlink" title="所以……"></a>所以……</h2><p>如果你够M / 对组合优化有兴趣 / 想挑战一下自己的学习能力 / 想让学费花得够值，这门课和pierre的其他课程简直不能太适合你。</p>
+<p>也建议同时选修一些水课，因为这课肝度太高了，下一期可能会写到“否则”的副作用。</p>
+<p><strong>上一个TLDR到此为止</strong></p>
+<h1 id="斯京人民与SL的斗智斗勇"><a href="#斯京人民与SL的斗智斗勇" class="headerlink" title="斯京人民与SL的斗智斗勇"></a>斯京人民与SL的斗智斗勇</h1><p>瑞典人民从小就被教育要勇于提出自己的意见，在面临公共事务的变动时，一小部分人民群众还会身体力行付诸实践。</p>
+<p><a href="https://sl.se/" target="_blank" rel="noopener">SL</a>（<strong>大</strong>斯德哥尔摩交通公司）的<a href="https://mp.weixin.qq.com/s/IFuwn6maWDGDvtaWl_Skwg" target="_blank" rel="noopener">票价年年上涨</a>，<del>人民怨声载道</del>而一些群众认为公共交通事业不应该向用户征收这么高的费用，这既不利于节能减排<sup>久 等 了</sup>和缓解拥堵（把乘客推向自己开车）、又推高了经济活动的成本；此外，交通卡的使用也为大数据追踪人流提供了物质基础，可能侵害到人的隐私。</p>
+<blockquote>
+<p>公共交通应该免费并成为交通的绝对主流形式</p>
+</blockquote>
+<p>于是 <a href="https://planka.nu/" target="_blank" rel="noopener">planka</a> 应运而生。</p>
+<blockquote>
+<p><strong>Planka</strong> 意思是“<strong>贴着前面一个人走以此逃票</strong>”。</p>
+<p>原意是木板，因为逃票进站的时候要站得直的像一个平木板一样，所以引申到了贴着前面的人逃票。</p>
+<p><a href="https://mp.weixin.qq.com/s/6gnhR79LaTUVEzoJuRhHzg" target="_blank" rel="noopener">留学瑞典</a></p>
+</blockquote>
+<p>该组织号召人们白嫖轨道交通（闸机是双向的，可以轻易从非付费区开门）；SL会有查票员随机抽查，被抓到逃票会吃1500克朗的罚单，planka 要求用户每月交一笔小钱（100克朗）用来众筹罚款。作为回报，你的罚单可以发给他们代为支付。为了鼓励用户积极报告查票员的所在，每次“代付”罚单都有100克朗的“免赔额”。</p>
+<p><strong>共 享 罚 单</strong></p>
+<p><strong>声明</strong>：笔者从没用过他们的服务，在现有的道德框架下也不支持读者真去白嫖人家轨交，毕竟大深度隧道挖起来很烧钱的（纵贯斯京地下的<a href="https://sv.wikipedia.org/wiki/Citybanan" target="_blank" rel="noopener">Citybanan</a>全长6公里，预算184亿克朗<sup>折算2009年水平。最后竟然<a href="https://www.trafikverket.se/en/startpage/projects/Railway-construction-projects/The-West-Link-ProjectVastlanken/News-archive/2018/2018-04/complex-projects-cost-less-than-expected/" target="_blank" rel="noopener">只超支了1%</a> 我甚至不敢相信这是在瑞典</sup>）；自己乘坐SL车辆时也是如实买票，毕竟谁知道这玩意会不会上瑞典<strong>征信</strong>呢。</p>
+<h1 id="华为云电脑海外体验"><a href="#华为云电脑海外体验" class="headerlink" title="华为云电脑海外体验"></a>华为云电脑海外体验</h1><p>前段时间，5G话题在国内炒得火热。对于每一种新技术，人们在<strong>短</strong>期内都会过于乐观。3G/4G时代宣传的视频电话，<del>到了今天不还是连上wifi再打。</del>大数据，机器学习，神经网络什么的也一样，只是在投资人（若有）和大众面前侃侃而谈<del>带货</del>的话题罢了。 这一代技术的示例应用也不会例外：远程医疗/串流游戏/自动驾驶。当然，还有我们的正主 <strong>华 为 云 电 脑</strong>。</p>
+<p>华为给自家的新款平板电脑/手机配备了云电脑App（以下或只称App），着重宣传了远程办公/手机开黑的可能性。<a href="https://youtu.be/WlssfhTH2Uc?t=762" target="_blank" rel="noopener">TESTV 《值不值得买》366期</a>简单提到过华为云电脑的娱乐和生产力应用。由于笔者某种意义上已经在长期使用云电脑（SSH/RDP/VNC），本着对新产品的好奇，我也在自己的Mate 9 Pro<sup>清库存买的</sup>里装了个App。</p>
+<p>现阶段华为云电脑只有国服，也就是中国大陆节点。作为国外用户，巨大的延迟显然也是用户体验的一部分。想象一下：短期出国懒得带电脑，用华为手机接上屏幕（没有的同学可以不接）就可以流畅办公，岂不美哉！</p>
+<p>试用版本可玩10分钟，配置为 4C8G2M 无公网IP。</p>
+<p>开机过程很快，点击试用后15秒桌面加载完成；App有触屏和键鼠模式，连接蓝牙键鼠可以把手机当作云电脑显示器，鼠标右键也能使用；没有蓝牙键鼠的话，App也提供了半透明触屏键盘和长按使用右键功能。</p>
+<p><img src="https://i.loli.net/2020/01/26/QiNHATkz6COlyg1.png" alt="image.png"></p>
+<p>系统里预装了一些软件，画风大体正常，令我意想不到的是竟然有Eclipse和云更新（网游推广软件），看来是面向不同的消费群体。</p>
+<blockquote>
+<p>很多大学中，即使是计算机专业，头一年也不让学生带电脑，但学生们又有编程上机的需求。华为云电脑无疑给了这群用户一个曲线救国的机会。</p>
+</blockquote>
+<p>App成功连接云电脑后，会将手机自己的文件夹（类似）‘挂载’到云电脑上，供云端访问。所以云电脑上的WPS可以编辑手机里存的文档（只是举个例子）而无需手动进行任何配置，更多只拿手机做不到的事情也成为了可能。   </p>
+<p>访问文件前需要传送整个文件，笔者曾试图用云电脑播放手机相册里的视频，受限于孱弱的2Mbps宽带，要花掉好几分钟才仅仅能够打开视频；成功打开后也会卡成ppt（5FPS）。</p>
+<p><img src="https://i.loli.net/2020/01/26/9LeVcXP6DOGbmAZ.png" alt="image2"></p>
+<p>这种卡顿不是只凭用户买个5G手机就能直接解决的<del>，还需要进一步加钱</del>。 笔者在不同网络下使用过 Windows RDP 远程桌面功能，分别是公网买1Mbps带宽和家里百兆内网，想看1080p30的视频请至少买它30Mbps带宽。相信云电脑的技术也不会成倍强于微软（不然鸿蒙OS早就碾压竞品了），建议运营方提供高速网络选装包或加速包，例如：（<code>T1加速包：20Mbps，1GB流量，售价0.8元</code>，<code>T2加速包：100Mbps，1GB流量，售价0.8元</code> 等）。</p>
+<p>鉴于海外网络延迟很高，下面列出部分操作的延迟或体验；作为对比，连接位于北京的某Minecraft服务器的表显延迟也一并给出：340ms。</p>
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>响应时间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>在“我的电脑”里打开任意文件夹</td>
+<td>10秒，每次操作都要等这么久</td>
+</tr>
+<tr>
+<td>用wps打开手机里的小型doc文件（长约一页）</td>
+<td>1分钟</td>
+</tr>
+<tr>
+<td>编辑上述doc文件</td>
+<td>基本相当于ssh海外服务器的回显体验（假如你不用mosh）</td>
+</tr>
+<tr>
+<td>保存编辑完的doc文件</td>
+<td>20秒</td>
+</tr>
+<tr>
+<td>打开华为手机拍的照片</td>
+<td>两分半后出画面</td>
+</tr>
+<tr>
+<td>拖动图片</td>
+<td>基本相当于网络延迟，勉强可以拖动的。</td>
+</tr>
+</tbody>
+</table>
+<p>云计算是相当贵的商品。华为云电脑只能用官方App连接，并明确说明断连几分钟后会关机，充分回收闲置资源（主要是内存）降低成本，让用户每月只花60RMB就能享受到文中的配置——相近配置的机器（均为CPU实例）在<a href="https://www.digitalocean.com/" target="_blank" rel="noopener">DO</a>要卖到 &gt; 250元/月（在DO买这种配置应该不会只挂探针，还是会有一定负载的，内存超售能力有限）。</p>
+<p>对于大众来说，在几十上百公里外跑着一台属于自己的电脑似乎已经很科幻了。然而，公众眼中的未来科技，只是我们数十年来已经〇以为常的过往。总之，华为云电脑仍是云计算，却不是少数人士所钟爱的VPS，更像是个<strong>手机虚拟网吧</strong>。果然，要做大佬生意或大众生意才能赚钱啊。（再次强调，我不是<a href="https://t.me/ReplaceMyQzone/1467" target="_blank" rel="noopener">评测华为云电脑</a>，只是体验，愉快的体验）</p>
+<h1 id="我花费499克朗，从瑞典往国内寄了封信"><a href="#我花费499克朗，从瑞典往国内寄了封信" class="headerlink" title="我花费499克朗，从瑞典往国内寄了封信"></a>我花费499克朗，从瑞典往国内寄了封信</h1><p>前文提到过，学姐说瑞典续签</p>
+<blockquote>
+<p>持旧卡早回来（指回瑞典后续签，可能要等很久），持新卡早回来（指提前很久去续签）。</p>
+</blockquote>
+<p>但想不到这个“很久”竟然这么久<sup>5个月都不算长</sup>。</p>
+<p>于是乎有个同学就被困在国内了，因为居留卡在他瑞典的邮箱里，他又取不到。只好江湖求助了。</p>
+<p>经过对方同意，笔者拆开了他的居留卡信件，确认了居留许可正常签发。然而这哥们定的返程机票就在一周之内。</p>
+<p>于是乎，我（其实是这哥们自己付的钱）花费足足499克朗，订购了快递公司（红黄色那家）的寄件服务，这可能是我本辈子用过最贵的快递（几百块寄一个信封）。</p>
+<p>不过，瑞典是个特别</p>
+<blockquote>
+<p>You always get what you pay for</p>
+</blockquote>
+<p>的国家，只要充够了钱，你就能变得更强。</p>
+<p>从快件投出我手（瑞典），到收件人（国内）取到快件，连48小时都没用上。</p>
+<blockquote>
+<p>有钱真好，我要有钱我也这么玩。</p>
+<p>不 想 努 力 了（迫真）</p>
+</blockquote>
+<h1 id="你知道吗？"><a href="#你知道吗？" class="headerlink" title="你知道吗？"></a>你知道吗？</h1><p>斯德哥尔摩地铁（Tunnelbana）广为人知，车站外面会挂着大大的‘T’字招牌，但同属轨道交通的pendeltåg（Commuter Train, 通勤列车）挂的却是‘J’字招牌，这是为什么呢？</p>
+<blockquote>
+<p> 可能是 Järnväg   铁(Iron)(Järn) 路väg</p>
+</blockquote>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2019/12/21/我在瑞典看牙医-Vol3/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="xmoiduts's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        youremail@email.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2020/01/">一月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/12/">十二月 2019<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/11/">十一月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/09/">九月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/08/">八月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/05/">五月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/02/">二月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/12/">十二月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/11/">十一月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/10/">十月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/12/">十二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/10/">十月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/09/">九月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/07/">七月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/CPU_Heater" title="暖手宝">
+                
+                    <i class="material-icons sidebar-material-icons">hot_tub</i>
+                
+                暖手宝
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/看不见的风景" title="内页">
+                
+                    <i class="material-icons sidebar-material-icons">visibility_off</i>
+                
+                内页
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+        <a href="https://www.taobao.com" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/xmoiduts" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+        <a href="https://t.me/xmoiduts_blog" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-telegram">
+                <span class="visuallyhidden">Telegram</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- V2EX -->
+    
+
+    <!-- Segmentfault -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;<span year></span>&nbsp;阵雨之塘
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?Bn9UzEm8RrBSxqyZB0zPjA==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#6cf'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #6cf, 0 0 15px #6cf'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#6cf',
+        'border-left-color': '#6cf'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    var copyrightNow = new Date().getFullYear();
+    var textContent = document.querySelector('span[year]')
+
+    copyrightSince = 2016;
+    if (copyrightSince === copyrightNow||copyrightSince === 0000) {
+        textContent.textContent = copyrightNow
+    } else {
+        textContent.textContent = copyrightSince + ' - ' + copyrightNow
+    }
+
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.6 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
