@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="zh">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.5.6 -->
+    <script>
+        window.materialVersion = "1.5.6"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0',
+            '1.5.2',
+            '1.5.5'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+
+
+    <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
+
+
+
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            乌村夜话 - VOL 8 | 
+        
+        阵雨之塘
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content=",这里是，乌普萨拉魔法学院,乌村夜话,瑞典留学">
+    <meta name="theme-color" content="#0288d1">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?NKhlKQkXw/c66TR5p4wO+w==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #005b9f;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0288d1 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0288d1 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0288d1 !important;
+  }
+
+  .toTop {
+    background: #005b9f !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #005b9f;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #005b9f;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #005b9f;
+  }
+
+  .post-toc a:hover {
+    color: #005b9f;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-color: #F5F5F5;
+      }
+
+      /* blog_info bottom background */
+      #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+        background-color: #fff;
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?qcusAULNeBksqffqUM2+Ig==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="阵雨之塘">
+    <meta name="msapplication-starturl" content="https://xmoiduts.github.io/2021/01/03/乌村夜话-Vol8/">
+    <meta name="msapplication-navbutton-color" content="#0288d1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="阵雨之塘">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+        
+            <link rel=alternate type="application/atom+xml" href="/atom.xml">
+        
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="https://xmoiduts.github.io/2021/01/03/乌村夜话-Vol8/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="乌村夜话 - VOL 8 | 阵雨之塘">
+    <meta property="og:image" content="https://i.loli.net/2021/01/03/ncNbxiQ16HPC7sL.jpg">
+    <meta property="og:description" content="">
+    <meta property="og:article:tag" content="这里是，乌普萨拉魔法学院"> <meta property="og:article:tag" content="乌村夜话"> <meta property="og:article:tag" content="瑞典留学"> 
+
+    
+        <meta property="article:published_time" content="Sun Jan 03 2021 23:00:00 GMT+0100">
+        <meta property="article:modified_time" content="Sun Jan 03 2021 15:42:32 GMT+0100">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="https://xmoiduts.github.io/2021/01/03/乌村夜话-Vol8/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://xmoiduts.github.io/2021/01/03/乌村夜话-Vol8/index.html",
+    "headline": "乌村夜话 - VOL 8",
+    "datePublished": "Sun Jan 03 2021 23:00:00 GMT+0100",
+    "dateModified": "Sun Jan 03 2021 15:42:32 GMT+0100",
+    "author": {
+        "@type": "Person",
+        "name": "xmoiduts",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.png"
+        },
+        "description": "溯洄从之，道阻且长"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "阵雨之塘",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",这里是，乌普萨拉魔法学院,乌村夜话,瑞典留学",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+        <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-111947452-1', 'auto');ga('send', 'pageview');
+</script>
+    
+    
+    
+
+    <!-- Google ADs -->
+    
+        <script data-ad-client="ca-pub-3118579679129400" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+
+    <!-- Custom Head -->
+    
+
+</head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span id="MD-burger-id" class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#引子"><span class="post-toc-number">1.</span> <span class="post-toc-text">引子</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#起笔论文"><span class="post-toc-number">2.</span> <span class="post-toc-text">起笔论文</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#论文简介"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">论文简介</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#在家学习的大半年"><span class="post-toc-number">3.</span> <span class="post-toc-text">在家学习的大半年</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#采购，每个十天的循环"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">采购，每个十天的循环</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Tier滑板车与无人超市"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Tier滑板车与无人超市</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#论文延期"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">论文延期</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#情理之中的新生聚餐"><span class="post-toc-number">3.4.</span> <span class="post-toc-text">情理之中的新生聚餐</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#跑路"><span class="post-toc-number">4.</span> <span class="post-toc-text">跑路</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#666张小票见证我的乌村留学之旅"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">666张小票见证我的乌村留学之旅</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#出发"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">出发</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#附录"><span class="post-toc-number">5.</span> <span class="post-toc-text">附录</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#缩圈"><span class="post-toc-number">5.1.</span> <span class="post-toc-text">缩圈</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#职业位置规划？"><span class="post-toc-number">5.2.</span> <span class="post-toc-text">职业位置规划？</span></a></li></ol></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://i.loli.net/2021/01/03/ncNbxiQ16HPC7sL.jpg)">
+    
+            <p class="article-headline-p">
+                乌村夜话 - VOL 8
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>xmoiduts</strong>
+        <span>1月 03, 2021</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">add_to_home_screen</i>
+    <span class="visuallyhidden">add_to_home_screen</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">用其他设备扫码打开本文</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC10lEQVR42u3aQW4cMQwEwP3/p5NrgCR2NzmJ11LpZGCxMyoZcJukXj+uXC9sbGxsbGxsbGzst2S/4pV869dP//Di4Jl/3fRvz6/3jI2NjX00+5M//cGGktf/besJcr9nbGxs7BvY+Xbb48iPKcG3e8bGxsbG/jh4ZpvLP8XGxsbG/qoA2xxZXpxgY2NjY2+2Pmv0z0hf3EvDxsbGfnv2psX/VT//1/k2NjY29huz25UHTBI87UWf1c6xsbGxD2XnwRD9u/9h6z8fCc+ufn7yFmxsbOwL2MlGE1g7ys0bVbNfBjY2Nvad7FlgPHWxcjOEKHpp2NjY2Eew23ZSfuEmCZi8UGkPFxsbG/se9lPlwaxcyYuN12hhY2Nj38bOwyM5sna4u9nJcNCLjY2NfRB7P/qtN1EWKnlcPTAewMbGxv627PoSTNzib4uf9jmrqQg2Njb2Eex6aFo2jGZPa5tTw/EANjY29kHszdh1NnJoi6JVkYONjY19NDu/pjMrG/JG0uxSTjJmwMbGxj6bvWnW74uWZ0cFj1Vg2NjY2N+QvW/3t0GYF0XtWLeuwLCxsbGPYM8u3yTIT6IliZ9y5FznNjY2NvYR7PyqZRKBbYmSk/I2FjY2NvZt7DYY8gb9U2XM5pnY2NjYp7LzqMhHs+1wtz3c2SFiY2Njn8puYykvHmZD37rpn+8KGxsb+2h2PnaN2jejKzVJWOaj3+GdU2xsbOwj2HmbaRMnsyDMI7AOMGxsbOzj2G1IJNclN8XMq1zY2NjY97Dbtbo0E7f1C8ysFMHGxsY+iD2LhE2zqQU/NrTAxsbGPpo9C61ZsM0aQ3mAYWNjY9/MbsPjqZFtspN8eFwPerGxsbEvZuevf7aYafeMjY2Njd2GWRJy+5KmLpawsbGxL2Dnbf190yc/oPw5wwDDxsbGPoI9a9z8iwFDXsbU38LGxsY+lH3PwsbGxsbGxsbGxn6b9RO9Z5rd81mKhwAAAABJRU5ErkJggg==">
+    
+</ul>
+
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">local_offer</i>
+        <span class="visuallyhidden">local_offer</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/乌村夜话/">乌村夜话</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/瑞典留学/">瑞典留学</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/这里是，乌普萨拉魔法学院/">这里是，乌普萨拉魔法学院</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=https://xmoiduts.github.io/2021/01/03/乌村夜话-Vol8/index.html&title=乌村夜话 - VOL 8" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 LinkedIn
+            </li>
+        </a>
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=阵雨之塘&title=乌村夜话 - VOL 8&summary=&pics=https://xmoiduts.github.io/img/favicon.png&url=https://xmoiduts.github.io/2021/01/03/乌村夜话-Vol8/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://xmoiduts.github.io/2021/01/03/乌村夜话-Vol8/index.html&text=乌村夜话 - VOL 8" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>在疫情下磕磕绊绊完成了硕士论文，跑路。<del>怎感觉又写成了2020的流水账？</del></p>
+<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>一年前，我曾畅想着朝九晚五的生活——每天前往<a href="https://www.google.com/search?q=uppsala+ekonomikum+skyddsrum&amp;tbm=isch" target="_blank" rel="noopener">星空自习室</a>，在那里高效写完大部分论文。</p>
+<p>……如果疫情未曾存在的话。</p>
+<h1 id="起笔论文"><a href="#起笔论文" class="headerlink" title="起笔论文"></a>起笔论文</h1><p>三月，送别了找论文的诸事，笔者算是拿到了题目，着手进行前期工作。</p>
+<h2 id="论文简介"><a href="#论文简介" class="headerlink" title="论文简介"></a>论文简介</h2><p>本文的idea来自于本校心理学那边的 Linnaean Collaboration ，希望有时间能单独成篇写写论文内容，这里简要描述其背景。</p>
+<blockquote>
+<p>Linnaean Collaboration 得名于乌普萨拉大学所属的<a href="https://www.botan.uu.se/" target="_blank" rel="noopener">林奈植物园</a>，由本校环境心理学教授发起，其研究内容也围绕这座植物园展开。<del>我觉得创立的契机是心理/教育学部搬到了植物园旁边（Blåsenhus），搞个组织能开不少研究项目。</del></p>
+<p>林奈植物园其名出自我校植物学家 <ruby><rb>卡尔</rb><rt>Carl</rt>·<rb><small>冯</small></rb><rt>Von</rt>·<rb>林奈</rb><rt>Linné</rt></ruby> 之手，其历史可上溯至1741年。原花园现存至今，但因为面积太小，于1787年转移至乌普萨拉城堡对面。本文所提到的植物园即指此处，由<em>巴洛克式花园</em>和<em>新植物园</em>共同组成。</p>
+<p>园地原本被用于植物学和医学研究目的，但随着这些领域的研究场所逐渐转移到实验室，其所藏植物在教育和科研方面的用途减少了，植物园面临着迫切的转型需求。</p>
+<p>与此同时，植物园本身却变成了居民和游客观光的场所，发挥了新的作用，让人们能从忙碌的城市生活中得到恢复。</p>
+<p>Linnaean Collaboration 希望重塑林奈植物园内的研究活动，助力植物园向教育用途的转变。</p>
+</blockquote>
+<blockquote>
+<p>我们想通过数据方面的视角来观察游客的行为模式，并在未来加以分析，这将有助于未来的公园设计。本项目将试制一款数据收集设备，用于获取公园游人的行为信息。</p>
+<p>但收集数据会有隐私问题，所以隐私保护占了论文的很大一块。</p>
+</blockquote>
+<h1 id="在家学习的大半年"><a href="#在家学习的大半年" class="headerlink" title="在家学习的大半年"></a>在家学习的大半年</h1><p>过去的两年里，笔者曾一度幻想过做论文期间的生活方式：</p>
+<blockquote>
+<p>每天按时起床，带好饭前往学校自习室，在此专心写代码写论文不看娱乐内容，按时回宿舍不把业务留到住处。</p>
+</blockquote>
+<p>结果一样也没达成。</p>
+<p>如果说2019年笔者的睡觉时间是24：00前后，那么初入2020时这个数字就已瞬间拖延至26：00（2:00）。<a href="https://www.google.com/search?q=%E8%AE%B8%E5%A4%9A%E9%9E%8B%E5%AD%90" target="_blank" rel="noopener">为什么呢</a>？前期找不到论文的焦虑和全程对疫情的焦虑。习惯一经养成就难以挽回，所以”按时起床“变成了十点起床。</p>
+<p>这个时间让”吃早饭“变得尴尬了起来，更别提带饭了。<img src="https://i.loli.net/2021/01/03/otzYpGav12KhleI.jpg" alt="自制肉包.jpg"></p>
+<p>（图：不过挺到12点就可以理直气壮地吃这个）</p>
+<p>在欧洲的第一波疫情（三月）下，学校里偶尔有风言风语，说自己发热咳嗽但不知是否确诊。这边的corridor和party文化让我相信许多无辜群众会受到传染。出门学习成了勇士们的专属，所以笔者咕了，全程在家进行论文工作（WFH）。</p>
+<p>在学校自习笔者能持续专注，而在家的话……学着学着就打开了娱乐网站，效率骤减80%。饶是如此，笔者也拒绝为老外对人对己的不负责任负责！所以在家战胜了出门。</p>
+<p>进入五月的前后两周，乌村的聊天群里多出了一些火药味，集火、退群、求药，不一而足。对这些事件我基本一言不发，只是偶尔打打哈哈<del>，不然被炎上的就是我了，我有那么二吗</del>。</p>
+<p>仔细而反复地浏览了聊天记录，我觉得啊，群体WFH的副作用开始显现了：</p>
+<blockquote>
+<p>（长期隔离在家，）与自然景观保持疏远，被消耗的心理资源迟迟得不到恢复。在这样的环境下，人的心理难免出现问题。</p>
+<p>——我的<a href="https://advances.sciencemag.org/content/5/7/eaax0903" target="_blank" rel="noopener">论文阅读材料</a>如是说</p>
+</blockquote>
+<p>所以我决定，只要瑞典不决定封城，就隔天出去一趟，偶尔采购十天所需，其他的时候进行一下晚跑——反正八点多太阳还没下山，街上却也没几个人，算不得人员密集。</p>
+<h2 id="采购，每个十天的循环"><a href="#采购，每个十天的循环" class="headerlink" title="采购，每个十天的循环"></a>采购，每个十天的循环</h2><p>疫情之下，笔者要尽量少和别人扎堆，去超市的间隔被拖长到了10天。遥想18/19年放学骑车顺路去超市”买一点东西“的日子，现在只能就近走去超市，拎着骑车放不下的东西挪回家了。</p>
+<p>每次循环，我会固定买一串香蕉、一包免洗沙拉蔬菜、三个<ruby><rb>丹麦面包</rb><rt>wienerbröd</rt></ruby>+muffin、一袋薯片和一包坚果。有时还会加购些烤鸡和冷藏盒饭。如果把采购看作第一天，那每个前4天我都自觉吃得不错——头几天笑嘻嘻。</p>
+<p>而随后五六天嘛……就mmp了。坚果、薯片、面包等一应零食都坐吃山空，笔者便只有肉丸子盖饭、肉馅盖饭、冷冻鸡块煮面等主菜可做了。期间也会穿插1-2次油炸快餐。现在想来，这样的饮食习惯真是不健康，即便不提油脂，碳水过多蔬菜过少也跑不掉，搬家前的体重（82公斤）实非一日之功。</p>
+<p><img src="https://i.loli.net/2021/01/03/OpFCcx2y8ZhSLJD.jpg" alt="炒饭.jpg"></p>
+<p><img src="https://i.loli.net/2021/01/03/kQqncTp6WUlZoGw.jpg" alt="煎猪排.jpg"></p>
+<p><img src="https://i.loli.net/2021/01/03/q2YohK68g4yfvws.jpg" alt="MAX快餐.jpg"></p>
+<p>（图：示例——某不怎么健康的几顿饭）</p>
+<h2 id="Tier滑板车与无人超市"><a href="#Tier滑板车与无人超市" class="headerlink" title="Tier滑板车与无人超市"></a>Tier滑板车与无人超市</h2><p><img src="https://i.loli.net/2021/01/03/HLjaSK4wr2tOYAn.jpg" alt="Tier滑板车.jpg"></p>
+<p>（图：Tier滑板车，它将近20公斤，能勉强爬上20度（360‰）的陡坡）</p>
+<p>在瑞典群体免疫暗中加速的六月，笔者无法前往宜家等地点吃饭（餐厅关了）逛街，同时也忘记了Minecraft的登陆密码，便越来越将遍布Uppsala街头的<code>Tier</code>共享电动滑板车当成了自己唯一的<em>健身</em>娱乐活动——隔天“晚”8点，迎着地平线上的最后一轮红日出发，向着城市边缘的某辆滑板车，沿未曾设想过的道路踽踽独行。一路上的所见，是我过去那一年多的上学时光里从没欣赏过的风景。</p>
+<p><img src="https://i.loli.net/2021/01/03/OGr25mAiTv7XnIW.jpg" alt="山林如墙.jpg"></p>
+<p><img src="https://i.loli.net/2021/01/03/WSUrI4cmRbzQ7Pg.jpg" alt="热气球.jpg"></p>
+<p><img src="https://i.loli.net/2021/01/03/lS1cVLQT267qWJZ.jpg" alt="河流膨大部.jpg"></p>
+<p><img src="https://i.loli.net/2021/01/03/at6XvCzdIrTQJmy.jpg" alt="水鸟.jpg"></p>
+<blockquote>
+<p>古老的砖砌小楼、远离车流的制式别墅群、自成围城的静谧公寓小区、通往高地的陡峭捷径、植物园旁的小水泡和旁边踩草地晒太阳的市民、在自家楼下聚餐喝酒的人们、在空中上下漂浮的<a href="https://uppballongflyg.se/" target="_blank" rel="noopener">观光热气球</a>、河流膨大部的水鸟、快递开出了蛇的超市、出城路旁绿意如墙威压而来的森林小山…… </p>
+<p>自由穿越一片操场，走过一所学校，漫游一座公园，沿鸥翔<del>鱼游</del>的河道前行，最后在服务区边上扫码骑车回家。</p>
+<p>一切都真实得像一场梦，但确实能积攒几千步。</p>
+</blockquote>
+<hr>
+<p>共享滑板车的服务区总是偏小，稍远一点的地方就去不了。某次独行，突然在圈外发现，瑞典也悄然出现了无人超市。遂将此作为一个骑车目的地，偶尔为了来这里<del>买点零食</del>而骑车出门。不得不说这地方环境还不错，我来了好几次都有房车在这的普通停车场长停。</p>
+<p><img src="https://i.loli.net/2021/01/03/dbfUSMLuFyGthCq.jpg" alt="无人超市.jpg"></p>
+<p><img src="https://i.loli.net/2021/01/03/G5QJIBVb41WowNR.jpg" alt="房车之森.jpg"></p>
+<h2 id="论文延期"><a href="#论文延期" class="headerlink" title="论文延期"></a>论文延期</h2><p>笔者在五月发现论文明显无法按期（6月末）做完，遂在下旬提交续签申请。</p>
+<p>一直杳无音信到9月中旬收到了老生常谈的增补材料通知。不过那是后话了，【单独成文】。</p>
+<hr>
+<p>七八月的盛夏，北欧这么北的地方，宿舍室温也高到了31度。由于没提前准备电扇，笔者时常会经历100%的作业效率降低，有时也会在晚上热得失眠：开窗户会被晨间的施工和主干道车流吵醒；不开窗还睡不着。</p>
+<p>直到笔者花大价钱买了个MUJI风扇，夜间问题才告缓解；而白天的效率依旧无法挽回多少，这使我一度想买个移动空调。</p>
+<p><img src="https://i.loli.net/2021/01/03/YI3AkOoefJpDydZ.jpg" alt="muji风扇.jpg"></p>
+<p>经历长时间的消沉，进入8月，笔者买了滑板车月票，准备强行前往学校写论文。不为了增加多少作业时长，而是为了把节奏调动起来。空空荡荡的ITC，员工写字间所在的走廊大门紧锁（WFH了），我如常前往机房，大半个月里上百平的机房<del>里的2K显示器</del>由我独享。</p>
+<h2 id="情理之中的新生聚餐"><a href="#情理之中的新生聚餐" class="headerlink" title="情理之中的新生聚餐"></a>情理之中的新生聚餐</h2><p>8月末，随着第一波新生陆续到来，笔者毫无意外的腾到了他们的聚餐。不禁慨叹，我这个论文到底拖延了多久啊……</p>
+<p><img src="https://i.loli.net/2021/01/03/P3UAvRwEBXDjsVm.jpg" alt="新生火锅.jpg"></p>
+<h1 id="跑路"><a href="#跑路" class="headerlink" title="跑路"></a>跑路</h1><p>九月，Uppsala的房租即将到期。但笔者的论文还没做完（后续：10月末截稿了），于是花了一整周时间收拾了整个屋子准备跑路。擦了屋里的每面墙壁，每片瓷砖（水垢真难刷），每块地板和家具的每个角落。随后暗下决心：</p>
+<blockquote>
+<p>🎵如果让你重新来过，你会<del>不会爱我</del>🎵在平时多整理房间。</p>
+</blockquote>
+<p>笔者将家具陈设都还原成搬入时的样子，住了两年无声无息地就走了，”落了个白茫茫大地真干净“。</p>
+<p><img src="https://i.loli.net/2021/01/03/YmUvu6eswbGt9Va.jpg" alt="搬出k16.jpg"></p>
+<h2 id="666张小票见证我的乌村留学之旅"><a href="#666张小票见证我的乌村留学之旅" class="headerlink" title="666张小票见证我的乌村留学之旅"></a>666张小票见证我的乌村留学之旅</h2><p>笔者有攒小票的习惯，这两年来的票据基本没扔。临搬家前觉得这样下去终会越攒越多，索性清点一波，然后彻底甩掉这些烦恼。</p>
+<p>在即将离乌的前一晚数了下，好家伙，无限接近于666这个神奇的数字。小票一页一页地翻过，那些在疫情降临后渐行渐远的时光，仿佛重新散发出一瞬的光芒，诉说着学习之外的那些时光。</p>
+<blockquote>
+<p>在过去的两年里，你一共去了两百余次快餐店，汉堡王是你的最爱，嘴馋的你偶尔也会走入MAX（快餐店）的大门。</p>
+<p>你对骑车出行有种特别的执着，两公里远的麦当劳，四公里外全程上坡的宜家餐厅都留下了你的车辙印。<del>也不知道你哪来那么大闲心专门跑去吃顿饭。</del></p>
+<p>骑车之余的生活，你也厉行绿色环保：有那么不止一次，你乘坐40路电力通勤列车，前往70公里外的肯德基Brooma餐厅，就为了尝那一口心头好（指面包糠）。</p>
+</blockquote>
+<blockquote>
+<p>你的购物行为稳定，经常在离家不那么近但便宜点的Willy:s购物，作为放课后的顺路活动；但偶尔也会抽风，坐公交去贼远也不便宜的ICA MAXI买上两大兜子再坐车回来，有一次还因为着急（单程票75分钟，想在期间完成往返）而坐错了车，在城外没有照明的公路旁瑟瑟发抖；你曾经常光顾Clas Ohlson，可是最近你好像把它忘却了。</p>
+</blockquote>
+<blockquote>
+<p>在独行的日常之外，你偶尔会与三两同窗小聚，Amazing Thai、Gottsunda中华阁、Pong等亚洲区的诸多小馆都有你们长谈的身影。</p>
+</blockquote>
+<blockquote>
+<p>下一程，请务必多多消费，为内外双循环做出贡献呢~</p>
+</blockquote>
+<h2 id="出发"><a href="#出发" class="headerlink" title="出发"></a>出发</h2><p>将两个大行李箱推出屋子，最后环视一遍房间。笔者也缓缓乘电梯走出了宿舍楼。钥匙一投，这里便再也不属于我。</p>
+<p><img src="https://i.loli.net/2021/01/03/rYA2C4m61TcRB5J.jpg" alt="交钥匙.jpg"></p>
+<p>推着50公斤的行李，在微雨中漫步（挪动）到火车站，乌村的两年时光也告一段落，笔者前往另一座瑞典城市继续完成论文。</p>
+<hr>
+<p>国内读本科时，住在集体宿舍的我常常遐想：如果我有个自己的厨房和浴室，有个24小时供电的宿舍该有多好。不用迁就于食堂和公共浴池的作息时间，也不用懊恼于每日的夜间熄灯，想做啥就做啥（指做饭）。</p>
+<p>来到海外，在40倍房租的代价下，我短暂拥有了上述一切，却也时常怀念那些食堂在侧，邻居串寝络绎不绝的日子。笔者对食堂的现状有所耳闻，但菜价和省心程度对我依然有吸引力。（幻想：要是能开传送门吃食堂菜多”爽“啊）</p>
+<blockquote>
+<p>我们走后，UU会给你们<a href="https://www.polacksbacken.uu.se/polacksbacken-campus/new-angstrom/" target="_blank" rel="noopener">修大楼</a>、修宿舍。但这或许不是因为它一定要做这些，而是因为我们<sub>的学费</sub>来过。</p>
+</blockquote>
+<p><strong>《乌村夜话》系列，正文完。</strong></p>
+<p><strong>论文在跑路后续写了一个月，于10月末截稿，在漫长的排队后于12月中旬答辩并拿到成绩。</strong></p>
+<hr>
+<h1 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h1><p>很多人说 2020 是个如何如何的年份，但2020的诸多事情并不是凭空而来。按照我的印象，早在2019Q4，时事视频的弹幕就已有人提及，很多新闻都在为年度沙雕新闻冲业绩了。</p>
+<h2 id="缩圈"><a href="#缩圈" class="headerlink" title="缩圈"></a>缩圈</h2><p>由于延毕，所以网络上对各国抗疫政策和航班管控的热烈讨论，笔者也并没有能够感同身受。不过，听说同学曾被航司主动推销过6W的HEL-PVG商务舱，对于要多承受数月的高物价的笔者来说，在疫情彻底结束前还是尽量避免跨国流动吧，毕竟机票和隔离费用和”千里投X“的流言真会是一笔巨大的开销。</p>
+<blockquote>
+<p>那就是要在这找工作咯？</p>
+</blockquote>
+<h2 id="职业位置规划？"><a href="#职业位置规划？" class="headerlink" title="职业位置规划？"></a>职业位置规划？</h2><p>毕业以后在哪工作？说实话，我挺眼馋国内的工资和前景的”胡萝卜钓竿“。本科同学的发展好像都很好，在国内的中企外企都取得了不错的岗位<del>和Object</del>，有人也已赚出了自己的第一桶金，这无形中给了我一些peer pressure：如果不能一两年内攒上（一个“特别巨大”的数字），就会自觉为Loser。</p>
+<p>但<code>加班</code>这一条让我不得不考虑从瑞典起步。疫情之下的瑞典<em>人</em>对国人好像没有那么抵触所以我觉得这里还是可以留一阵的。作为IT相关的学生，无论在中瑞何处起步，我的学习计划都将几乎一致。延毕让我起步慢了一些，希望未来能侥幸追上同辈的发展速度。</p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2020/05/02/乌村夜话-Vol7/" id="post_nav-older" class="next-content">
+            旧一篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar.png" alt="xmoiduts's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        youremail@email.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                主页
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    归档
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2021/01/">一月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/05/">五月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/03/">三月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/01/">一月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/12/">十二月 2019<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/11/">十一月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/09/">九月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/08/">八月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/07/">七月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/05/">五月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/02/">二月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/12/">十二月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/11/">十一月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/10/">十月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/12/">十二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/10/">十月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/09/">九月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/07/">七月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">1</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+        <li>
+            <a href="/CPU_Heater" title="暖手宝">
+                
+                    <i class="material-icons sidebar-material-icons">hot_tub</i>
+                
+                暖手宝
+            </a>
+        </li>
+        
+    
+        <li>
+            <a href="/看不见的风景" title="内页">
+                
+                    <i class="material-icons sidebar-material-icons">visibility_off</i>
+                
+                内页
+            </a>
+        </li>
+        
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            主题 - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+        <a href="https://www.taobao.com" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-weibo">
+                <span class="visuallyhidden">Weibo</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+        <a href="https://github.com/xmoiduts" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-github">
+                <span class="visuallyhidden">Github</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+        <a href="https://t.me/xmoiduts_blog" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-telegram">
+                <span class="visuallyhidden">Telegram</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- V2EX -->
+    
+
+    <!-- Segmentfault -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;<span year></span>&nbsp;阵雨之塘
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?1BcfzuNXqV+ntF6gq+5X3Q==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?Bn9UzEm8RrBSxqyZB0zPjA==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#6cf'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #6cf, 0 0 15px #6cf'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#6cf',
+        'border-left-color': '#6cf'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('<link rel="stylesheet" href="/css/uc.css">');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script>
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    var copyrightNow = new Date().getFullYear();
+    var textContent = document.querySelector('span[year]')
+
+    copyrightSince = 2016;
+    if (copyrightSince === copyrightNow||copyrightSince === 0000) {
+        textContent.textContent = copyrightNow
+    } else {
+        textContent.textContent = copyrightSince + ' - ' + copyrightNow
+    }
+
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.6 | https://github.com/viosey/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
