@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xmoiduts.github.io/"/>
-  <updated>2021-07-01T14:56:42.256Z</updated>
+  <updated>2021-07-29T15:06:20.623Z</updated>
   <id>https://xmoiduts.github.io/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>KedamaDiff开发日志其一</title>
+    <link href="https://xmoiduts.github.io/2021/07/29/KedamaDiff%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-%E5%85%B6%E4%B8%80/"/>
+    <id>https://xmoiduts.github.io/2021/07/29/KedamaDiff开发日志-其一/</id>
+    <published>2021-07-29T00:00:00.000Z</published>
+    <updated>2021-07-29T15:06:20.623Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Overviewer历史地图抓图器模块 开发日志其一： 世界背景与单张图片&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;he
+        
+      
+    
+    </summary>
+    
+    
+      <category term="游戏" scheme="https://xmoiduts.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+      <category term="Minecraft" scheme="https://xmoiduts.github.io/tags/Minecraft/"/>
+    
+      <category term="毛玉线圈物语" scheme="https://xmoiduts.github.io/tags/%E6%AF%9B%E7%8E%89%E7%BA%BF%E5%9C%88%E7%89%A9%E8%AF%AD/"/>
+    
+      <category term="KedamaDiff" scheme="https://xmoiduts.github.io/tags/KedamaDiff/"/>
+    
+      <category term="开发日志" scheme="https://xmoiduts.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="Featured" scheme="https://xmoiduts.github.io/tags/Featured/"/>
+    
+  </entry>
   
   <entry>
     <title>疫情之下，为了从瑞典回国我都要做什么？</title>
@@ -271,35 +306,6 @@
       <category term="我在瑞典看牙医" scheme="https://xmoiduts.github.io/tags/%E6%88%91%E5%9C%A8%E7%91%9E%E5%85%B8%E7%9C%8B%E7%89%99%E5%8C%BB/"/>
     
       <category term="牙医" scheme="https://xmoiduts.github.io/tags/%E7%89%99%E5%8C%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>乌村夜话 - VOL 4</title>
-    <link href="https://xmoiduts.github.io/2019/11/06/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9DVol4/"/>
-    <id>https://xmoiduts.github.io/2019/11/06/乌村夜话Vol4/</id>
-    <published>2019-11-06T12:00:00.000Z</published>
-    <updated>2019-11-08T11:10:02.149Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;del&gt;本期开始，内容进入深水区。由于笔者的笔力过于憨批，写的不够简练还请宽恕则个。&lt;/del&gt;&lt;/p&gt;
-&lt;h6 id=&quot;…&quot;&gt;&lt;a href=&quot;#…&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="这里是，乌普萨拉魔法学院" scheme="https://xmoiduts.github.io/tags/%E8%BF%99%E9%87%8C%E6%98%AF%EF%BC%8C%E4%B9%8C%E6%99%AE%E8%90%A8%E6%8B%89%E9%AD%94%E6%B3%95%E5%AD%A6%E9%99%A2/"/>
-    
-      <category term="乌村夜话" scheme="https://xmoiduts.github.io/tags/%E4%B9%8C%E6%9D%91%E5%A4%9C%E8%AF%9D/"/>
-    
-      <category term="瑞典留学" scheme="https://xmoiduts.github.io/tags/%E7%91%9E%E5%85%B8%E7%95%99%E5%AD%A6/"/>
     
   </entry>
   
