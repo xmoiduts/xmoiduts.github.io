@@ -248,7 +248,7 @@
 
     
         <meta property="article:published_time" content="Thu Jul 29 2021 08:00:00 GMT+0800">
-        <meta property="article:modified_time" content="Thu Jul 29 2021 23:06:20 GMT+0800">
+        <meta property="article:modified_time" content="Thu Aug 05 2021 17:44:40 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -271,7 +271,7 @@
     "mainEntityOfPage": "https://xmoiduts.github.io/2021/07/29/KedamaDiff开发日志-其一/index.html",
     "headline": "KedamaDiff开发日志其一",
     "datePublished": "Thu Jul 29 2021 08:00:00 GMT+0800",
-    "dateModified": "Thu Jul 29 2021 23:06:20 GMT+0800",
+    "dateModified": "Thu Aug 05 2021 17:44:40 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "xmoiduts",
@@ -521,8 +521,7 @@
         <p>Overviewer历史地图抓图器模块 开发日志其一： 世界背景与单张图片</p>
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>制作 Kedamadiff 的初衷，是看到了玩家 SilentDepth 的毛线非官方地图。仅凭玩家在 QQ 群里主动通报建造进度，让 SD 来手动爬图，我想是一件很低效的事情。正好，毛线官方提供了一套基于 Overviewer 的官方地图，每日自动渲染，地图上的每一寸变化都能尽收眼底。通过这个项目<del>，帮助SD更有效率地跑图，也</del>持续记录毛线大陆的风貌变化，供玩家在若干岁月后，回顾当初的辛勤劳作，与公益服带给大家的欢乐。</p>
 <p>本文作为项目的开发日志，始作于2018年。随着版本迭代，文中的很多内容都会被废弃/升级掉。可雁过留声，它们在这个项目里仍值得留下一席之地。</p>
-<h1 id="得名"><a href="#得名" class="headerlink" title="得名"></a>得名</h1><p>【ruby注音标签：<ruby><rb>base</rb><rt>tone</rt></ruby>】</p>
-<p><ruby><rb>毛玉</rb><rt>Kedama</rt><rb>线圈</rb><rt>-Koiru</rt><rb>物语</rb><rt>Monogatari</rt></ruby> <a href="https://craft.moe/" target="_blank" rel="noopener">服务器</a>官方地图的<ruby><rb>差分</rb><rt>Diff</rt></ruby>抓取器</p>
+<h1 id="得名"><a href="#得名" class="headerlink" title="得名"></a>得名</h1><p><ruby><rb>毛玉</rb><rt>Kedama</rt><rb>线圈</rb><rt>-Koiru</rt><rb>物语</rb><rt>Monogatari</rt></ruby> <a href="https://craft.moe/" target="_blank" rel="noopener">服务器</a>官方地图的<ruby><rb>差分</rb><rt>Diff</rt></ruby>抓取器</p>
 <p>即： <ruby><rb>毛玉</rb><rt>Kedama</rt><rb>差分</rb><rt>Diff</rt></ruby></p>
 <h1 id="我眼中的-Overviewer-地图"><a href="#我眼中的-Overviewer-地图" class="headerlink" title="我眼中的 Overviewer 地图"></a>我眼中的 Overviewer 地图</h1><p>既然分析的是 Overviewer 地图，关于毛线本身的设定就一笔带过吧：</p>
 <p>目前正在运营的地图有 <del>2</del> 4个主世界—— v1, v2, v3, v4 ，玩家活动范围在方圆9600格内。以斜45°角向下俯瞰，整个地图呈现为扁形。</p>
@@ -563,18 +562,20 @@
 <p><img src="https://i.loli.net/2021/07/29/N2tn8OFlDEp9a1b.jpg" alt="0缩放级别.jpg"></p>
 <p>答案显然是否定的，归根结底原因只有一个——</p>
 <blockquote>
-<p>穷</p>
+<big><big><big><big>穷</big></big></big></big>
 </blockquote>
 <p>让我们算一笔账，上面用来演示的大圆饼地图，抛去椭圆外侧的黑边，可以划分出 104,857.6 个 0 级图块。每张图块大约100KBytes，每次抓取这张地图，只需要花掉10GB硬盘空间（和流量）。毛线运营一年半有余，500天就是5TB，服务器维护得当，未来还能运行很长时间。</p>
 <p>为了这样一个小项目投入上述成本，在金钱上显然是不值得的<del>，这样的一套主机笔者目前还攒不出来</del>。因此我们需要在一些地方<strong>偷工减料</strong>。</p>
-<h2 id="向现实低头"><a href="#向现实低头" class="headerlink" title="向现实低头"></a>向现实低头</h2><p>秉承图钉的精神，在抓图层级的选择上我们以“又不是不能看”为纲，尽量抓取观感尚可，缩放比例较大的图块。经过实地测量，最终选择了比最大缩放小3级（-3）的层次来进行长期跟踪。其实如果条件允许，-2级 更佳。</p>
-<h1 id="开始抓图"><a href="#开始抓图" class="headerlink" title="开始抓图"></a>开始抓图</h1><p>选好了缩放级别，现在可以抓图了。编辑好用于构造URL的一系列值后，我们终于抓到了第一张图。</p>
+<h2 id="向现实低头"><a href="#向现实低头" class="headerlink" title="向现实低头"></a>向现实低头</h2><p>秉承图钉精神，在抓图层级的选择上我们以“又不是不能看”为纲，尽量抓取观感尚可，缩放比例较大的图块。经过实地测量，最终选择了比最大缩放小3级（-3）的层次来进行长期跟踪。其实如果条件允许，-2级 更佳。</p>
+<h1 id="开始抓图"><a href="#开始抓图" class="headerlink" title="开始抓图"></a>开始抓图</h1><p>选好了缩放级别，现在可以抓图了。编辑好用于构造URL的一系列值后，我们终于抓到了第一张-3级图块。</p>
 <p><img src="https://i.loli.net/2021/07/29/b7rNTFifVtcK3zj.jpg" alt="-3缩放级别.jpg"></p>
-<p>像这样子的，’前缀<strong>/0/3/3/3/3/3/3</strong>.jpg?后缀’（已弃用）</p>
-<p>怎么保存它呢？一开始笔者将里面的’/‘和数字部分（称为path组件/ path component）提取出来，用’_’替换了’/‘，得到了类似’0_3_3_3_3_3_3’的文件名。</p>
+<p>像这样子的，’前缀<strong>/0/3/3/3/3/3/3</strong>.jpg?后缀’（本文件名格式已弃用）</p>
+<p>怎么保存它呢？一开始笔者将里面的<strong>‘/‘和数字部分</strong>（称为path组件/ path component）提取出来，用’_’替换了’/‘，得到了类似’0_3_3_3_3_3_3’的文件名。</p>
 <p>一眼就能看到，在图站的坐标系统中，每个path组件都对应着指定的区域。而为了实现后续所需的增量更新、区域历史回顾等功能，需要记录区域的每次更新信息。</p>
 <p>然而，这样的文件名，却无法用来对指定区域进行长期追踪，【构建自己的地图坐标系，后文】一节给出了原因和解决方案。</p>
-<h2 id="保存图片和部分辅助信息-已被迭代"><a href="#保存图片和部分辅助信息-已被迭代" class="headerlink" title="保存图片和部分辅助信息[已被迭代]"></a>保存图片和部分辅助信息[已被迭代]</h2><p>将图片保存在 <code>images/地图名/更新日期</code> 文件夹里，将网络相应的ETag(str)和图片文件<em>的保存位置</em>(str)存入更新历史里。数据库咱可是暂时不会的呢，简单试错（以字符文件的形式生成/读写dict）后，笔者选用了json来存储更新历史文件。这种序列化方式生成的文本文件分行很多，无论在文本编辑器还是git上看都很清晰，便于简单地查看和修改更新记录。反观前者（以dict文件的形式序列化）无论塞进多少信息都只是一行（一个dict对象），打开就是乱糟一坨。</p>
+<h2 id="保存图片和部分辅助信息-已被迭代"><a href="#保存图片和部分辅助信息-已被迭代" class="headerlink" title="保存图片和部分辅助信息[已被迭代]"></a>保存图片和部分辅助信息[已被迭代]</h2><p>将图片保存在 <code>images/地图名/更新日期</code> 文件夹里，将网络相应的ETag(str)和图片文件<em>的保存位置</em>(str)存入更新历史里。数据库咱可是暂时不会的呢，简单试错（以字符文件的形式生成/读写dict）后，笔者选用了json来存储<strong>更新历史文件</strong>。这种序列化方式生成的文本文件分行很多，无论在文本编辑器还是git上看都很清晰，便于简单地查看和修改更新记录。反观前者（以dict文件的形式序列化）无论塞进多少信息都只是一行（一个dict对象），打开就是乱糟一坨。</p>
+<p>下图展示了json保存的真实图块更新记录：</p>
+<p><img src="https://i.loli.net/2021/08/05/zckP2UqjZrS3AD6.png" alt="image.png"></p>
 <p>【升级去向：转为使用(sqlite)数据库，不再存储单个图块的保存位置】</p>
 
         
@@ -595,6 +596,14 @@
             <!-- Post Prev & Next Nav -->
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
+    
+        <a href="/2021/08/05/KedamaDiff开发日志-其二/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新一篇
+        </a>
     
 
     <!-- Section Spacer -->
@@ -694,7 +703,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2021/07/">七月 2021<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2021/05/">五月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2021/01/">一月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/05/">五月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/03/">三月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/01/">一月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/12/">十二月 2019<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/11/">十一月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/09/">九月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/08/">八月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/07/">七月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/05/">五月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/02/">二月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/12/">十二月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/11/">十一月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/10/">十月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/12/">十二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/10/">十月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/09/">九月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/07/">七月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/archives/2021/08/">八月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2021/07/">七月 2021<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2021/05/">五月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2021/01/">一月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/05/">五月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/03/">三月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2020/01/">一月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/12/">十二月 2019<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/11/">十一月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/09/">九月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/08/">八月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/07/">七月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/05/">五月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/02/">二月 2019<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/12/">十二月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/11/">十一月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/10/">十月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/03/">三月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/12/">十二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/10/">十月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/08/">八月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/12/">十二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/10/">十月 2016<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/09/">九月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/07/">七月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/03/">三月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/01/">一月 2016<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         

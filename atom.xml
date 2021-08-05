@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xmoiduts.github.io/"/>
-  <updated>2021-07-29T15:06:20.623Z</updated>
+  <updated>2021-08-05T09:44:35.832Z</updated>
   <id>https://xmoiduts.github.io/</id>
   
   <author>
@@ -17,11 +17,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>KedamaDiff开发日志其二</title>
+    <link href="https://xmoiduts.github.io/2021/08/05/KedamaDiff%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-%E5%85%B6%E4%BA%8C/"/>
+    <id>https://xmoiduts.github.io/2021/08/05/KedamaDiff开发日志-其二/</id>
+    <published>2021-08-05T00:00:00.000Z</published>
+    <updated>2021-08-05T09:44:35.832Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Overviewer历史地图抓图器模块 开发日志其二：并发抓取多张图片、去重入库与项目私有坐标系构建&lt;/p&gt;
+&lt;h1 id=&quot;多线程抓图&quot;&gt;&lt;a href
+        
+      
+    
+    </summary>
+    
+    
+      <category term="游戏" scheme="https://xmoiduts.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
+    
+      <category term="Minecraft" scheme="https://xmoiduts.github.io/tags/Minecraft/"/>
+    
+      <category term="毛玉线圈物语" scheme="https://xmoiduts.github.io/tags/%E6%AF%9B%E7%8E%89%E7%BA%BF%E5%9C%88%E7%89%A9%E8%AF%AD/"/>
+    
+      <category term="KedamaDiff" scheme="https://xmoiduts.github.io/tags/KedamaDiff/"/>
+    
+      <category term="开发日志" scheme="https://xmoiduts.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="Featured" scheme="https://xmoiduts.github.io/tags/Featured/"/>
+    
+  </entry>
+  
+  <entry>
     <title>KedamaDiff开发日志其一</title>
     <link href="https://xmoiduts.github.io/2021/07/29/KedamaDiff%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97-%E5%85%B6%E4%B8%80/"/>
     <id>https://xmoiduts.github.io/2021/07/29/KedamaDiff开发日志-其一/</id>
     <published>2021-07-29T00:00:00.000Z</published>
-    <updated>2021-07-29T15:06:20.623Z</updated>
+    <updated>2021-08-05T09:44:40.875Z</updated>
     
     <summary type="html">
     
@@ -277,35 +312,6 @@
       <category term="使用体验" scheme="https://xmoiduts.github.io/tags/%E4%BD%BF%E7%94%A8%E4%BD%93%E9%AA%8C/"/>
     
       <category term="耳机" scheme="https://xmoiduts.github.io/tags/%E8%80%B3%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我在瑞典看牙医-Vol2</title>
-    <link href="https://xmoiduts.github.io/2019/12/11/%E6%88%91%E5%9C%A8%E7%91%9E%E5%85%B8%E7%9C%8B%E7%89%99%E5%8C%BB-Vol2/"/>
-    <id>https://xmoiduts.github.io/2019/12/11/我在瑞典看牙医-Vol2/</id>
-    <published>2019-12-11T12:00:00.000Z</published>
-    <updated>2020-11-19T11:20:53.868Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;——这大夫用力真猛。&lt;/p&gt;
-&lt;h1 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot; class=&quot;headerlink&quot; title=&quot;前情提要&quot;&gt;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="瑞典留学" scheme="https://xmoiduts.github.io/tags/%E7%91%9E%E5%85%B8%E7%95%99%E5%AD%A6/"/>
-    
-      <category term="我在瑞典看牙医" scheme="https://xmoiduts.github.io/tags/%E6%88%91%E5%9C%A8%E7%91%9E%E5%85%B8%E7%9C%8B%E7%89%99%E5%8C%BB/"/>
-    
-      <category term="牙医" scheme="https://xmoiduts.github.io/tags/%E7%89%99%E5%8C%BB/"/>
     
   </entry>
   
