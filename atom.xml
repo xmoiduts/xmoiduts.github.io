@@ -90,8 +90,6 @@
     </summary>
     
     
-      <category term="Featured" scheme="https://xmoiduts.github.io/tags/Featured/"/>
-    
       <category term="游戏" scheme="https://xmoiduts.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
     
       <category term="Minecraft" scheme="https://xmoiduts.github.io/tags/Minecraft/"/>
@@ -101,6 +99,8 @@
       <category term="KedamaDiff" scheme="https://xmoiduts.github.io/tags/KedamaDiff/"/>
     
       <category term="开发日志" scheme="https://xmoiduts.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="Featured" scheme="https://xmoiduts.github.io/tags/Featured/"/>
     
   </entry>
   
@@ -125,8 +125,6 @@
     </summary>
     
     
-      <category term="Featured" scheme="https://xmoiduts.github.io/tags/Featured/"/>
-    
       <category term="游戏" scheme="https://xmoiduts.github.io/tags/%E6%B8%B8%E6%88%8F/"/>
     
       <category term="Minecraft" scheme="https://xmoiduts.github.io/tags/Minecraft/"/>
@@ -136,6 +134,8 @@
       <category term="KedamaDiff" scheme="https://xmoiduts.github.io/tags/KedamaDiff/"/>
     
       <category term="开发日志" scheme="https://xmoiduts.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="Featured" scheme="https://xmoiduts.github.io/tags/Featured/"/>
     
   </entry>
   
