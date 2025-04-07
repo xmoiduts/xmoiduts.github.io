@@ -1352,7 +1352,7 @@ canvas:not(#ribbon-canvas),
   --white: #fff;
   --text-highlight-color: #1f2d3d;
   --blockquote-color: #6a737d;
-  --blockquote-bg: rgba(73,177,245,0.1);
+  --blockquote-bg: rgba(221,221,221,0.1);
   --reward-pop: #f5f5f5;
   --toc-link-color: #666261;
   --card-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.05);
@@ -1371,7 +1371,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft JhengHei', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   scroll-behavior: smooth;
@@ -1394,6 +1394,16 @@ body {
 }
 input::placeholder {
   color: var(--font-color);
+}
+#web_bg {
+  position: fixed;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 h1,
 h2,
@@ -1507,7 +1517,7 @@ img:not([src]) {
 blockquote {
   margin: 0 0 20px;
   padding: 7px 15px;
-  border-left: 4px solid #49b1f5;
+  border-left: 4px solid #ddd;
   background-color: var(--blockquote-bg);
   color: var(--blockquote-color);
   border-radius: 6px;
@@ -1653,7 +1663,7 @@ figure.highlight pre .javascript .function {
 .container pre,
 .container code {
   font-size: var(--global-font-size);
-  font-family: consolas, Menlo, monospace, 'PingFang SC', 'Microsoft JhengHei', sans-serif !important;
+  font-family: consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
   border-radius: 6px;
 }
 .container code {
@@ -2068,6 +2078,16 @@ figure.highlight pre .javascript .function {
 @media screen and (max-width: 900px) {
   .layout > div:first-child {
     width: 100% !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .layout > div:first-child {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -o-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
   }
 }
 .layout.hide-aside {
@@ -2515,7 +2535,7 @@ figure.highlight pre .javascript .function {
 }
 @media screen and (min-width: 900px) {
   #aside-content {
-    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -4290,6 +4310,21 @@ figure.highlight pre .javascript .function {
   #rightside #hide-aside-btn {
     display: none;
   }
+}
+#rightside #go-up .scroll-percent {
+  display: none;
+}
+#rightside #go-up.show-percent .scroll-percent {
+  display: block;
+}
+#rightside #go-up.show-percent .scroll-percent + i {
+  display: none;
+}
+#rightside #go-up:hover .scroll-percent {
+  display: none;
+}
+#rightside #go-up:hover .scroll-percent + i {
+  display: block;
 }
 #sidebar #menu-mask {
   position: fixed;
